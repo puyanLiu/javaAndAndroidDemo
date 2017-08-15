@@ -1,0 +1,16 @@
+package hashMapTest;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class demo1 {
+	public static void main(String[] args) {
+		HashMap<String, String> map = new HashMap<>();
+		map.put("1001", "张三");
+		map.put("1002", "李四");
+		System.out.println(map);
+		Set<Map.Entry<String, String>> set = map.entrySet();
+		System.out.println(set);
+	}
+}

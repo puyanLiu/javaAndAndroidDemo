@@ -1,0 +1,14 @@
+package dateTest;
+
+import java.util.Date;
+
+/**
+ * @author liupuyan
+ * Date 特定的瞬间，精确到毫秒
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		Date d1 = new Date();
+		System.out.println(d1);
+	}
+}

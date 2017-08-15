@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 随机访问流
+ * 
+ * 可以按照文件指针的位置写数据和读数据
+ */
+public class RandomAccessFileDemo {
+
+}

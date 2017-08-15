@@ -1,0 +1,10 @@
+package arrayTest;
+
+import java.util.Arrays;
+
+public class demo4 {
+	public static void main(String[] args) {
+		int[] arr = {24, 90, 34, 23, 92};
+		System.out.println(Arrays.toString(arr));
+	}
+}

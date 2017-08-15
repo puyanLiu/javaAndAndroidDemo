@@ -1,0 +1,31 @@
+package regexTest;
+
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/**
+ * @author liupuyan
+ * 获取由三个字符组成的单词
+ */
+public class demo8 {
+	public static void main(String[] args) {
+		String s = "da jia ting wo shuo, wo men de zu guo hen mei hao";
+		String[] strArr = s.split(" +");
+		System.out.println(Arrays.toString(strArr));
+		for (int i = 0; i < strArr.length; i++) {
+			if (strArr[i].matches("[a-zA-Z]{3}")) {
+				System.out.println(strArr[i]);
+			}
+		}
+		
+		String regex = "\\b\\w{3}\\b";
+		// 正则表达式编译成模式对象
+		Pattern pattern = Pattern.compile(regex);
+		// 通过模式对象得到匹配器对象
+		Matcher matcher = pattern.matcher(s);
+		// find 查找有没有满足条件的子串
+		boolean isFlag = matcher.find();
+		System.out.println(isFlag, matcher.group());
+	}
+}

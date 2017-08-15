@@ -1,0 +1,10 @@
+package hashSetTest;
+
+import java.util.HashSet;
+
+public class demo3 {
+	public static void main(String[] args) {
+		HashSet<Dog> hs1 = new HashSet<>();
+		
+	}
+}

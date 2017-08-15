@@ -1,0 +1,22 @@
+package ioTest;
+
+import java.util.Properties;
+
+/**
+ * @author liupuyan
+ * Properties 属性集合类 
+ * 是一个可以和IO流相结合使用的集合类
+ * 可保存在流中或从流中加载
+ * 属性列表中每个键及其对应值都是一个字符串
+ * 
+ * 是Hashtable的子类 是一个Map集合
+ */
+public class PropertiesDemo1 {
+	public static void main(String[] args) {
+		Properties p = new Properties();
+		p.put("1002", "张三");
+		p.put("1003", "李四");
+		
+		System.out.println(p);
+	}
+}

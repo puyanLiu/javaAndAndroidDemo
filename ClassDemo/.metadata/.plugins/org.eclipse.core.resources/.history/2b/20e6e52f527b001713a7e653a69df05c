@@ -1,0 +1,11 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * 异常：程序出现了不正常的情况
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

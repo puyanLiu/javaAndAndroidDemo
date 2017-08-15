@@ -1,0 +1,16 @@
+package ioTest;
+
+import java.util.ArrayList;
+
+/**
+ * @author liupuyan
+ * 将arrayList中的数据写入到文本中
+ */
+public class demo5 {
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<>();
+		al.add("hello");
+		al.add("world");
+		al.add("java");
+	}
+}

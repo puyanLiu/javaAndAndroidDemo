@@ -1,0 +1,21 @@
+package ioTest;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+/**
+ * @author liupuyan
+ * 把字节流转换为字符流
+ * 字符流 = 字节流 + 编码表
+ * 编码表：由字符和对应的数值组成的一张表
+ * 
+ */
+public class OutputStreamReaderDemo1 {
+	public static void main(String[] args) throws IOException {
+		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("fos.txt", true));
+		osw.write("哈哈你好");
+		osw.close();
+	}
+}

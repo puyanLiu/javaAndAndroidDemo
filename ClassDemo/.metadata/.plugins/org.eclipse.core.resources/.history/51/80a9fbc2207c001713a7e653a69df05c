@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 复制文本
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		
+	}
+}

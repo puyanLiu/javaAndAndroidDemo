@@ -1,0 +1,40 @@
+package exceptionTest;
+
+public class demo2 {
+	public static void main(String[] args) {
+		method2();
+	}
+
+	// 两个异常
+	private static void method2() {
+		int a = 10;
+		int b = 0;
+		try {
+			System.out.println(a / b);
+		} catch (ArithmeticException e) {
+			System.out.println("除数不能为0");
+		}
+		
+		int[] arr = {1, 2, 3};
+		try {
+			// java.lang.ArrayIndexOutOfBoundsException
+			System.out.println(arr[3]);
+		} catch (ArithmeticException e) {
+			System.out.println("数组索引不能越界");
+		}
+		System.out.println("end");
+	}
+
+	// 一个异常
+	private static void method1() {
+		int a = 10;
+		int b = 0;
+		try {
+			// java.lang.ArithmeticException
+			System.out.println(a / b);
+		} catch (ArithmeticException e) {
+			System.out.println("除数不能为0");
+		}
+		System.out.println("end");
+	}
+}

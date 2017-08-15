@@ -1,0 +1,13 @@
+package ioTest;
+
+import java.io.FileInputStream;
+
+/**
+ * @author liupuyan
+ * 复制文件
+ */
+public class demo5 {
+	public static void main(String[] args) {
+		FileInputStream fis = new FileInputStream("eclipse.tar.gz");
+	}
+}

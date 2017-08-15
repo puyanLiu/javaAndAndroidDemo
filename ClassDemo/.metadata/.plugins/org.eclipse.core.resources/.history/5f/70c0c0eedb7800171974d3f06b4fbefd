@@ -1,0 +1,16 @@
+package forTest;
+
+/**
+ * @author liupuyan
+ * 增强for
+ * for(元素数据类型 变量:数组或者集合) {
+ * 	变量就是元素
+ * }
+ * 
+ * 注意：增强for的目标不能为null
+ */
+public class demo0 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.jdt.ui.presentation
+ColorsAndFontsPreferencePage.selectedElement=Corg.eclipse.jdt.ui.Javadoc.backgroundColor
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Monaco|14.0|0|COCOA|1|Monaco;
+org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Monaco|14.0|0|COCOA|1|Monaco;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>

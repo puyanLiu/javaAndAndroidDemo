@@ -1,0 +1,14 @@
+package ioTest;
+
+import java.io.BufferedInputStream;
+
+/**
+ * @author liupuyan
+ *
+ * BufferedInputStream
+ */
+public class BufferedInputStreamDemo1 {
+	public static void main(String[] args) {
+		BufferedInputStream
+	}
+}

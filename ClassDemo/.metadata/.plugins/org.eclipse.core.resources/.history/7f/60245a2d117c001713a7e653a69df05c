@@ -1,0 +1,17 @@
+package ioTest;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * @author liupuyan
+ * 字节输出流添加异常处理
+ */
+public class demo2 {
+	public static void main(String[] args) {
+		method1();
+	}
+	
+	
+}

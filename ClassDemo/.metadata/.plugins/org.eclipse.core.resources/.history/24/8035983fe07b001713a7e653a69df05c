@@ -1,0 +1,11 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * 自定义异常
+ */
+public class myExceptionDemo {
+	public static void main(String[] args) {
+		
+	}
+}

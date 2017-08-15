@@ -1,0 +1,24 @@
+package ioTest;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+/**
+ * @author liupuyan
+ * System.in 标准输入流 是从键盘获取数据的
+ * 
+ * 键盘录入数据：
+ * 	main方法的args接收参数
+ * 		public static void main(String[] args)
+ * 	Scanner
+ * 		Scanner scanner = new Scanner(System.in);
+ * 	通过字符缓冲流包装标准输入流实现
+ * 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+ * 	
+ */
+public class SystemInDemo {
+	public static void main(String[] args) {
+		
+	}
+}

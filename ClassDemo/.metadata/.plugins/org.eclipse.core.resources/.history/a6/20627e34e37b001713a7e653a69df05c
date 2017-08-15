@@ -1,0 +1,19 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ *
+ */
+public class demo7 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Fu {
+	
+}
+
+class Zi extends Fu {
+	
+}

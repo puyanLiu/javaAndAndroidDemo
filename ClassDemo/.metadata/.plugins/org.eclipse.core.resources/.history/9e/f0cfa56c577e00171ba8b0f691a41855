@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 键盘录入5个学生信息 姓名 语文成绩 数学成绩 英语成绩 按照总分从高到底存入文本文件
+ */
+public class StudentDemo1 {
+	public static void main(String[] args) {
+		
+	}
+}

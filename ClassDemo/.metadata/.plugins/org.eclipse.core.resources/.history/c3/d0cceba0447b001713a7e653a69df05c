@@ -1,0 +1,14 @@
+package mapTest;
+
+import java.util.HashMap;
+
+/**
+ * @author liupuyan
+ * HashMap嵌套HashMap
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		HashMap<String, HashMap<String, String>> hm1 = new HashMap<>();
+		
+	}
+}

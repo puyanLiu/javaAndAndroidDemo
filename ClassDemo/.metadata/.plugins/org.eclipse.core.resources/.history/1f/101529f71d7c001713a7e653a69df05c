@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 字节输出流
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		
+	}
+}

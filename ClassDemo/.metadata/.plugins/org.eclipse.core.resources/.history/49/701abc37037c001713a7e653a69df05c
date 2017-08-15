@@ -1,0 +1,16 @@
+package recursiveTest;
+
+/**
+ * @author liupuyan
+ * 
+ * 1, 1, 2, 3, 5, 8...
+ */
+public class demo2 {
+	public static void main(String[] args) {
+		int num = 20;
+		int sum = 0;
+		for(int i = 2; i <= 20; i++ ) {
+			
+		}
+	}
+}

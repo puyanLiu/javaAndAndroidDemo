@@ -1,0 +1,19 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * finally 被finally控制的语句体一定会执行
+ */
+public class demo6 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 0;
+		try {
+			System.out.println(a / b);
+		} catch (ArithmeticException e) {
+			System.out.println("除数不能为0");
+		} finally {
+			System.out.println("finally");
+		}
+	}
+}

@@ -1,0 +1,19 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 读写数据
+ */
+public class PropertiesDemo2 {
+	public static void main(String[] args) {
+		write();
+		
+		read();
+	}
+
+	private static void read() {
+	}
+
+	private static void write() {
+	}
+}

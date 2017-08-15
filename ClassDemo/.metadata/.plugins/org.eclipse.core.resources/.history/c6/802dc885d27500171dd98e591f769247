@@ -1,0 +1,9 @@
+package listTest;
+
+public class demo1 {
+	public static void main(String[] args) {
+		List l1 = new ArrayList<>();
+		
+		
+	}
+}

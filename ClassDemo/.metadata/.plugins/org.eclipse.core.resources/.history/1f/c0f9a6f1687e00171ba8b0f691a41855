@@ -1,0 +1,20 @@
+IO流
+	---字节流
+		InputStream
+			FileInputStream
+			FilterInputStream
+				BufferedInputStream
+		OutputStream
+			FileOutputStream
+			FilterOutputStream
+				BufferedOutputStream
+			
+	---字符流
+		Reader
+			InputStreamReader
+				FileReader
+			BufferedReader
+		Writer
+			OutputStreamWriter
+				FileWriter
+			BufferedWriter

@@ -1,0 +1,16 @@
+package mapTest;
+
+import java.util.HashMap;
+
+/**
+ * @author liupuyan
+ * HashMap嵌套HashMap
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		HashMap<String, HashMap<String, Integer>> hm = new HashMap<>();
+		HashMap<String, String> hm1 = new HashMap<>();
+		hm1.put("1001", "张三");
+		hm1.put("1002", "李四");
+	}
+}

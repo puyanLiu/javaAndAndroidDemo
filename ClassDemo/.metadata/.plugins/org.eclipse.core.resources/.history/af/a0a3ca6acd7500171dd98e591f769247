@@ -1,0 +1,38 @@
+package collectionTest;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class demo1 {
+	public static void main(String[] args) {
+		Collection c = new ArrayList();
+		c.add("hello");
+		c.add("world");
+		System.out.println(c);
+		System.out.println(c.remove("hello"));
+		System.out.println(c.contains("world"));
+		System.out.println(c.contains("hello"));
+		System.out.println(c.isEmpty());
+		System.out.println(c.size());
+		
+		Collection c1 = new ArrayList<>();
+		c1.add("abc1");
+		c1.add("abc2");
+		c1.add("abc3");
+		
+		Collection c2 = new ArrayList<>();
+		c2.add("abc1");
+		c2.add("abc2");
+		c2.add("abc3");
+//		c2.add("abc4");
+		
+		System.out.println(c1.addAll(c2));
+		System.out.println(c1);
+		System.out.println(c1.removeAll(c2)); // 只要有一个元素被移除了，就返回true
+		System.out.println(c1);
+		
+		// 判断集合中是否包含指定的集合元素
+		System.out.println(c1.containsAll(c2));
+		
+	}
+}

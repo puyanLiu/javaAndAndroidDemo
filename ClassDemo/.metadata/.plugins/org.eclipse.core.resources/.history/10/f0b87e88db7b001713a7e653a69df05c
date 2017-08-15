@@ -1,0 +1,11 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * throw 如果出现了异常，可以把异常抛出，抛出的应该是异常对象
+ */
+public class demo5 {
+	public static void main(String[] args) {
+		
+	}
+}

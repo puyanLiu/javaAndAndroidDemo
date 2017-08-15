@@ -1,0 +1,14 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * 对于解决不了的问题，抛出
+ * 
+ * 格式 throws 异常类名
+ * 注意：这个格式必须跟在方法的括号后面
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		
+	}
+}

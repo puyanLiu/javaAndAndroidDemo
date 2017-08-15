@@ -1,0 +1,26 @@
+package ioTest;
+
+import java.util.Properties;
+
+/**
+ * @author liupuyan
+ * 读写数据
+ */
+public class PropertiesDemo2 {
+	public static void main(String[] args) {
+		write();
+		
+		read();
+	}
+
+	private static void read() {
+	}
+
+	private static void write() {
+		Properties p = new Properties();
+		p.setProperty("name", "张三");
+		p.setProperty("age", "18");
+		p.setProperty("score", "35");
+		
+	}
+}

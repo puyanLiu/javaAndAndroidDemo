@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * System.in 标准输入流 是从键盘获取数据的
+ */
+public class SystemInDemo {
+	public static void main(String[] args) {
+		
+	}
+}

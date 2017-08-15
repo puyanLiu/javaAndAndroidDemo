@@ -1,0 +1,12 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * fos.txt 中 hcexfgijkamdnoqrzstuvwybpl
+ * 读取数据内容，排序后写入fos2.txt
+ */
+public class demo6 {
+	public static void main(String[] args) {
+		
+	}
+}

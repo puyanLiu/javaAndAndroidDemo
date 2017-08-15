@@ -1,0 +1,11 @@
+package arrayTest;
+
+public class demo1 {
+	/**
+	 * @param args
+	 * 冒泡排序
+	 */
+	public static void main(String[] args) {
+		int[] arr = {24, 69, 80, 57, 13};
+	}
+}

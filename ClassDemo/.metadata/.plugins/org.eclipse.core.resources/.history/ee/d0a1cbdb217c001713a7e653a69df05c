@@ -1,0 +1,31 @@
+package ioTest;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+/**
+ * @author liupuyan
+ * 复制文件
+ */
+public class demo5 {
+	public static void main(String[] args) {
+		FileInputStream fis;
+		FileOutputStream fos;
+		try {
+			fis = new FileInputStream("eclipse.tar.gz");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 = new FileOutputStream("copyEclipse.tar.gz");
+		
+		int b = 0;
+		while ((b = fis.read()) != -1) {
+			fos.write(b);
+		}
+		
+		fis.close();
+		fos.close();
+	}
+}

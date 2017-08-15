@@ -1,0 +1,37 @@
+IO流
+	---字节流
+		InputStream
+			FileInputStream 基本字节输入流
+			FilterInputStream
+				BufferedInputStream 字节缓冲输入流
+				DataInputStream 基本数据输入流
+			ByteArrayInputStream 内存操作流 字节数组输入流
+			SequenceInputStream 合并流
+			ObjectInputStream 反序列化流
+		OutputStream
+			FileOutputStream 基本字节输出流
+			FilterOutputStream
+				BufferedOutputStream 字节缓冲输出流
+				DataOutputStream 基本数据输出流
+				PrintStream 字节打印流
+			ByteArrayOutputStream 内存操作流 字节数组输出流
+			ObjectOutputStream 序列化流
+			
+	---字符流
+		Reader
+			InputStreamReader
+				FileReader
+			BufferedReader 字符缓冲输入流
+				LineNumberReader
+			CharArrayReader 内存操作流 字符数组输入流
+			StringReader 内存操作流 字符串输入流
+		Writer
+			OutputStreamWriter
+				FileWriter
+			BufferedWriter 字符缓冲输出流
+			CharArrayWriter 内存操作流 字符数组输出流
+			StringWriter 内存操作流 字符串输出流
+			PrintWriter 字符打印流
+			
+	---随机访问流
+		RandomAccessFile

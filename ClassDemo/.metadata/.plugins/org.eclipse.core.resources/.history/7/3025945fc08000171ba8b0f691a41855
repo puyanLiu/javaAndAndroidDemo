@@ -1,0 +1,9 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 内存操作流 用于处理临时存储信息的，程序结束，数据从内存中消失
+ */
+public class ByteArrayOutputStreamDemo1 {
+
+}

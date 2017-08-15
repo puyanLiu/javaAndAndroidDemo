@@ -1,0 +1,9 @@
+package login_register.test;
+
+public class UserTest {
+	public static void main(String[] args) {
+		while (true) {
+			System.out.println("------------欢迎光临------------");
+		}
+	}
+}

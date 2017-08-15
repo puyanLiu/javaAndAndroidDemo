@@ -1,0 +1,9 @@
+package ioTest;
+
+public class PropertiesDemo2 {
+	public static void main(String[] args) {
+		write();
+		
+		read();
+	}
+}

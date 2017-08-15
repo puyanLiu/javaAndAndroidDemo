@@ -1,0 +1,10 @@
+package collectionsTest;
+
+/**
+ * @author liupuyan
+ * 模拟斗地主洗牌和发牌
+ * 多发牌进行排序
+ */
+public class demo4 {
+
+}

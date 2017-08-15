@@ -1,0 +1,14 @@
+package setTest;
+
+import java.util.HashSet;
+
+/**
+ * @author liupuyan
+ * HashSet 存储字符串唯一
+ * 依赖 两个方法：hashCode() 和 equals()
+ */
+public class demo2 {
+	public static void main(String[] args) {
+		HashSet<E>
+	}
+}

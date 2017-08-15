@@ -1,0 +1,8 @@
+IO流
+	---字节流
+		InputStream
+			FileInputStream
+		OutputStream
+			FileOutputStream
+			
+	---字符流

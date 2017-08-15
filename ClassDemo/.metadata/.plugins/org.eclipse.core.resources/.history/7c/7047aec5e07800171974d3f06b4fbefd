@@ -1,0 +1,11 @@
+package arrayListTest;
+
+/**
+ * @author liupuyan
+ * 集合的嵌套变量
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

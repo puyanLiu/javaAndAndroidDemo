@@ -1,0 +1,20 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * throw 如果出现了异常，可以把异常抛出，抛出的应该是异常对象
+ */
+public class demo5 {
+	public static void main(String[] args) {
+		method1();
+	}
+	
+	private static void method1() {
+		int a = 10;
+		int b = 0;
+		if (b == 0) {
+			
+		}
+		System.out.println(a / b);
+	}
+}

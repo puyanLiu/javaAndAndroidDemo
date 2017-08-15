@@ -1,0 +1,42 @@
+package listTest;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+/**
+ * @author liupuyan
+ *  
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		List l1 = new ArrayList();
+		l1.add("hello");
+		l1.add("world");
+		l1.add("hello");
+		
+		Iterator it = l1.iterator();
+		while (it.hasNext()) {
+			String string = (String)it.next();
+			System.out.println(string);
+			// ConcurrentModificationException 当方法检测到对象的并发修改，但不允许这种修改时，抛出异常
+			// 产生的原因：迭代器依赖于集合存在的，在判断成功后，集合中新添加了元素，而迭代器确不知道，所以就报错了，这个错叫并发修改异常
+//			if (string.equals("world")) {
+//				l1.add("hi");
+//			}
+		}
+		
+		System.out.println("-------------------------------");
+		// 解决方案一：迭代器迭代元素，迭代器修改元素
+		ListIterator li = l1.listIterator();
+		while (li.hasNext()) {
+			String string = (String)li.next();
+			System.out.println(string);
+			if (string.equals("world")) {
+				li.add("hi");
+			}
+		}
+		System.out.println(l1.size());
+	}
+}

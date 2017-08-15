@@ -1,0 +1,69 @@
+package ioTest;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+/**
+ * @author liupuyan
+ * 复制文本
+ * 
+ * 五种字符流
+ */
+public class copyFileDemo3 {
+	public static void main(String[] args) {
+		String srcString = "fos.txt";
+		String destString = "fos2.txt";
+		metho1(srcString, destString);
+//		metho2(srcString, destString);
+//		metho3(srcString, destString);
+//		metho4(srcString, destString);
+//		metho5(srcString, destString);
+	}
+	
+	// 字符缓冲流一次读写一个字符串
+	private static void metho5(String srcString, String destString) {
+	}
+
+	// 字符缓冲流一次读写一个字符数组
+	private static void metho4(String srcString, String destString) {
+	}
+
+	// 字符缓冲流一次读写一个字符
+	private static void metho3(String srcString, String destString) {
+	}
+
+	// 基本字符流一次读写一个字符数组
+	private static void metho2(String srcString, String destString) throws IOException {
+		InputStreamReader isr = new InputStreamReader(new FileInputStream(srcString));
+		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(destString));
+		
+		// 一次读取一个字符数组
+		char[] ch = new char[1024];
+		int len = 0;
+		while ((len = isr.read(ch)) != -1) {
+			osw.write(ch, 0, len);
+		}
+		
+		isr.close();
+		osw.close();
+	}
+	
+	// 基本字符流一次读写一个字符
+	private static void metho1(String srcString, String destString) throws IOException {
+		InputStreamReader isr = new InputStreamReader(new FileInputStream(srcString));
+		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(destString));
+		
+		// 一次读取一个字符
+		int b = 0;
+		while ((b = isr.read()) != -1) {
+			osw.write(b);
+		}
+		
+		isr.close();
+		osw.close();
+	}
+}

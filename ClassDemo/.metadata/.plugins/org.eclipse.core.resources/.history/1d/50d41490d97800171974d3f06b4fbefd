@@ -1,0 +1,32 @@
+package genericTest;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/**
+ * @author liupuyan
+ * 泛型通配符
+ * <?> 任意类型，如果没有明确，那么就是任意类
+ * <？extends E> 向下限定，E及其子类
+ * <? super E>  向上限定，E及其父类
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		// 泛型如果明确类型，那么前后必须一致
+		Collection<Object> c1 = new ArrayList<Object>();
+		
+		
+	}
+}
+
+class Animal {
+	
+}
+
+class Dog extends Animal {
+	
+}
+
+class Cat extends Animal {
+	
+}

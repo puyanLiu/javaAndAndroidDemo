@@ -1,0 +1,16 @@
+package bigDecimalTest;
+
+/**
+ * @author liupuyan
+ * BigDecimal 不可变的、任意精度的有效符号十进制数，可以解决数据丢失问题
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		// 运算时float类型和double类型很容易丢失精度
+		System.out.println(0.09 + 0.01);
+		System.out.println(1.0 - 0.32);
+		System.out.println(1.015 * 100);
+		System.out.println(1.301 / 100);
+		System.out.println(1.0 - 0.12);
+	}
+}

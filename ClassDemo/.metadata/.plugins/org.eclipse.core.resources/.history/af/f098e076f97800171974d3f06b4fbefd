@@ -1,0 +1,11 @@
+package linkedHashSetTest;
+
+/**
+ * @author liupuyan
+ * LinkedHashSet 底层数据结构由哈希表和链表组成
+ * 
+ * 哈希表：是一个元素为链表的数组
+ */
+public class demo1 {
+
+}

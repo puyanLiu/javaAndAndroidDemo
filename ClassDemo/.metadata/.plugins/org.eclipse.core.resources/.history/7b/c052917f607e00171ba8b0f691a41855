@@ -1,0 +1,17 @@
+package ioTest;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.Reader;
+
+public class MyBufferedReader {
+	private BufferedReader bufferedReader;
+
+	public MyBufferedReader(Reader in) {
+		bufferedReader = new BufferedReader(in);
+	}
+	
+	public void close() throws IOException {
+        bufferedReader.close();
+    }
+}

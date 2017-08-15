@@ -1,0 +1,16 @@
+package ioTest;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+/**
+ * @author liupuyan
+ * 字节输入流
+ */
+public class demo3 {
+	public static void main(String[] args) throws FileNotFoundException {
+		FileInputStream fis = new FileInputStream("fos.txt");
+		fis.read();
+		fis.close();
+	}
+}

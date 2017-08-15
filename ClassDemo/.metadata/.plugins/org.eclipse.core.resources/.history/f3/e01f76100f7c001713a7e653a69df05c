@@ -1,0 +1,31 @@
+package ioTest;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * @author liupuyan
+ * IO流的分类
+ * 流向
+ * 	输入流 读取数据
+ * 	输出流 写出数据
+ * 
+ * 数据类型
+ * 	字节流
+ * 		字节输入流 InputStream
+ * 		字节输出流 OutputStream
+ * 	字符流
+ * 		字符输入流 Reader
+ * 		字符输出流 Write
+ */
+public class demo1 {
+	public static void main(String[] args) throws IOException {
+		// 创建字节输出流对象
+		FileOutputStream fos = new FileOutputStream("fos.txt");
+		// 写入数据
+		fos.write("hello, java".getBytes());
+		// 释放资源
+		fos.close();
+	}
+}

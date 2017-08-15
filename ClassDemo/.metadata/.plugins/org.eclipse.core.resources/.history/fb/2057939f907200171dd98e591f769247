@@ -1,0 +1,6 @@
+package com.animal;
+
+public abstract class Animal {
+	public abstract void ear();
+	public abstract void sleep();
+}

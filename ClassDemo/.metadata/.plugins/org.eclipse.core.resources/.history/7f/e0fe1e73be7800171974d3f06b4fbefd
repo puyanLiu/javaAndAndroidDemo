@@ -1,0 +1,11 @@
+package arrayListTest;
+
+/**
+ * @author liupuyan
+ * 去除字符串中的重复值（字符串的内容相同）
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		
+	}
+}

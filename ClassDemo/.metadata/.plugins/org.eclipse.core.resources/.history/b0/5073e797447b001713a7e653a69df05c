@@ -1,0 +1,11 @@
+package mapTest;
+
+/**
+ * @author liupuyan
+ * HashMap嵌套HashMap
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		
+	}
+}

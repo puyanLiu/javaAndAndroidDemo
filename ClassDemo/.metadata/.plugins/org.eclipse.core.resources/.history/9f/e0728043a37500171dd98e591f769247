@@ -1,0 +1,26 @@
+package calendarTest;
+
+import java.util.Calendar;
+
+/**
+ * @author liupuyan
+ * Calendar
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		// 日历由当前日期和时间初始化
+		Calendar calendar = Calendar.getInstance();
+		// 获取年月日
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int date = calendar.get(Calendar.DATE);
+		System.out.println(year + "年" + (month + 1) + "月" + date + "日");
+		
+		// 三年前的今天
+		calendar.add(Calendar.YEAR, -3);
+		year = calendar.get(Calendar.YEAR);
+		month = calendar.get(Calendar.MONTH);
+		date = calendar.get(Calendar.DATE);
+		System.out.println(year + "年" + (month + 1) + "月" + date + "日");
+	}
+}

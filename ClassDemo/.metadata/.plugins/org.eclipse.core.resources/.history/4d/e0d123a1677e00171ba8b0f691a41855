@@ -1,0 +1,20 @@
+package ioTest;
+
+import java.io.Reader;
+
+public class MyLineNumberReader {
+	private Reader r;
+	private int lineNumer;
+	
+	public MyLineNumberReader(Reader in) {
+		this.r = in;
+    }
+
+	public int getLineNumer() {
+		return lineNumer;
+	}
+
+	public void setLineNumer(int lineNumer) {
+		this.lineNumer = lineNumer;
+	}
+}

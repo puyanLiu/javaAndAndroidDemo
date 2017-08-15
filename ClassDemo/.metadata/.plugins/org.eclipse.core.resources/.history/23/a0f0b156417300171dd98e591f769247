@@ -1,0 +1,63 @@
+package integerTest;
+
+public class demo1 {
+	public static void main(String[] args) {
+		// 十进制转二进制
+		System.out.println(Integer.toBinaryString(100));
+		// 十进制转八进制
+		System.out.println(Integer.toOctalString(100));
+		// 十进制转十六进制
+		System.out.println(Integer.toHexString(100));
+		// 最大值
+		System.out.println(Integer.MAX_VALUE);
+		// 最小值
+		System.out.println(Integer.MIN_VALUE);
+		
+		Integer i1 = new Integer(100);
+		System.out.println(i1);
+		// 必须数组组成的字符串
+		Integer i2 = new Integer("123");
+		System.out.println(i2);
+		
+		// int类型和String类型相互转换
+		// int->String
+		int n1 = 100;
+		String s1 = "" + n1;
+		System.out.println(s1);
+		String s2 = String.valueOf(n1);
+		System.out.println(s2);
+		Integer i3 =  new Integer(n1);
+		String s3 = i3.toString();
+		System.out.println(s3);
+		String s4 = Integer.toString(n1);
+		System.out.println(s4);
+		// String->int
+		String s5 = "123";
+		Integer i4 = new Integer(s5);
+		int n2 = i4.intValue();
+		System.out.println(n2);
+		int n3 = Integer.parseInt(s5);
+		System.out.println(n3);
+		
+		// 十进制到其他进制
+		System.out.println(Integer.toString(100, 10));
+		System.out.println(Integer.toString(100, 2));
+		System.out.println(Integer.toString(100, 8));
+		System.out.println(Integer.toString(100, 16));
+		System.out.println(Integer.toString(100, 5));
+		System.out.println(Integer.toString(100, 7));
+		System.out.println(Integer.toString(100, -7));
+		System.out.println(Integer.toString(100, 70));
+		System.out.println(Integer.toString(100, 36));
+		System.out.println(Integer.toString(100, 37));
+		
+		// 其他进制到十进制
+		System.out.println(Integer.parseInt("100", 10));
+		System.out.println(Integer.parseInt("100", 2));
+		System.out.println(Integer.parseInt("100", 8));
+		System.out.println(Integer.parseInt("100", 16));
+		System.out.println(Integer.parseInt("100", 23));
+		System.out.println(Integer.parseInt("123", 2));
+		
+	}
+}

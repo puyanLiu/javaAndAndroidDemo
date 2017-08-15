@@ -1,0 +1,14 @@
+package recursiveTest;
+
+import java.io.File;
+
+/**
+ * @author liupuyan
+ * 输出目录下所有.java结尾的文件的绝对路径
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		File f1 = new File("/Users/liupuyan/Desktop/fileDemo");
+		getAllJavaFilePath(f1);
+	}
+}

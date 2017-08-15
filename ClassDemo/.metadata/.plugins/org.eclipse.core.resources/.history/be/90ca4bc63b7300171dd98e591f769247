@@ -1,0 +1,12 @@
+package characterTest;
+
+/**
+ * @author liupuyan
+ * Character类在对象中包装一个基本类型char的值
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		Character character = new Character('a');
+		System.out.println(character);
+	}
+}

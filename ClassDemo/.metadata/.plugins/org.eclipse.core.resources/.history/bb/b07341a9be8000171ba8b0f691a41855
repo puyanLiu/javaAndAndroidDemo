@@ -1,0 +1,13 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 数据操作流 操作基本类型数据的流
+ * DataInputStream
+ * DataOutputStream
+ */
+public class DataStreamDemo1 {
+	public static void main(String[] args) {
+		
+	}
+}

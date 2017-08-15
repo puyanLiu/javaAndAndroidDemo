@@ -1,0 +1,11 @@
+package linkedHashMapTest;
+
+/**
+ * @author liupuyan
+ * LinkedHashMap 是Map接口的哈希表和链表实现，具有可预知的迭代顺序
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

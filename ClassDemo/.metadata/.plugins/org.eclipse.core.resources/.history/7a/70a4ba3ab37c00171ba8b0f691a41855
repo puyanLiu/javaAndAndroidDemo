@@ -1,0 +1,12 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 把字节流转换为字符流
+ * 
+ */
+public class OutputStreamReaderDemo1 {
+	public static void main(String[] args) {
+		
+	}
+}

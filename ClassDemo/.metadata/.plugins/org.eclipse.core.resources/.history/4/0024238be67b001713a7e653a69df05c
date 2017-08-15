@@ -1,0 +1,19 @@
+package fileTest;
+
+import java.io.File;
+
+/**
+ * @author liupuyan
+ * File 文件和目录路径名的抽象表示形式
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		File f1 = new File("/Users/liupuyan/Desktop/filetest.txt");
+		System.out.println(f1);
+	
+		File f2 = new File("/Users/liupuyan/Desktop", "filetest.txt");
+		System.out.println(f2);
+		
+		File f3 = new File(new File(""), "");
+	}
+}

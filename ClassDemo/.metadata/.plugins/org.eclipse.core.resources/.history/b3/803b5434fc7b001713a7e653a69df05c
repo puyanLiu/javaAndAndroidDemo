@@ -1,0 +1,11 @@
+package fileTest;
+
+/**
+ * @author liupuyan
+ * 批量修改文件
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		
+	}
+}

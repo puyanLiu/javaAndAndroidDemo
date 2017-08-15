@@ -1,0 +1,29 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * 对于解决不了的问题，抛出
+ * 
+ * 格式 throws 异常类名
+ * 注意：这个格式必须跟在方法的括号后面
+ * 
+ * 编译期异常抛出，将来调用者必须处理
+ * 运行期异常抛出，将来调用者可以不用处理
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		System.out.println("start");
+		Method1();
+		System.out.println("end");
+	}
+
+	// 运行期异常
+	private static void Method1() {
+		int a = 10;
+		int b = 0;
+		System.out.println(a / b);
+	}
+	
+	
+	
+}

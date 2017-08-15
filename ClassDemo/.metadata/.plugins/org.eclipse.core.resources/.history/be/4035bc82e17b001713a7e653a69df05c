@@ -1,0 +1,12 @@
+package exceptionTest;
+
+public class MyException2 extends RuntimeException {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public MyException2(String message) {
+        super(message);
+    }
+}

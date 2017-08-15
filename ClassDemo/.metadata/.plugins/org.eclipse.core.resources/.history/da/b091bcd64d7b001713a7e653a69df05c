@@ -1,0 +1,15 @@
+package collectionsTest;
+
+import java.util.ArrayList;
+
+/**
+ * @author liupuyan
+ * 模拟斗地主洗牌和发牌
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		ArrayList<String> array = new ArrayList<>();
+		String[] colors = {"♠️", "♥️", "♣️", "♦️"};
+		
+	}
+}

@@ -1,0 +1,21 @@
+package bigIntegerTest;
+
+/**
+ * @author liupuyan
+ * BigInteger 可以让超过Integer范围内的数据进行运算
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		Integer i1 = new Integer(100);
+		System.out.println(i1);
+		
+		System.out.println(Integer.MAX_VALUE);
+		
+		// 超出范围
+		Integer i2 = new Integer(Integer.MAX_VALUE + 1);
+		// 表示不准确
+		System.out.println(i2);
+		Integer i3 = new Integer(2147483648);
+		System.out.println(i3);
+	}
+}

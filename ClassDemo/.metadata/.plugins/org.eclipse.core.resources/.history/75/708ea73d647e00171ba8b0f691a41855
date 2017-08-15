@@ -1,0 +1,14 @@
+package ioTest;
+
+import java.io.FileReader;
+import java.io.LineNumberReader;
+
+/**
+ * @author liupuyan
+ * LineNumberReader
+ */
+public class LineNumberReaderDemo1 {
+	public static void main(String[] args) {
+		LineNumberReader lnr = new LineNumberReader(new FileReader("fos.txt"));
+	}
+}

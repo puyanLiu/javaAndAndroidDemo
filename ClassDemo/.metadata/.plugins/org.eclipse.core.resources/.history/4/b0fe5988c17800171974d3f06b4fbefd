@@ -1,0 +1,17 @@
+package linkedListTest;
+
+import java.util.LinkedList;
+
+public class MyStack<E> {
+	private LinkedList<E> list;
+	
+	public MyStack() {
+		super();
+		list = new LinkedList<E>();
+	}
+
+	public boolean add(E e) {
+        list.add(e)
+        return true;
+    }
+}

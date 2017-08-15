@@ -1,0 +1,10 @@
+package randomTest;
+
+import java.util.Random;
+
+public class demo1 {
+	public static void main(String[] args) {
+		Random r1 = new Random();
+		System.out.println(r1);
+	}
+}

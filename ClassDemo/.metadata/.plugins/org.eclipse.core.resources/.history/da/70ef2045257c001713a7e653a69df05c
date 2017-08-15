@@ -1,0 +1,25 @@
+package ioTest;
+
+import java.nio.charset.Charset;
+import java.util.Arrays;
+
+/**
+ * @author liupuyan
+ * 计算机中 中文的存储分三个字节
+ * 	第一个字节肯定是负数
+ *  第二个字节常见是负数，也可能为正数
+ */
+public class demo6 {
+	public static void main(String[] args) {
+		String str1 = "abcdef";
+		byte[] by = str1.getBytes();
+		for(byte b: by) {
+			System.out.print(b + "\t");
+		}
+		System.out.println("-------------------");
+		String str2 = "哈喽 你好";
+//		byte[] by2 = str2.getBytes(Charset.forName("gbk"));
+		byte[] by2 = str2.getBytes(Charset.forName("gbk"));
+		System.out.println(Arrays.toString(by2));
+	}
+}

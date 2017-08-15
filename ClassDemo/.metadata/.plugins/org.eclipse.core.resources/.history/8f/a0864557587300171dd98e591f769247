@@ -1,0 +1,9 @@
+package stringBufferTest;
+
+public class demo4 {
+	public static void main(String[] args) {
+		String s1 = "hello";
+		String s2String = "world";
+		
+	}
+}

@@ -1,0 +1,11 @@
+package regexTest;
+
+/**
+ * @author liupuyan
+ * 模式和匹配器的使用
+ */
+public class demo7 {
+	public static void main(String[] args) {
+		
+	}
+}

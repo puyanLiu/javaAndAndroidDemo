@@ -1,0 +1,28 @@
+package ioTest;
+
+import java.io.IOException;
+import java.io.Reader;
+
+public class MyBufferedReader {
+	private Reader r;
+
+	public MyBufferedReader(Reader in) {
+		this.r = in;
+	}
+
+	public String readLine() throws IOException {
+		int b = 0;
+		StringBuilder sb = new StringBuilder();
+		while ((b = r.read()) != -1) {
+			sb.append((char)b);
+		}
+		if (sb.length() > 0) {
+			return sb.toString();
+		}
+		return null;
+	}
+
+	public void close() throws IOException {
+		r.close();
+	}
+}

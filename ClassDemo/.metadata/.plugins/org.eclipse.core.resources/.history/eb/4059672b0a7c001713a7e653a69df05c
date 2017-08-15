@@ -1,0 +1,9 @@
+package recursiveTest;
+
+/**
+ * @author liupuyan
+ * 输出目录下所有.java结尾的文件的绝对路径
+ */
+public class demo4 {
+
+}

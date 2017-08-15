@@ -1,0 +1,10 @@
+package genericTest;
+
+public class ObjectToolDemo {
+	public static void main(String[] args) {
+		ObjectTool<String> s1 = new ObjectTool<>();
+		s1.setObject("张三");
+		System.out.println(s1);
+		
+	}
+}

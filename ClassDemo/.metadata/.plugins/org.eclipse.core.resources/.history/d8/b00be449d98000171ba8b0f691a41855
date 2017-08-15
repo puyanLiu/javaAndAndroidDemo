@@ -1,0 +1,31 @@
+package ioTest;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Properties;
+
+/**
+ * @author liupuyan
+ * 读写数据
+ */
+public class PropertiesDemo2 {
+	public static void main(String[] args) throws IOException {
+		write();
+		
+		read();
+	}
+
+	private static void read() {
+		Properties p = new Properties();
+		p.load(new FileReader("fos.txt"));
+	}
+
+	private static void write() throws IOException {
+		Properties p = new Properties();
+		p.setProperty("name", "张三");
+		p.setProperty("age", "18");
+		p.setProperty("score", "35");
+		p.store(new FileWriter("fos.txt"), "不知道是啥");
+	}
+}

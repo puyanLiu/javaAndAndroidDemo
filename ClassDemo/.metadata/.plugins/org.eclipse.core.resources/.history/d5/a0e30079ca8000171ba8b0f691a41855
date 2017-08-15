@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 标准输出流
+ */
+public class SystemOutDemo {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,24 @@
+package arrayTest;
+
+/**
+ * @author liupuyan
+ * 字符串中的字符进行排序
+ */
+public class demo2 {
+	public static void main(String[] args) {
+		String string = "dacgebf";
+		byte[] bs = string.getBytes();
+		for(int x = 0; x < bs.length; x++) {
+			System.out.println(bs[x]);
+		}
+		for(int i = 0; i < bs.length - 1; i++) {
+			for(int j = 0; j < bs.length - 1 - i ; j++) {
+				if (bs[j] > bs[j + 1]) {
+					int temp = bs[j];
+					bs[j] = bs[j + 1];
+					bs[j + 1] = temp;
+				}
+			}
+		}
+	}
+}

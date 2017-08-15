@@ -1,0 +1,9 @@
+package genericTest;
+
+public class ObjectToolDemo {
+	public static void main(String[] args) {
+		ObjectTool o = new ObjectTool();
+		o.setObject(27);
+		System.out.println(o);
+	}
+}

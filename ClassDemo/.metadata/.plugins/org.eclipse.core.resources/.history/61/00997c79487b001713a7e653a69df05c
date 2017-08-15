@@ -1,0 +1,24 @@
+package mapTest;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import hashMapTest.Student;
+
+public class demo5 {
+	public static void main(String[] args) {
+		HashMap<String, HashMap<String, ArrayList<Student>>> hm = new HashMap<>();
+		ArrayList<Student> a1 = new ArrayList<>();
+		Student s1 = new Student("张三", 19);
+		Student s2 = new Student("李四", 19);
+		Student s3 = new Student("王五", 19);
+		Student s4 = new Student("赵六", 19);
+		a1.add(s1);
+		a1.add(s2);
+		a1.add(s3);
+		a1.add(s4);
+		HashMap<String, ArrayList<Student>> hm1 = new HashMap<>();
+		hm1.put("一班", a1);
+		
+	}
+}

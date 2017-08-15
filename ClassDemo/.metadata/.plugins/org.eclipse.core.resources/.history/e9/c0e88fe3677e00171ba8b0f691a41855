@@ -1,0 +1,25 @@
+package ioTest;
+
+import java.io.IOException;
+import java.io.Reader;
+
+public class MyLineNumberReader {
+	private Reader r;
+	private int lineNumber;
+	
+	public MyLineNumberReader(Reader in) {
+		this.r = in;
+    }
+
+	public int getLineNumber() {
+		return lineNumber;
+	}
+
+	public void setLineNumber(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
+
+	public void close() throws IOException {
+        r.close();
+    }
+}

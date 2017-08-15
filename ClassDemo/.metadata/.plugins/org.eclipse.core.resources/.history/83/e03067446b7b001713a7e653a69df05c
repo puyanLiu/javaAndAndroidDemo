@@ -1,0 +1,13 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ * 对于解决不了的问题，抛出
+ * 
+ * 格式 throws 异常类名
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		
+	}
+}

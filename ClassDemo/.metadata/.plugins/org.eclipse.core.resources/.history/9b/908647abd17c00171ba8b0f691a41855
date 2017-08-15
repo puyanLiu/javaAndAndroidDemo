@@ -1,0 +1,13 @@
+package ioTest;
+
+import java.io.FileReader;
+
+/**
+ * @author liupuyan
+ * InputStreamReader 子类FileReader
+ */
+public class FileReaderDemo1 {
+	public static void main(String[] args) {
+		FileReader fr = new FileReader("fos.txt");
+	}
+}

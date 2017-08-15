@@ -1,0 +1,7 @@
+package genericTest;
+
+public class ObjectToolDemo {
+	public static void main(String[] args) {
+		
+	}
+}

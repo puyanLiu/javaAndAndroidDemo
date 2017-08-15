@@ -1,0 +1,11 @@
+package arrayTest;
+
+/**
+ * @author liupuyan
+ * 二分查找
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		int[] arr = {11, 2, 33, 43, 12, 123, 111};
+	}
+}

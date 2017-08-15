@@ -1,0 +1,15 @@
+package genericTest;
+
+public class ObjectToolDemo {
+	public static void main(String[] args) {
+		ObjectTool o = new ObjectTool();
+		o.setObject(27);
+		System.out.println(o);
+		
+		o.setObject(new Integer(30));
+		System.out.println(o);
+		
+		String s1 = (String)o.getObject();
+		System.out.println(s1);
+	}
+}

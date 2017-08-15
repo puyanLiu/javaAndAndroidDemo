@@ -1,0 +1,25 @@
+package exceptionTest;
+
+/**
+ * @author liupuyan
+ *
+ * 子类重写父类方法时，子类的方法必出抛出相同的异常或父类异常的子类
+ */
+public class demo7 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Fu {
+	public void show() throws Exception {
+		
+	}
+}
+
+class Zi extends Fu {
+	@Override
+	public void show() throws Exception {
+		super.show();
+	}
+}

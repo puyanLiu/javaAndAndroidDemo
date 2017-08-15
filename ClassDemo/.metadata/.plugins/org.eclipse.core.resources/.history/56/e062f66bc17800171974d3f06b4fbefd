@@ -1,0 +1,8 @@
+package linkedListTest;
+
+public class MyStack {
+	public boolean add(E e) {
+        linkLast(e);
+        return true;
+    }
+}

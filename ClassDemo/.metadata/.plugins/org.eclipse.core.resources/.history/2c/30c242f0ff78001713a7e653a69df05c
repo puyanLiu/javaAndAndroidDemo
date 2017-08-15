@@ -1,0 +1,11 @@
+package treeSetTest;
+
+public class demo2 {
+	public static void main(String[] args) {
+		Student1 s1 = new Student1("张三", 20);
+		Student1 s2 = new Student1("李四", 19);
+		Student1 s3 = new Student1("王五", 22);
+		Student1 s4 = new Student1("赵六", 24);
+		Student1 s5 = new Student1("张三", 20);
+	}
+}

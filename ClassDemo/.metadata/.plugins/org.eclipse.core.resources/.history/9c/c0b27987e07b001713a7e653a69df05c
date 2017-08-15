@@ -1,0 +1,16 @@
+package exceptionTest;
+
+import java.util.Scanner;
+
+/**
+ * @author liupuyan
+ * 自定义异常
+ */
+public class myExceptionDemo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("请输入成绩");
+		int score = scanner.nextInt();
+		
+	}
+}

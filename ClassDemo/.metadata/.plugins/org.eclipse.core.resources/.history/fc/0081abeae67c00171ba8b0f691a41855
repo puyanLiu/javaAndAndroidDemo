@@ -1,0 +1,19 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 复制文本
+ * 
+ * 五种字符流
+ */
+public class copyFileDemo3 {
+	public static void main(String[] args) {
+		String srcString = "fos.txt";
+		String destString = "fos2.txt";
+		metho1(srcString, destString);
+	}
+
+	private static void metho1(String srcString, String destString) {
+		
+	}
+}

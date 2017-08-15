@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;collectionTest/src/arrayListTest&apos;&#x0A;- Original project: &apos;arrayListTest&apos;&#x0A;- Destination element: &apos;collectionTest/src/arrayListTest&apos;&#x0A;- Original elements:&#x0A;     arrayListTest.Student.java&#x0A;     arrayListTest.demo2.java&#x0A;     arrayListTest.demo1.java" description="Copy compilation units" destination="=collectionTest/src&lt;arrayListTest" element1="/src&lt;arrayListTest{Student.java" element2="/src&lt;arrayListTest{demo2.java" element3="/src&lt;arrayListTest{demo1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1501812901221" units="3" version="1.0"/>
+</session>

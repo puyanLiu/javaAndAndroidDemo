@@ -1,0 +1,30 @@
+package genericTest;
+
+/**
+ * @author liupuyan
+ *
+ * @param <T>
+ * 
+ * 泛型定义在类上
+ */
+public class ObjectTool<T> {
+	private T object;
+	
+	public void setObject(T object) {
+		this.object = object;
+	}
+	
+	public T getObject() {
+		return object;
+	}
+	
+	public <T> void show(T t) {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "ObjectTool [object=" + object + "]";
+	}
+	
+}

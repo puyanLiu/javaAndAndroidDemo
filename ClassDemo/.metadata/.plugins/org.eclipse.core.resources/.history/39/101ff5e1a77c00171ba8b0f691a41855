@@ -1,0 +1,36 @@
+package ioTest;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+/**
+ * @author liupuyan
+ * 复制大文件
+ */
+public class demo4 {
+	public static void main(String[] args) {
+		method1();
+//		method2();
+//		method3();
+//		method4();
+	}
+
+	private static void method4() {
+	}
+
+	private static void method3() {
+	}
+
+	private static void method2() {
+	}
+	
+	/**
+	 * 基本字节流一次读写一个字节
+	 */
+	private static void method1() {
+		FileInputStream fis = new FileInputStream("eclipse.tar.gz");
+		FileOutputStream fos = new FileOutputStream("copy1eclipse.tar.gz")
+	}
+	
+	
+}

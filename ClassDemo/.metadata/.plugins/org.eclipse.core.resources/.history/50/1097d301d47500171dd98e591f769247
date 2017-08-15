@@ -1,0 +1,27 @@
+package listTest;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class demo1 {
+	public static void main(String[] args) {
+		List l1 = new ArrayList();
+		l1.add("hello");
+		l1.add("world");
+		l1.add("hello");
+		
+		Iterator it = l1.iterator();
+		while (it.hasNext()) {
+			String string = (String)it.next();
+			System.out.println(string);
+		}
+
+		// list集合特有功能
+		l1.add(0, "新添加的");
+		// 获取功能
+		System.out.println(l1.get(0));
+		System.out.println(l1.remove(0));
+		System.out.println(l1.set(0, "被修改啦"));
+	}
+}

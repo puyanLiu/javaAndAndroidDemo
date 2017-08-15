@@ -1,0 +1,34 @@
+package fileTest;
+
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * @author liupuyan
+ * File 文件和目录路径名的抽象表示形式
+ */
+public class demo1 {
+	public static void main(String[] args) throws IOException {
+		File f1 = new File("/Users/liupuyan/Desktop/filetest.txt");
+		System.out.println(f1);
+	
+		File f2 = new File("/Users/liupuyan/Desktop", "filetest.txt");
+		System.out.println(f2);
+		
+		File f3 = new File(new File("/Users/liupuyan/Desktop"), "filetest.txt");
+		System.out.println(f3);
+		
+		// 创建文件夹
+		File f4 = new File("/Users/liupuyan/Desktop/fileDemo/haha");
+		System.out.println(f4.mkdir());
+		
+		// 创建文件
+		File f5 = new File(f4, "a.txt");
+		System.out.println(f5.createNewFile());
+		
+		// 创建文件
+		File f6 = new File("/Users/liupuyan/Desktop/fileDemo/lala/a.txt");
+		// No such file or directory
+		System.out.println(f6.createNewFile());
+	}
+}

@@ -1,0 +1,13 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 计算机中 中文的存储分两个字节
+ * 	第一个字节肯定是负数
+ * 第二个字节常见是负数，也可能为正数
+ */
+public class demo6 {
+	public static void main(String[] args) {
+		
+	}
+}

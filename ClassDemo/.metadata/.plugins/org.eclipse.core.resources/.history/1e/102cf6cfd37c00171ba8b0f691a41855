@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * BufferedWriter 字符缓冲输出流
+ */
+public class BufferedWriterDemo1 {
+	public static void main(String[] args) {
+		
+	}
+}

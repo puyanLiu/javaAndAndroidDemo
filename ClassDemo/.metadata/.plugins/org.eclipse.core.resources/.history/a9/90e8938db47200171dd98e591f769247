@@ -1,0 +1,12 @@
+package stringTest;
+
+public class demo6 {
+	/**
+	 * @param args
+	 * 统计大串中小串出现的次数
+	 */
+	public static void main(String[] args) {
+		String s1 = "woaijavawozhenaijavawozhendeaijavawozhendehenaijavaxinbuxinwoaijavagun";
+		String s2 = "java";
+	}
+}

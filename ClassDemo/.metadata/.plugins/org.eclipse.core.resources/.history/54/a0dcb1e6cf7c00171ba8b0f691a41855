@@ -1,0 +1,11 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 文件内容复制
+ */
+public class copyFileDemo1 {
+	public static void main(String[] args) {
+		
+	}
+}

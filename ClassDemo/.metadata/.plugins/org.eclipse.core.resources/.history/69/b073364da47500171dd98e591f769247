@@ -1,0 +1,11 @@
+package dateTest;
+
+/**
+ * @author liupuyan
+ * Date 特定的瞬间，精确到毫秒
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

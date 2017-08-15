@@ -1,0 +1,23 @@
+package treeSetTest;
+
+import java.util.TreeSet;
+
+/**
+ * @author liupuyan
+ * TreeSet 能够对元素按照某种规则进行排序
+ * 排序方式
+ * 自然排序
+ * 比较器排序
+ * 
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		TreeSet<Integer> ts1 = new TreeSet<>();
+		ts1.add(13);
+		ts1.add(14);
+		ts1.add(12);
+		ts1.add(16);
+		ts1.add(16);
+		ts1.add(17);
+	}
+}

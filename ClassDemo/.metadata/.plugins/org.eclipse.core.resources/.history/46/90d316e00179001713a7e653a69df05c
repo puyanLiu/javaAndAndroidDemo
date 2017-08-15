@@ -1,0 +1,12 @@
+package treeSetTest;
+
+public class MyComparator implements Comparable<Student> {
+
+	@Override
+	public int compareTo(Student s1, Student s2) {
+		int num = this.age - s.age;
+		int num2 = num == 0 ? this.name.compareTo(s.name) : num;
+		return num2;
+	}
+
+}

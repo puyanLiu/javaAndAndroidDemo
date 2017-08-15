@@ -1,0 +1,19 @@
+package ioTest;
+
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+/**
+ * @author liupuyan
+ *
+ * BufferedInputStream
+ * 字节缓冲输入流
+ */
+public class BufferedInputStreamDemo1 {
+	public static void main(String[] args) throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream("fos.txt"));
+		System.out.println(bis.read());;
+	}
+}

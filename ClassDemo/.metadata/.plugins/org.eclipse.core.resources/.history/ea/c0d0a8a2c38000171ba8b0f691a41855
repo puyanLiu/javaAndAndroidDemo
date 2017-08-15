@@ -1,0 +1,12 @@
+package ioTest;
+
+/**
+ * @author liupuyan
+ * 打印流
+ * 
+ * PrintStream 字节流打印流
+ * PrintWriter 字符打印流
+ */
+public class PrintStreamDemo1 {
+
+}

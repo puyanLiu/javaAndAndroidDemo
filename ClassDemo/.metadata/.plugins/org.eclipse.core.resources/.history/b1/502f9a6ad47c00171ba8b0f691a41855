@@ -1,0 +1,16 @@
+package ioTest;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class copyFileDemo2 {
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new FileReader("fos.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter("fos2.txt"));
+		
+		br.close();
+		bw.close();
+	}
+}

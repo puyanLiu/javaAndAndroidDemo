@@ -1,0 +1,10 @@
+package linkedHashSetTest;
+
+import java.util.LinkedHashSet;
+
+public class demo2 {
+	public static void main(String[] args) {
+		LinkedHashSet<Student> lhs1 = new LinkedHashSet<>();
+		
+	}
+}

@@ -1,0 +1,9 @@
+package hashSetTest;
+
+/**
+ * @author liupuyan
+ * 获取10个1-20的随机数，要求不能重复
+ */
+public class demo4 {
+
+}

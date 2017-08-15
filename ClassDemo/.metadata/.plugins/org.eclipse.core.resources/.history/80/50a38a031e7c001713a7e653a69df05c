@@ -1,0 +1,14 @@
+package ioTest;
+
+import java.io.FileInputStream;
+
+/**
+ * @author liupuyan
+ * 字节输入流
+ */
+public class demo3 {
+	public static void main(String[] args) {
+		FileInputStream fis = new FileInputStream("fos.txt");
+		
+	}
+}

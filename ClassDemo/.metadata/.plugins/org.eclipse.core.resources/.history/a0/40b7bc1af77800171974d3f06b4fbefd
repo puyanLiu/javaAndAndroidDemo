@@ -1,0 +1,11 @@
+package hashSetTest;
+
+import java.util.HashSet;
+
+public class demo3 {
+	public static void main(String[] args) {
+		HashSet<Dog> hs1 = new HashSet<>();
+		Dog d1 = new Dog("旺财", 10, "黑色", "男");
+		Dog d2 = new Dog("", 5, "黄色", "男");
+	}
+}

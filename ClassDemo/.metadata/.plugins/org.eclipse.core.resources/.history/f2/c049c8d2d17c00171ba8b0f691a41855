@@ -1,0 +1,19 @@
+package ioTest;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+/**
+ * @author liupuyan
+ * InputStreamReader 子类FileReader 不能指定编码
+ */
+public class FileReaderDemo1 {
+	public static void main(String[] args) throws IOException {
+		FileReader fr = new FileReader("fos.txt");
+		FileWriter fw = new FileWriter("fos2.txt");
+		
+		
+	}
+}

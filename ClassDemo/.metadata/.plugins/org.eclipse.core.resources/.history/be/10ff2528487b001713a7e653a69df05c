@@ -1,0 +1,11 @@
+package mapTest;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class demo5 {
+	public static void main(String[] args) {
+		HashMap<String, HashMap<String, ArrayList<Student>>> hm = new HashMap<>();
+		
+	}
+}

@@ -1,0 +1,13 @@
+package recursiveTest;
+
+/**
+ * @author liupuyan
+ * 递归：方法定义中调用方法本身的现象
+ * 
+ * 求阶乘
+ */
+public class demo1 {
+	public static void main(String[] args) {
+		
+	}
+}

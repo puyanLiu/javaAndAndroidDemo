@@ -1,0 +1,7 @@
+package ioTest;
+
+public class SystemInDemo {
+	public static void main(String[] args) {
+		
+	}
+}

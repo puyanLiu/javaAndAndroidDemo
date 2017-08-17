@@ -6,7 +6,7 @@ import java.io.File;
  * @author liupuyan
  * 递归删除文件目录
  */
-public class demo3 {
+public class deleteFolderDemo {
 	public static void main(String[] args) {
 		File f1 = new File("/Users/liupuyan/Desktop/fileDemo/demo");
 		deleteFolder(f1);

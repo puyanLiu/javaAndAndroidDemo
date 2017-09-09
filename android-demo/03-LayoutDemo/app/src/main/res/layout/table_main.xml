@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+        <TextView android:text="@string/app_name"/>
+        <TextView android:text="哈哈" />
+        <TextView android:text="第三个"
+            android:layout_width="100dp"
+            android:background="@android:color/darker_gray"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/app_name"
+            android:background="@color/colorPrimary"/>
+    </TableRow>
+</TableLayout>

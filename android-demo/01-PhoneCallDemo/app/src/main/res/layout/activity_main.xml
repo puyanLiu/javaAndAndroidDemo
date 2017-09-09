@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liupuyan.a01_phonecalldemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00ff00">
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:textSize="20sp"
+            android:background="#ff0000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入号码"
+            android:background="#eeeeee"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="500px"
+            android:layout_height="60px"
+            android:background="#aaaaaa"/>
+        <Button
+            android:id="@+id/btnCallClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拨打"/>
+        <Button
+            android:id="@+id/btn0Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点一点嘛"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="试一试click"
+            android:onClick="click"/>
+        <Button
+            android:id="@+id/btn1Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一个"
+            android:onClick="click1"/>
+        <Button
+            android:id="@+id/btn2Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第二个"
+            android:onClick="click1"/>
+        <Button
+            android:id="@+id/btn3Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三个"
+            android:onClick="click1"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

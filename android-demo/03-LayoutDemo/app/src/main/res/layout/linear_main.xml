@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="第一个"
+        android:background="#ff0000"
+        android:layout_gravity="center"
+        android:gravity="right"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个"
+        android:background="#00ff00"
+        android:layout_weight="1"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三个"
+        android:background="#0000ff"
+        android:layout_weight="1"/>
+</LinearLayout>
+<!--
+LinearLayout
+orientation 属性是指定线性布局的排列方向:
+    horizontal 水平
+    vertical 垂直
+gravity属性是指定当前控件内容显示位置:
+    left 左边
+    right 右边
+    top 上边
+    bottom 底边
+layout_gravity属性是指定当前控件在父元素的位置:
+    left 左边
+    right 右边
+    top 上边
+    bottom 底边
+layout_weight (权重)属性是指定当前控件在父元素(线性布局)中占N份.
+visibility属性是控制布局是否显示:
+    visible 显示
+    invisible 不显示但占空间
+    gone 隐藏
+-->

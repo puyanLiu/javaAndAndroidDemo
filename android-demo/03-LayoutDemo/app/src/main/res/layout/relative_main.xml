@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:background="@android:color/darker_gray"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="相对布局"
+        android:background="@android:color/holo_green_dark"
+        android:layout_toRightOf="@+id/txt1"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三个"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_below="@+id/txt2"/>
+</RelativeLayout>
+<!--
+RelativeLayout
+android:layout_toRightOf		在指定控件的右边
+android:layout_toLeftOf			在指定控件的左边
+android:layout_above			在指定控件的上边
+android:layout_below			在指定控件的下边
+android:layout_alignBaseline		跟指定控件水平对齐
+android:layout_alignLeft			跟指定控件左对齐
+android:layout_alignRight		跟指定控件右对齐
+android:layout_alignTop			跟指定控件顶部对齐
+android:layout_alignBottom		跟指定控件底部对齐
+android:layout_alignParentLeft		是否跟父元素左对齐
+android:layout_alignParentTop		是否跟父元素顶部对齐
+android:layout_alignParentRight		是否跟父元素右对齐
+android:layout_alignParentBottom	是否跟父元素底部对齐
+android:layout_centerVertical		在父元素中垂直居中
+android:layout_centerHorizontal		在父元素中水平居中
+android:layout_centerInParent		在父元素中居中
+-->

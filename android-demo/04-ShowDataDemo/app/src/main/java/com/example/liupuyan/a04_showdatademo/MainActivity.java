@@ -1,6 +1,7 @@
 package com.example.liupuyan.a04_showdatademo;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Environment;
 import android.os.StatFs;
@@ -38,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
         getSDCapacity();
 
-        readData();
+//        readData();
+        getPreferences();
     }
 
     public void getSDCapacity() {
@@ -69,6 +71,34 @@ public class MainActivity extends AppCompatActivity {
         return Formatter.formatFileSize(this, size);
     }
 
+    public void getPreferences() {
+        SharedPreferences sp = getSharedPreferences("info", MODE_PRIVATE);
+        txtAccount.setText(sp.getString("name", ""));
+        txtPwd.setText(sp.getString("pwd", ""));
+    }
+
+    public void savePreferences() {
+        String name = txtAccount.getText().toString();
+        String pwd = txtPwd.getText().toString();
+        CheckBox cb = (CheckBox)findViewById(R.id.cbData);
+        if (cb.isChecked()) {
+            SharedPreferences sp = getSharedPreferences("info", MODE_PRIVATE);
+            // 获取编辑器
+            SharedPreferences.Editor editor = sp.edit();
+            editor.putString("name", name);
+            editor.putString("pwd", pwd);
+            editor.commit();
+        }
+        Toast t = Toast.makeText(this, "登录成功", 0);
+        t.show();
+    }
+
+    public void loginClick(View v) {
+//        saveFile();
+        savePreferences();
+    }
+
+    // 读取文件
     public void readData() {
         // SD卡
 //        File file = new File(Environment.getExternalStorageDirectory(), "info.txt");
@@ -89,10 +119,6 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-    }
-
-    public void loginClick(View v) {
-        saveFile();
     }
 
     // 存储到文件

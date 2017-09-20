@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户登录"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"/>
+        <!--hint 提示的文本内容
+        textColorHint 提示文本的颜色
+        selectAllOnFocus 获得焦点显示所有的文本
+        inputType 输入类型-->
+        <!--
+        文本类型，多为大写、小写和数字符号
+        android:inputType="none"
+        android:inputType="text"
+        android:inputType="textCapCharacters"
+        android:inputType="textCapWords"
+        android:inputType="textCapSentences"
+        android:inputType="textAutoCorrect"
+        android:inputType="textAutoComplete"
+        android:inputType="textMultiLine"
+        android:inputType="textImeMultiLine"
+        android:inputType="textNoSuggestions"
+        android:inputType="textUri"
+        android:inputType="textEmailAddress"
+        android:inputType="textEmailSubject"
+        android:inputType="textShortMessage"
+        android:inputType="textLongMessage"
+        android:inputType="textPersonName"
+        android:inputType="textPostalAddress"
+        android:inputType="textPassword"
+        android:inputType="textVisiblePassword"
+        android:inputType="textWebEditText"
+        android:inputType="textFilter"
+        android:inputType="textPhonetic"
+
+        数值类型
+        android:inputType="number"
+        android:inputType="numberSigned"
+        android:inputType="numberDecimal"
+        android:inputType="phone"//拨号键盘
+        android:inputType="datetime"
+        android:inputType="date"//日期键盘
+        android:inputType="time"//时间键盘
+        -->
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="请输入用户名"
+            android:textColorHint="@android:color/holo_orange_dark"
+            android:selectAllOnFocus="true"
+            android:inputType="phone"
+            android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <!--EditText默认是多行显示的，并且能够自动换行，即当一行显示不完的时候，他会自动换到第二行-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:maxLines="5"
+        android:textScaleX="1.5"
+        android:text="哈哈哈嘿嘿嘿"
+        android:gravity="top"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="50dp"
+        android:paddingTop="10dp"/>
+</LinearLayout>

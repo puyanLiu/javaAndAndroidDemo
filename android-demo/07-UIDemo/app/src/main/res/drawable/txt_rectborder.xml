@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置黑色边框-->
+    <stroke
+        android:width="2px"
+        android:color="#000" />
+    <!--渐变 设置渐变色的,可选属性有: startColor:起始颜色 endColor:结束颜色 centerColor:中间颜色 angle:方向角度,等于0时,从左到右,然后逆时针方向转,当angle = 90度时从下往上 type:设置渐变的类型-->
+    <gradient
+        android:angle="270"
+        android:endColor="#c0c0c0"
+        android:startColor="#fcd209" />
+    <!--设置边距 空间更大-->
+    <padding
+        android:left="5dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp"/>
+</shape>

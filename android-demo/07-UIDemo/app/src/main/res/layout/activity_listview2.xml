@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动物说"
+        android:textSize="18sp"/>
+    <!--stackFromBottom 是否从底部开始显示
+    cacheColorHint 设置点击颜色-->
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="false"
+        android:background="@drawable/photo3"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none"></ListView>
+</LinearLayout>

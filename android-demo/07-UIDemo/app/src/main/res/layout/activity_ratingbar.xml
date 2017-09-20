@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    android:isIndicator：是否用作指示，用户无法更改，默认false
+    android:numStars：显示多少个星星，必须为整数
+    android:rating：默认评分值，必须为浮点数
+    android:stepSize： 评分每次增加的值，必须为浮点数
+    事件处理： 只需为RatingBar设置OnRatingBarChangeListener事件，然后重写下onRatingChanged()方法
+    -->
+    <RatingBar
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5" />
+    <!--自定义-->
+    <RatingBar
+        style="@style/roomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

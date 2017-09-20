@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    android:max="100" //滑动条的最大值
+    android:progress="60" //滑动条的当前值
+    android:secondaryProgress="70" //二级滑动条的进度
+    android:thumb = "@mipmap/sb_icon" //滑块的drawable
+
+    SeekBar.OnSeekBarChangeListener 我们只需重写三个对应的方法：
+    onProgressChanged：进度发生改变时会触发
+    onStartTrackingTouch：按住SeekBar时会触发
+    onStopTrackingTouch：放开SeekBar时触发
+    -->
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtValue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--自定义 滑块 轨道-->
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/seekbar_thumb_normal"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="5.0dp"
+        android:minHeight="5.0dp"
+        android:progressDrawable="@drawable/sb_bar"
+        android:thumb="@drawable/seekbar_thumb_pressed"/>
+</LinearLayout>

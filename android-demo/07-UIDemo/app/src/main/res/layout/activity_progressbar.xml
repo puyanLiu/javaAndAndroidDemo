@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    android:max：进度条的最大值
+    android:progress：进度条已完成进度值
+    android:progressDrawable：设置轨道对应的Drawable对象
+    android:indeterminate：如果设置成true，则进度条不精确显示进度
+    android:indeterminateDrawable：设置不显示进度的进度条的Drawable对象
+    android:indeterminateDuration：设置不精确显示进度的持续时间
+    android:secondaryProgress：二级进度条，类似于视频播放的一条是当前播放进度，一条是缓冲进度，前者通过progress属性进行设置！
+    -->
+    <!--系统提供的圆形进度条-->
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--系统提供的水平进度条-->
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="18"/>
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:indeterminate="true"/>
+    <!--使用动画替代圆形进度条-->
+    <ImageView
+        android:id="@+id/img_bgbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anim_pgbar"/>
+    <!--自定义圆形进度条-->
+    <com.example.liupuyan.a07_uidemo.CirclePgBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

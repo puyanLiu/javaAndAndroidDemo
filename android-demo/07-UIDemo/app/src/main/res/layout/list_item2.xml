@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--ListView Item焦点被抢占 方法： item根节点设置android:descendantFocusability="blocksDescendants"
+   在Item布局的根节点添加上述属性，android:descendantFocusability="blocksDescendants" 即可，另外该属性有三个可供选择的值：
+    beforeDescendants：viewgroup会优先其子类控件而获取到焦点
+    afterDescendants：viewgroup只有当其子类控件不需要获取焦点时才获取焦点
+    blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
     <ImageView
         android:id="@+id/imgIcon"
         android:layout_width="49dp"
@@ -27,5 +34,27 @@
             android:textSize="14sp"
             android:textColor="#eee"
             android:paddingLeft="8dp"/>
+        <!--ListView Item焦点被抢占 方法： 为抢占组件设置android:focusable="false"-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请选择性别"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"/>
+        </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>

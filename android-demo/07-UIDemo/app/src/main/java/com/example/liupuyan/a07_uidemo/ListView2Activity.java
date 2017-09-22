@@ -63,4 +63,5 @@ public class ListView2Activity extends Activity implements AdapterView.OnItemCli
         // 添加表头表尾后，我们发现positon是从表头开始算的，就是你添加的第一个数据本来的 postion 是 0，但是此时却变成了 1，因为表头也算
         Toast.makeText(mContext, "你点击了第" + i + "项", Toast.LENGTH_SHORT).show();
     }
+
 }

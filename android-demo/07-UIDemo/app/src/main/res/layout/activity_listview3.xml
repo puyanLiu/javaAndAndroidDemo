@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加一条记录"
+        android:onClick="btnAddClick"/>
+    <Button
+        android:id="@+id/btnAdd5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="往第五列添加一条记录"
+        android:onClick="btnAddClick" />
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:onClick="btnRemoveClick"/>
+    <Button
+        android:id="@+id/btnRemove5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除第五列的记录"
+        android:onClick="btnRemoveClick"/>
+    <Button
+        android:id="@+id/btnRemoveAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除所有记录"
+        android:onClick="btnRemoveClick"/>
+    <ListView
+        android:id="@+id/list_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <TextView
+        android:id="@+id/txt_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+</LinearLayout>

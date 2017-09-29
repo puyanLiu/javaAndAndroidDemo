@@ -1,0 +1,42 @@
+.class final Lcom/alipay/mobile/socialsdk/contact/fragment/h;
+.super Ljava/lang/Object;
+.source "ConfirmAccountFragment.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Lcom/alipay/mobile/socialsdk/contact/fragment/ConfirmAccountFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/alipay/mobile/socialsdk/contact/fragment/ConfirmAccountFragment;)V
+    .locals 0
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/alipay/mobile/socialsdk/contact/fragment/h;->a:Lcom/alipay/mobile/socialsdk/contact/fragment/ConfirmAccountFragment;
+
+    .line 77
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .prologue
+    .line 80
+    iget-object v0, p0, Lcom/alipay/mobile/socialsdk/contact/fragment/h;->a:Lcom/alipay/mobile/socialsdk/contact/fragment/ConfirmAccountFragment;
+
+    iget-object v0, v0, Lcom/alipay/mobile/socialsdk/contact/fragment/ConfirmAccountFragment;->g:Lcom/alipay/mobile/socialsdk/contact/ui/ActivityOpCallback;
+
+    invoke-interface {v0}, Lcom/alipay/mobile/socialsdk/contact/ui/ActivityOpCallback;->backFragment()V
+
+    .line 81
+    return-void
+.end method

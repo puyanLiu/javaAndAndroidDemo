@@ -1,0 +1,11 @@
+.class interface abstract Lcom/google/gson/ObjectConstructor;
+.super Ljava/lang/Object;
+.source "ObjectConstructor.java"
+
+
+# virtual methods
+.method public abstract construct(Ljava/lang/reflect/Type;)Ljava/lang/Object;
+.end method
+
+.method public abstract constructArray(Ljava/lang/reflect/Type;I)Ljava/lang/Object;
+.end method

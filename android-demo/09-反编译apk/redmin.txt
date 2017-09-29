@@ -1,0 +1,23 @@
+
+提取资源
+
+1、	sudo cp apktool apktool.jar /usr/local/bin/
+2、	cd /usr/local/bin
+	chmod +x apktool
+	chmod +x apktool.jar  //chmod +x 取消权限
+3、反编译APK
+cd 存放apk的目录
+apktool d xxx.apk
+
+APkTool只能将资源文件提取处理
+
+通过ApkTool编译出来的源码在MAC上是 .smali类型的 我的解决办法是 将需要编译的APk 使用解压软件打开
+看了有2个classes.dex文件(他们分包) 这就是项目的源码 将这个两个文件拷贝到下载解压的dex2jar-2.0目录
+
+4、cd /你的dex2jar解压目录 也就是上面图中存放class.dex文件的目录
+sudo chmod +x d2j_invoke.sh //sudo chmod +取消权限
+sh d2j-dex2jar.sh classes.dex
+
+生成的.jar 文件 需要使用JD-GUI 进行查看
+
+

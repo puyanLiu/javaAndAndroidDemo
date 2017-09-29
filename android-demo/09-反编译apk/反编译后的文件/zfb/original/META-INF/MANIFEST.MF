@@ -1,0 +1,3472 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/emoji/emoji_356.png
+SHA1-Digest: VlPA09nbS5e3iae9WvAMq8O88BM=
+
+Name: assets/emoji/emoji_195.png
+SHA1-Digest: 2YVKFrBF45WOANd9G7zdpbAm6w0=
+
+Name: res/drawable-hdpi/app_20000168.png
+SHA1-Digest: 1z/2uJwriCtD5nnRU+kjFXnNbIg=
+
+Name: res/layout/envelope_notify.xml
+SHA1-Digest: 0w6L7Ufw1uJQaG7pf1BBLtySF5w=
+
+Name: assets/emoji/emoji_632.png
+SHA1-Digest: IZv/117EDD6wHabEnMqc/eoNqy0=
+
+Name: assets/emoji/emoji_335.png
+SHA1-Digest: Unx01h8UxnTQmn65ScN4hsspHfk=
+
+Name: assets/emoji/emoji_477.png
+SHA1-Digest: /qPqfBpNYN9mFobteUc9KcHXUd4=
+
+Name: lib/armeabi/libmnet-ssl.so
+SHA1-Digest: +TWVYOU/afyBmUa485nTGUIZA6w=
+
+Name: assets/emoji/emoji_172.png
+SHA1-Digest: WHUjnTeZOm07BCf51tRf/3ye4M0=
+
+Name: assets/emoji/emoji_272.png
+SHA1-Digest: ZrgUieQJ+6Ndo/BUs6KLI179X1w=
+
+Name: assets/emoji/emoji_224.png
+SHA1-Digest: Z2/MVyEHwmWjQiBVbFFCP9ZYVNA=
+
+Name: res/drawable-ldpi/wifiapp.png
+SHA1-Digest: iEWTSBezX9bYgGW9XIJvJvrQVig=
+
+Name: assets/emoji/emoji_190.png
+SHA1-Digest: mr/JyxMU9ZK0dMxL1+48n9jhrPw=
+
+Name: assets/emoji/emoji_746.png
+SHA1-Digest: fk7YV+xMFSD0Z6okygzSVVLAEe0=
+
+Name: assets/emoji/emoji_54.png
+SHA1-Digest: uX0e9K+rNEg263rYfK6qvHobkFw=
+
+Name: assets/emoji/emoji_678.png
+SHA1-Digest: 8N7A9cHxvsm1umxQvfy/CoXfv+Q=
+
+Name: assets/emoji/emoji_160.png
+SHA1-Digest: H75muj3TqxVVLNoxOJVG9rieXis=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-language.so
+SHA1-Digest: Eb7QWBaXWIMaH2+QVgbJhj2ZcoY=
+
+Name: assets/emoji/emoji_757.png
+SHA1-Digest: Kx9syIH87BcHg+3LCazqqmdcWrQ=
+
+Name: assets/emoji/emoji_670.png
+SHA1-Digest: BBrTHI+tKGDtMxiCQwpXsZVJ0QE=
+
+Name: assets/emoji/emoji_87.png
+SHA1-Digest: 8obFDaoB5YRRnjOJgytQpmSe3yE=
+
+Name: assets/emoji/emoji_39.png
+SHA1-Digest: GnmKYbskbg5Lx/WJ098XcQp74Nw=
+
+Name: assets/emoji/emoji_176.png
+SHA1-Digest: 2yMGy/rk9EBhwohkJEgw7A+pBUY=
+
+Name: assets/emoji/emoji_229.png
+SHA1-Digest: emItu4W95RSgb7fihfH8hnADxVc=
+
+Name: res/drawable-hdpi/appicon.png
+SHA1-Digest: PRntiRFcoZw6hPWaE85p0Rd04DY=
+
+Name: assets/emoji/emoji_728.png
+SHA1-Digest: EjMilWFvtPiiQ4sS77NHVFhzm84=
+
+Name: assets/emoji/emoji_351.png
+SHA1-Digest: 8Hc4gI0/Yd6FdppysqYFLyTRvbo=
+
+Name: assets/emoji/emoji_85.png
+SHA1-Digest: QjfnZESmuXIxbGmVFbtCANm9gnM=
+
+Name: assets/emoji/emoji_174.png
+SHA1-Digest: MrULZO8mImEIqFoTANKF69n0iXI=
+
+Name: assets/emoji/emoji_672.png
+SHA1-Digest: +0oHdeUpllCVU1xjV16KmmTReqI=
+
+Name: assets/emoji/emoji_254.png
+SHA1-Digest: Tq2sIbNvmYFPFKrtmAoSZZKHVhA=
+
+Name: res/drawable/download_cancel_press.png
+SHA1-Digest: SSPdqBXEn7iIolkkZUIEmVXVNhc=
+
+Name: lib/armeabi/libandroid-phone-wallet-billlist.so
+SHA1-Digest: fA22ZwZxktGVhN7BLWdiyV5YVLM=
+
+Name: assets/emoji/emoji_192.png
+SHA1-Digest: sf0ijpFUEYUXWJteHQ05FA5/wjo=
+
+Name: assets/emoji/emoji_481.png
+SHA1-Digest: b/5V6g1xmZ2uZuhUQ0DV+25i1oQ=
+
+Name: assets/emoji/emoji_820.png
+SHA1-Digest: dCmx+rjNzeqV+LeVGUE1TMzSZBA=
+
+Name: assets/emoji/emoji_18.png
+SHA1-Digest: zEQ4ibRTBJ3sPr+p+yUuLfrXKBY=
+
+Name: assets/emoji/emoji_56.png
+SHA1-Digest: 6dWYhADep6VnfHTGm9MIMeEmPx4=
+
+Name: assets/emoji/emoji_95.png
+SHA1-Digest: dfP+kztCBb1F6OCCKxS3RDK6U5s=
+
+Name: assets/emoji/emoji_762.png
+SHA1-Digest: U48/lY4Hm+C18x5vxI98F/8RnOQ=
+
+Name: assets/emoji/emoji_306.png
+SHA1-Digest: Y1UVVWluRimV6SqZlrmItxB9VLA=
+
+Name: assets/emoji/emoji_586.png
+SHA1-Digest: 7Me0tQ4rEVXUuX3wkJDWDx8EoiE=
+
+Name: assets/emoji/emoji_734.png
+SHA1-Digest: FxnauSEvaBXpw8x/Df5nolwrwSA=
+
+Name: assets/commandCenter_jsFrame.js
+SHA1-Digest: k5CLyvdQ6Q5/2osAnkylIeBTbW4=
+
+Name: res/drawable-hdpi/app_20000160.png
+SHA1-Digest: 8u7xi9jf6mIY5dce6Dn/1APuvYc=
+
+Name: assets/emoji/emoji_157.png
+SHA1-Digest: dMPofpUeHi9DwVGerMq5GU6w4L4=
+
+Name: assets/emoji/emoji_71.png
+SHA1-Digest: Y2WRwUg6CJ1OcfKE1Fm+7B/6SzQ=
+
+Name: assets/emoji/emoji_261.png
+SHA1-Digest: F16Sjgft2F2g0kbPag/fozvDz24=
+
+Name: assets/emoji/emoji_515.png
+SHA1-Digest: D4FYLQRYjYFhTBInKAxL1aIb4Nw=
+
+Name: assets/emoji/emoji_189.png
+SHA1-Digest: /LZrZXeZdM6EOgtV3qIBc7cH/NY=
+
+Name: assets/emoji/emoji_633.png
+SHA1-Digest: KObF9bVtjIVwHDIAveq73Xh826I=
+
+Name: assets/emoji/emoji_68.png
+SHA1-Digest: TwVxtFcyWf5Y0x6AuGNIRPKF8GY=
+
+Name: res/drawable-hdpi/app_20000193.png
+SHA1-Digest: AfZRGgIFytG7hxJeRylf4BkWhkU=
+
+Name: assets/emoji/emoji_510.png
+SHA1-Digest: YHnFP8/4pfj99hpOz41ferYQcFM=
+
+Name: assets/emoji/emoji_123.png
+SHA1-Digest: v8uj8uwdg9zA8EMnsSz9kDx7cJ8=
+
+Name: lib/armeabi/libhoks.so
+SHA1-Digest: V0VFx1CVWTUi36RjPbHKFJ7Rbgk=
+
+Name: assets/emoji/emoji_99.png
+SHA1-Digest: MRkRzlhmHRhMvNIKaCj8h8YBJvg=
+
+Name: assets/emoji/emoji_428.png
+SHA1-Digest: 9X/AnHQjyGFtxM/LKEhTZoItVwU=
+
+Name: assets/emoji/emoji_569.png
+SHA1-Digest: Bhw5cEagVpkhlR7evDF0AOMCBxQ=
+
+Name: assets/emoji/emoji_720.png
+SHA1-Digest: zx+WnSGh5FoQA8H0tdTJw+F5vXg=
+
+Name: classes2.dex
+SHA1-Digest: COnee+fL+b8USRsxc7LkBuOMoKs=
+
+Name: res/drawable-xhdpi/wifi_signal_level0.png
+SHA1-Digest: JDjWglCYwkg4mIulWQW6JQGs8Oo=
+
+Name: assets/emoji/emoji_518.png
+SHA1-Digest: 9zKivsGcyJsyLJNcAPVGUWfycf8=
+
+Name: res/drawable/appicon.png
+SHA1-Digest: PRntiRFcoZw6hPWaE85p0Rd04DY=
+
+Name: assets/emoji/emoji_250.png
+SHA1-Digest: WG9jGqVNNOFqWdHUzOHhR74tHgI=
+
+Name: assets/emoji/emoji_516.png
+SHA1-Digest: xNxqwnGVk1M3qe9q8vinJfFDqgA=
+
+Name: assets/emoji/emoji_472.png
+SHA1-Digest: WXUkSn1ezE/j7TROT+hPaB7W4NM=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-badge.so
+SHA1-Digest: PHMMxeSFixwY1Pu5olYp8S2udpA=
+
+Name: assets/emoji/emoji_674.png
+SHA1-Digest: /KAoAgDR3judn3lq7lVsoSlRDf8=
+
+Name: assets/emoji/emoji_400.png
+SHA1-Digest: k9GgfBjjpZ9guCb8PcEvAKonJcU=
+
+Name: res/drawable-hdpi/app_20000690.png
+SHA1-Digest: 82bi+AURyu+e2uvWaNS4qqvMiVo=
+
+Name: assets/emoji/emoji_310.png
+SHA1-Digest: ORG75vgV1OzNvS/+l52x7eZQAz4=
+
+Name: res/drawable-mdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: AQQ5S2deaQK1m4Nr+BDgnkOTz/Y=
+
+Name: assets/emoji/emoji_536.png
+SHA1-Digest: OkyC0teuMdyvJb620Pd5g6sORR8=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-nfc.so
+SHA1-Digest: Sp7WEDNIvu69y7aQwfPXu6x49Tw=
+
+Name: assets/emoji/emoji_815.png
+SHA1-Digest: WB+v+Tor9qEwHFMjTWeMhPaOCfY=
+
+Name: assets/emoji/emoji_764.png
+SHA1-Digest: vp5ca2I7426Gx+89U19f46fJJLs=
+
+Name: assets/emoji/emoji_391.png
+SHA1-Digest: 0dtK21BSW30KnjUMHXA9PdnE9KU=
+
+Name: lib/armeabi/libandroid-phone-rpc-mobile.so
+SHA1-Digest: CT/kZqtnyBEiYvxx75MS6Oepnfk=
+
+Name: assets/emoji/emoji_210.png
+SHA1-Digest: VYxSceJENifRSpkZLsszHboDYjo=
+
+Name: assets/emoji/emoji_804.png
+SHA1-Digest: SUmIksesKXa3l20Oi48jWMCdaY8=
+
+Name: assets/emoji/emoji_72.png
+SHA1-Digest: bOGJ9gRjyXrJwktzpp/mPUujRNI=
+
+Name: assets/emoji/emoji_493.png
+SHA1-Digest: LToUiWlFwIOj+MuAElnbMyIgn00=
+
+Name: assets/emoji/emoji_687.png
+SHA1-Digest: eX2cdux8KatZE8UdvDz9e7ZoUn0=
+
+Name: assets/emoji/emoji_697.png
+SHA1-Digest: 72068X+Y/u1TnPOlHHVLrLvdqjU=
+
+Name: assets/emoji/emoji_726.png
+SHA1-Digest: b5Qm9JM+2tzwdV/Rl2PSvu+GKpc=
+
+Name: res/drawable-hdpi/msp_bg_panel.9.png
+SHA1-Digest: D/9ETZl/aUMKSElYGqgOnwBwynM=
+
+Name: res/drawable-hdpi/app_10000114.png
+SHA1-Digest: tBqwwxDp6Z2kmWpzmPG+GGMAWIE=
+
+Name: assets/emoji/emoji_793.png
+SHA1-Digest: uilA1MbqW1GNSeheP1T/nvZ7ILA=
+
+Name: assets/emoji/emoji_733.png
+SHA1-Digest: KOWziID3n85Ya7LxUC6k+l4y5s0=
+
+Name: assets/emoji/emoji_505.png
+SHA1-Digest: siSlWp9BPEjLDeQfAaJ4F0y1cE4=
+
+Name: assets/emoji/emoji_40.png
+SHA1-Digest: sXflxj2x2iPOC/YB/Kxn6g470RQ=
+
+Name: assets/emoji/emoji_471.png
+SHA1-Digest: G8XyGTrkQQAy2AqrMnX0lh9moEs=
+
+Name: lib/armeabi/libandroid-phone-wallet-payee.so
+SHA1-Digest: AxlqLMObhr6xbZGUoAHp7/83Sc4=
+
+Name: assets/emoji/emoji_129.png
+SHA1-Digest: utr95ilOvk6pYrlKbyIIRpWBlg0=
+
+Name: assets/emoji/emoji_251.png
+SHA1-Digest: GzZrrzjwrLcCZniG9+QYayQRCKQ=
+
+Name: assets/emoji/emoji_413.png
+SHA1-Digest: tIUqG3PO+/dwQGso8KoK+c60wxE=
+
+Name: assets/emoji/emoji_596.png
+SHA1-Digest: 3GrC3Im9bQTYrbTDA1GEgknl33E=
+
+Name: lib/armeabi/libandroid-phone-wallet-fund.so
+SHA1-Digest: 7Gjf3x79XUNbW6GOVb7g26qAoJU=
+
+Name: lib/armeabi/libandroid-phone-wallet-wealthcalc.so
+SHA1-Digest: 0+qT2/0DKqNN2iteaIr0YBC3irg=
+
+Name: assets/emoji/emoji_811.png
+SHA1-Digest: Pxh3oyO4mH5IA+jQhu/UZB6WFGo=
+
+Name: assets/emoji/emoji_303.png
+SHA1-Digest: XSf3g2tur3UAvAEKBcc5rrg/ZvE=
+
+Name: res/drawable-hdpi/app_20000258.png
+SHA1-Digest: aA/YBc2Yy2RZpgGomVRb6XFZ5YU=
+
+Name: assets/emoji/emoji_508.png
+SHA1-Digest: uIclvU6IBHCYzaU1hmv38+rufNk=
+
+Name: assets/emoji/emoji_550.png
+SHA1-Digest: 8IPZQRQPSi+fjilNUxIUgjxYhLQ=
+
+Name: assets/emoji/emoji_291.png
+SHA1-Digest: ifCYJut48DAsVpLSQjWgZvlk9WU=
+
+Name: assets/emoji/emoji_199.png
+SHA1-Digest: 78vsVn5ytHv/RiUgoNk7mFnT4yc=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-common.so
+SHA1-Digest: IbdyTf19OFpTlNEdViPnwSd3cNM=
+
+Name: lib/armeabi/libandroid-phone-wallet-templatemanager.so
+SHA1-Digest: Yz/q01RrOJm4otoTYKcvRx6S91g=
+
+Name: assets/emoji/emoji_16.png
+SHA1-Digest: 8H5bm1lsvzhjVN8taoSHMJYIbJs=
+
+Name: assets/emoji/emoji_336.png
+SHA1-Digest: CCt6QCoUC37eJncvZ1rbF9VojJo=
+
+Name: res/drawable/sso_shape_circle_head_out.xml
+SHA1-Digest: N1D/i5av+OnTLdgkcAmDBW+Z7JM=
+
+Name: assets/emoji/emoji_301.png
+SHA1-Digest: 7yLWK7OrsrHbuNXHH7OgwiE95OQ=
+
+Name: assets/emoji/emoji_705.png
+SHA1-Digest: u2L+zQKPR9QTBEnMNVgd9FJE1ks=
+
+Name: assets/emoji/emoji_367.png
+SHA1-Digest: IQZlOE6xqLyUWYEIkGKiCh52c8k=
+
+Name: assets/emoji/emoji_325.png
+SHA1-Digest: GH3HTINUlkmiLaS9iEBvLgssZRU=
+
+Name: assets/emoji/emoji_684.png
+SHA1-Digest: b/QKe++oalGAsHRpeX3Bfk57nVo=
+
+Name: assets/emoji/emoji_409.png
+SHA1-Digest: LsyN4jthgsEappaAQsS3eV8hkJg=
+
+Name: assets/emoji/emoji_575.png
+SHA1-Digest: Mjv4GyALBA4JWcklLJMmJlG5MWg=
+
+Name: assets/emoji/emoji_165.png
+SHA1-Digest: 6xnospDDGmLWY7EdDe1RuPocmbM=
+
+Name: assets/emoji/emoji_223.png
+SHA1-Digest: I082yMwYnOuDPg31sFtyDh0lY2A=
+
+Name: assets/emoji/emoji_486.png
+SHA1-Digest: WBLi2v/JwjcZ9qWtJ2G/fNiZWTg=
+
+Name: res/drawable/download_cancel_drawable.xml
+SHA1-Digest: VmP7HbIJBDV/xgLARSRwH0hvluM=
+
+Name: assets/emoji/emoji_198.png
+SHA1-Digest: dUR61th84v/18q3oFFTUCx8vYXY=
+
+Name: assets/emoji/emoji_74.png
+SHA1-Digest: 3dn9DJznVkIxuA1fsq1kR51PWco=
+
+Name: assets/emoji/emoji_797.png
+SHA1-Digest: O5f+vcPVbNxblz5uPt2GdlS0l7w=
+
+Name: assets/emoji/emoji_319.png
+SHA1-Digest: QTBCg0juWUoOQNCM+A0PQUoq9PU=
+
+Name: assets/emoji/emoji_724.png
+SHA1-Digest: j3DENMqPe2l/Lxz33CIDyZWcmK4=
+
+Name: assets/emoji/emoji_234.png
+SHA1-Digest: ckjsv+Hwqj8jbQ9MQdqH3c7BGB4=
+
+Name: res/drawable-hdpi/app_10000011.png
+SHA1-Digest: 7mYn6Ak5QEZReUIVWcFc5ra2cjA=
+
+Name: lib/armeabi/libcocklogic.so
+SHA1-Digest: bQ6DpYiJyv3kGceaJNk2Q0Nxdbc=
+
+Name: assets/emoji/emoji_750.png
+SHA1-Digest: lu3EAb5SOoyF6zQA8PFIrCQILQ8=
+
+Name: assets/emoji/emoji_640.png
+SHA1-Digest: xG+hPUea9XMpH/AQT68ynREU/Mg=
+
+Name: assets/emoji/emoji_495.png
+SHA1-Digest: 3jyn1APmru5Uedb+3yVoHDIII7Q=
+
+Name: assets/emoji/emoji_180.png
+SHA1-Digest: dlO3SL+0IU4lHHQQDb//M+YY+Z0=
+
+Name: assets/emoji/emoji_155.png
+SHA1-Digest: 03ubP+4yMxjlgPCi4K3y1c4+wF8=
+
+Name: res/drawable/sso_shape_button_normal_nm.xml
+SHA1-Digest: foto+ZbqCsAMujU1O3L3+VKDNTc=
+
+Name: assets/emoji/emoji_703.png
+SHA1-Digest: CeUpY7rT09fyb2J3xp1Xd3Awaco=
+
+Name: assets/emoji/emoji_581.png
+SHA1-Digest: ORTenNeV3HiqzoMLt3uf27Rm3yk=
+
+Name: assets/emoji/emoji_606.png
+SHA1-Digest: vHzsYiGcvV4AmUeOHE2MGee7CN4=
+
+Name: res/drawable-hdpi/app_20000162.png
+SHA1-Digest: oIfH87RxIkUzqlSghL7yUYwdtPo=
+
+Name: assets/location_public_key.der
+SHA1-Digest: D586soxf3hMy1EqlCHX4BJDII1Y=
+
+Name: assets/emoji/emoji_544.png
+SHA1-Digest: HcJgT0rzHxTHvG9yWTvyfUh4IA8=
+
+Name: assets/emoji/emoji_675.png
+SHA1-Digest: RrVEVhf/T0oTTF5pMrIQHTkRMdo=
+
+Name: lib/armeabi/libandroid-phone-wallet-publicplatformcommon.so
+SHA1-Digest: Ypk6XXXeJMWBF+DMc9O5DlUZ9Ww=
+
+Name: assets/emoji/emoji_636.png
+SHA1-Digest: W/Xg3vivkACvVYgAyjAVP4jgqf0=
+
+Name: lib/armeabi/libandroid-phone-wallet-accountauth.so
+SHA1-Digest: +Kv+zgeuJYXcX16NaWkzuTbOI1g=
+
+Name: assets/putMailAgreement.html
+SHA1-Digest: IoJVaTWndDGmizTIYaMBhW9gYYc=
+
+Name: assets/emoji/emoji_653.png
+SHA1-Digest: s+pXSGQexQjinD7K23w0odMrSJs=
+
+Name: lib/armeabi/libandroid-phone-wallet-nebulauc.so
+SHA1-Digest: TmSPhndatMD8Jj7orNZi1w0DHQM=
+
+Name: assets/emoji/emoji_307.png
+SHA1-Digest: 6Mw3zM7xQkiXPHtQ1Vi0vYISkX0=
+
+Name: assets/emoji/emoji_590.png
+SHA1-Digest: 5uKKJp3bljI2Etc4zECdTH2Qv2s=
+
+Name: res/drawable-hdpi/app_88886666.png
+SHA1-Digest: bjYp0NW0Ng6Zd95qCNtITh/zqj8=
+
+Name: assets/emoji/emoji_10.png
+SHA1-Digest: tBuIx1FfgfGSAcbhfhieKurHU6k=
+
+Name: assets/emoji/emoji_442.png
+SHA1-Digest: My3PGOIBmDp54oC/x+ZBNxYbK18=
+
+Name: assets/emoji/emoji_776.png
+SHA1-Digest: Z6Q7ZfQnWqIPer5ldkF1NR3Xu4w=
+
+Name: assets/emoji/emoji_832.png
+SHA1-Digest: iozk/VmhATwWviUdD4PitlnfFRk=
+
+Name: assets/emoji/emoji_61.png
+SHA1-Digest: ifx862dGp/FSzfNjR8P9SfAourM=
+
+Name: assets/emoji/emoji_669.png
+SHA1-Digest: o96OhBd+o7Se93RLQm4CgqUdfGI=
+
+Name: assets/emoji/emoji_299.png
+SHA1-Digest: ir/cPPEFEIglzqdvlgTeMvaVbLY=
+
+Name: assets/apps_preinstall_config/banned_channel_appid.json
+SHA1-Digest: kDge1YqxJ43qPExdgNFpkfxPRj8=
+
+Name: assets/emoji/emoji_504.png
+SHA1-Digest: 8y4DD5nbDPUHp3sroyc2VcimorY=
+
+Name: assets/emoji/emoji_317.png
+SHA1-Digest: dmk7B7H0xmfxL4wV1g1lc2e0h24=
+
+Name: assets/emoji/emoji_666.png
+SHA1-Digest: SWSFXPVejwyiEbJmx6twyaoExN4=
+
+Name: assets/emoji/emoji_597.png
+SHA1-Digest: 0KZyC6AOoFMFnDabKRAdF+4fci8=
+
+Name: res/drawable-hdpi/app_20000000.png
+SHA1-Digest: hALtISd6x0WpEn9gxnSA3gmLJD8=
+
+Name: assets/emoji/emoji_168.png
+SHA1-Digest: z6srH0KbSvn62djWovGHnkiKNeM=
+
+Name: assets/emoji/emoji_60.png
+SHA1-Digest: BZfiK3bUReSdLEMgJotHbAqwhtA=
+
+Name: res/drawable-xhdpi/wifi_signal_level3.png
+SHA1-Digest: e6vqRf3LLXqYqXBL9YRZa5A3QXE=
+
+Name: assets/lazy_bundles_plain.cfg
+SHA1-Digest: Bl9vyb4nJWFXHGKMtoYr/5+iNs8=
+
+Name: assets/emoji/emoji_181.png
+SHA1-Digest: 9Qw+VgXkni2iUwRRXGpHwvxuTjg=
+
+Name: assets/emoji/emoji_807.png
+SHA1-Digest: TNHJ+g1jNaVz6ckJVhlhLCV4x50=
+
+Name: assets/emoji/emoji_765.png
+SHA1-Digest: J8Xj2e2cN7bp9kBBdUdq7WmJvJQ=
+
+Name: res/anim/zoomin.xml
+SHA1-Digest: zJznnobwm8M/LL2R74xS+1kIvW4=
+
+Name: assets/emoji/emoji_833.png
+SHA1-Digest: gxYEljpz6z87WFcLddTHTcfJe8E=
+
+Name: assets/emoji/emoji_467.png
+SHA1-Digest: x1yuxPD2MSD8lNEQ+nQAiPIPU/o=
+
+Name: assets/emoji/emoji_834.png
+SHA1-Digest: CZFeDm+8Tc7HvNO+WFaKyEL8+10=
+
+Name: assets/emoji/emoji_314.png
+SHA1-Digest: wLS1LYQWJrtpt3moWbpal2p0ujk=
+
+Name: assets/emoji/emoji_406.png
+SHA1-Digest: wIfi6R5o97fUROG/L6pIrB+Xtno=
+
+Name: assets/emoji/emoji_615.png
+SHA1-Digest: kCVLc8GwBSnkBVkuQyUSamZvlx4=
+
+Name: lib/armeabi/libandroid-phone-wallet-publicplatformsearch.so
+SHA1-Digest: Imh+cRbExPraut82uSRUTmergUs=
+
+Name: assets/emoji/emoji_456.png
+SHA1-Digest: fcJNFUt93kcJfGLbUXdcMHXwwys=
+
+Name: lib/armeabi/libandroid-phone-wallet-tally.so
+SHA1-Digest: 0TWbUJxa2T9rRbayTudKy7r3fI8=
+
+Name: res/drawable-hdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: JnzkAYrkVJXesZDGbAQsD1Tko3M=
+
+Name: assets/emoji/emoji_529.png
+SHA1-Digest: OkefS0yrUUd9a5MmGcJDcv3FgbE=
+
+Name: assets/emoji/emoji_836.png
+SHA1-Digest: 9abjbHathKZnVGTJs2h0vbZv5WI=
+
+Name: assets/emoji/emoji_768.png
+SHA1-Digest: 0SRXvvAOEmjfmGCIPYJ6P0ZqGpw=
+
+Name: res/anim/bill_detail_anim_out.xml
+SHA1-Digest: VVeq/fu0ea2q3Fp+GAaQDw22Qg0=
+
+Name: assets/emoji/emoji_330.png
+SHA1-Digest: QqUrP9bK51/AHB8N5cKLglsUei8=
+
+Name: res/drawable-hdpi/wifi_signal_level2.png
+SHA1-Digest: JTDauSFw8stPrHVB5LpwSM+ZcVA=
+
+Name: res/drawable/alipay_autotest.png
+SHA1-Digest: RkWOZMuEAePWG2McGdc25u4cfas=
+
+Name: assets/emoji/emoji_256.png
+SHA1-Digest: Dnq8mGhJrGD+mGvmPUqC91ZKGLI=
+
+Name: assets/emoji/emoji_492.png
+SHA1-Digest: 8lj3Yotga4MeFqtw7G4QrSAC3OI=
+
+Name: lib/armeabi/libandroid-phone-wallet-socialpayee.so
+SHA1-Digest: 3P+Lk9xr+sZe0D0eg6gmvLWYbl0=
+
+Name: assets/emoji/emoji_397.png
+SHA1-Digest: 1nxd3lzkw/Y3tuLBzm+1ChZ2bs0=
+
+Name: assets/emoji/emoji_595.png
+SHA1-Digest: VmVP93uqJY1DD+G70yZFA7Ejfuc=
+
+Name: lib/armeabi/libandroid-phone-wallet-bankcard.so
+SHA1-Digest: cfMhM7w1uQJWjogMdYHmXR9hxBc=
+
+Name: assets/emoji/emoji_839.png
+SHA1-Digest: WA7hn1X9G6q65ud7McogC1UAGCc=
+
+Name: assets/emoji/emoji_526.png
+SHA1-Digest: HI1abnCQPOZDGMSCP36dEKOJDGU=
+
+Name: assets/emoji/emoji_587.png
+SHA1-Digest: AZbvm/++AU/afw50pXwsibH48eQ=
+
+Name: res/drawable-hdpi/app_20000132.png
+SHA1-Digest: JPVwtKzz180b+RIgK6urtoplItI=
+
+Name: assets/emoji/emoji_144.png
+SHA1-Digest: FzV0/kkC7Ncsu+NFTLwjYvucFa0=
+
+Name: assets/emoji/emoji_153.png
+SHA1-Digest: BaWY9nox25uHXucemJqX/di0yq4=
+
+Name: assets/emoji/emoji_0.png
+SHA1-Digest: b9R3HfDsFarYriC0MuQR4P+MZ9Y=
+
+Name: assets/emoji/emoji_514.png
+SHA1-Digest: NbFTI+tuNXDoV3Fkrg+EaEJIJHA=
+
+Name: assets/emoji/emoji_693.png
+SHA1-Digest: 3HvWDoG8KsfKwJ12yxgM5+ZOOIg=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-voice.so
+SHA1-Digest: wBi7cgiZo55+J9qd2NaX3Zo0s+M=
+
+Name: assets/apps_preInstall/20000046.jar
+SHA1-Digest: 3d4VagBEQta/eEmoHxv4vc1IUlI=
+
+Name: assets/emoji/emoji_774.png
+SHA1-Digest: mByoAN56zCigTttEgU9i//hQvHc=
+
+Name: assets/emoji/emoji_469.png
+SHA1-Digest: 6jwHfQYGs4jMag8MVPe79HQ/1x8=
+
+Name: assets/emoji/emoji_827.png
+SHA1-Digest: zk0gB08X695tbRdZYe3dZerxIAk=
+
+Name: assets/emoji/emoji_524.png
+SHA1-Digest: pGE8JDCoFVsGgnATGJCQ19ewZ78=
+
+Name: assets/emoji/emoji_370.png
+SHA1-Digest: MqlJRe3ViPw2leqadsNM+IUAkzQ=
+
+Name: assets/emoji/emoji_107.png
+SHA1-Digest: BSItMDZZ+hNaVH/LVQuUo0jMe3o=
+
+Name: assets/verisign.cer
+SHA1-Digest: /tkMzD2t5DcEEHz19euP7w+unGY=
+
+Name: res/drawable-hdpi/app_10000110.png
+SHA1-Digest: g26On8JPM1AbFaR4LleMoIhlzCo=
+
+Name: assets/emoji/emoji_660.png
+SHA1-Digest: UiGC/47Znx2Ab4juQP7aVj0NoR0=
+
+Name: lib/armeabi/libandroid-phone-thirdparty-ssoandroid.so
+SHA1-Digest: /KFUfH4QQftmqqDpOY1f9QuRb6g=
+
+Name: res/drawable-hdpi/app_80000002.png
+SHA1-Digest: loF2ic4137aW0To1l8hjasH6T4c=
+
+Name: assets/emoji/emoji_98.png
+SHA1-Digest: e19EEZgnxyxYGMltMUJuo7jenas=
+
+Name: res/drawable-hdpi/app_20000778.png
+SHA1-Digest: pxkvM1rLneBYuRmI3cmZS6VR8+U=
+
+Name: assets/emoji/emoji_579.png
+SHA1-Digest: HkO89bz6YU6lMqyRXu0e7VP4ZK4=
+
+Name: assets/emoji/emoji_328.png
+SHA1-Digest: n+cB5H7FHm3sFgTunxGaXOWCRas=
+
+Name: assets/emoji/emoji_212.png
+SHA1-Digest: k7GgFy3ghWiZwvd7DZMMtkzSKZQ=
+
+Name: lib/armeabi/libandroid-phone-wallet-dearpay.so
+SHA1-Digest: 42aDVZGqzfYuNR4FWi9eqCIV2oM=
+
+Name: assets/emoji/emoji_267.png
+SHA1-Digest: BgnIYFfEgMVjzywMva0Qq8/yJtw=
+
+Name: assets/emoji/emoji_333.png
+SHA1-Digest: gLQFGdAYZeVxZU/0gRt+gNxr//w=
+
+Name: res/drawable-ldpi/appicon.png
+SHA1-Digest: j+yW7JVq5ZfDBg4Zdx9IT9vFKt8=
+
+Name: lib/armeabi/libandroid-phone-wallet-syncservice.so
+SHA1-Digest: CHdrMSbjEwt+OS73j8ep9O1tA2g=
+
+Name: lib/armeabi/libdexposed.so
+SHA1-Digest: 9IEuwqBUZfybpxuisp2BtKnGHR8=
+
+Name: assets/emoji/emoji_771.png
+SHA1-Digest: 1cV5fMGzavp0iHHmVVScaZBjnl4=
+
+Name: assets/emoji/emoji_357.png
+SHA1-Digest: 4YZlUTJ52eTLH4joHNSwMGdMugI=
+
+Name: assets/emoji/emoji_154.png
+SHA1-Digest: HJSJ6Ap3v/6IasfrHUu79MxPkl4=
+
+Name: assets/emoji/emoji_221.png
+SHA1-Digest: oD67CbGht4DVzF1lvjf4/Ww4Rh8=
+
+Name: assets/emoji/emoji_259.png
+SHA1-Digest: sXDT0PZpUPCJtrseKy8jDuOBZoA=
+
+Name: assets/emoji/emoji_293.png
+SHA1-Digest: iDu5PsutjP4wDHGfBwDudOtrU4o=
+
+Name: assets/emoji/emoji_682.png
+SHA1-Digest: gtK1rPUU5+9hmx9cq9qivaJbhI8=
+
+Name: assets/emoji/emoji_28.png
+SHA1-Digest: Xfe7ivXICxNPMXbphORkD2/bF4I=
+
+Name: assets/emoji/emoji_639.png
+SHA1-Digest: FerGvuA9f0IOpYhDhNeK9BdWqzQ=
+
+Name: assets/emoji/emoji_419.png
+SHA1-Digest: pV+hy96mnGE/7kAoREqgpbmpJ04=
+
+Name: assets/emoji/emoji_186.png
+SHA1-Digest: 3o0KPHfVBlPvYFNbze6mHiCMdyY=
+
+Name: assets/emoji/emoji_396.png
+SHA1-Digest: PmJNMogmNf734mmSEoVsosCuIyQ=
+
+Name: assets/emoji/emoji_692.png
+SHA1-Digest: yGnGM/jMvFhJflVXDIAK1q0l3ac=
+
+Name: assets/emoji/emoji_288.png
+SHA1-Digest: KJbC1zLhXCv9fxZPTro/cMkPQ00=
+
+Name: assets/emoji/emoji_66.png
+SHA1-Digest: avnw/q4wQIrJ3T8XYFRe1SQjQDw=
+
+Name: assets/emoji/emoji_425.png
+SHA1-Digest: NJ7pDfIx0sWfWBA2iFM+6mqBX/I=
+
+Name: assets/emoji/emoji_525.png
+SHA1-Digest: tjdlTLBEDl8xmoWIUndJCeE0w9A=
+
+Name: assets/emoji/emoji_213.png
+SHA1-Digest: CP76iNbxPoPiG3RnZnkn3vaZbRE=
+
+Name: assets/emoji/emoji_326.png
+SHA1-Digest: wvYMgrJB/T4jLTfUAF93UNBQDJo=
+
+Name: assets/emoji/emoji_483.png
+SHA1-Digest: 9vOhjEXLEYZfLot+ODnRqtpeETg=
+
+Name: assets/emoji/emoji_70.png
+SHA1-Digest: qGaY8+kwhndmsPrg1lqlycIKBhw=
+
+Name: lib/armeabi/libandroid-phone-wallet-contactsapp.so
+SHA1-Digest: kQcPn+kuJPA0HfkfZMQ73mMaGxo=
+
+Name: res/layout/alipay_push_notification.xml
+SHA1-Digest: kYLIvr4hS6VS44NXmqQRaRw9xvg=
+
+Name: assets/emoji/emoji_246.png
+SHA1-Digest: ZuzhcNtImAHBYMmPFsRIWceWaP8=
+
+Name: assets/emoji/emoji_257.png
+SHA1-Digest: DsEmTWQ2erjkIGS1TKztYOkdDy4=
+
+Name: assets/emoji/emoji_24.png
+SHA1-Digest: cE8ybzviXd9WoJWb5Mbe89vWICE=
+
+Name: assets/emoji/emoji_297.png
+SHA1-Digest: R7UDoxewi6XinontC5B+wtYZ4Ho=
+
+Name: assets/emoji/emoji_368.png
+SHA1-Digest: wIsKzcaFnAz4DxHRuPql+mXA6eA=
+
+Name: assets/emoji/emoji_620.png
+SHA1-Digest: bF6BoAyC9F1VAT1mlXvCaanJkcM=
+
+Name: assets/emoji/emoji_658.png
+SHA1-Digest: azuMUkucCUTDK0jHWL2vr2UoIIc=
+
+Name: assets/emoji/emoji_401.png
+SHA1-Digest: zms0D5+AJ+qIv9nIgUPfdelovEM=
+
+Name: assets/emoji/emoji_185.png
+SHA1-Digest: FzrqawFMX6u2RDqYdwQuYWOSabE=
+
+Name: assets/emoji/emoji_3.png
+SHA1-Digest: fCw1wGTx8/YHDs0rgjdxxfLyQ9s=
+
+Name: lib/armeabi/libandroid-phone-wallet-movieticket.so
+SHA1-Digest: kNlXPDJ7sVQf8MSr7GTiHRE9V8E=
+
+Name: assets/emoji/emoji_365.png
+SHA1-Digest: UYyUGKS9GQB5LBfs7SOulLzZurY=
+
+Name: assets/emoji/emoji_453.png
+SHA1-Digest: GQyIfnZxZOqmXKqV571gJ30g74I=
+
+Name: assets/emoji/emoji_531.png
+SHA1-Digest: 3t215bYVDfLbLLosEQI2lRtckEw=
+
+Name: lib/armeabi/libandroid-phone-securitycommon-namecertifybiz.so
+SHA1-Digest: r65Y2TX187rfeyAJQRuBIl8YGrU=
+
+Name: res/drawable-hdpi/app_20000101.png
+SHA1-Digest: qELUtIIi2I3wfSdowJ6OzgDEMME=
+
+Name: lib/armeabi/libandroid-phone-wallet-socialwidget.so
+SHA1-Digest: ydFHQE7d7318aEmBSbXtnNnajV4=
+
+Name: assets/emoji/emoji_598.png
+SHA1-Digest: cbtTBSmCOOY6jYrhSGiIrMIY6Io=
+
+Name: assets/emoji/emoji_81.png
+SHA1-Digest: Okp+U3c7LXibhdilxcMZCNDTBSI=
+
+Name: assets/emoji/emoji_283.png
+SHA1-Digest: X3BB+7clRpQAFYKGhugTmM8nmno=
+
+Name: lib/armeabi/libandroid-phone-wallet-beehive.so
+SHA1-Digest: npcmwUGsqUM/sJiJSbHiRO5YyD8=
+
+Name: assets/emoji/emoji_688.png
+SHA1-Digest: HsYoVF9YHEyCCkuH6xAOU4yGTqg=
+
+Name: assets/emoji/emoji_363.png
+SHA1-Digest: grJcJC0IJ1jbcISA4MwWxnKwMCY=
+
+Name: assets/emoji/emoji_178.png
+SHA1-Digest: A4uu5PEA/OrJ7gFrQP157iV+8sU=
+
+Name: assets/emoji/emoji_360.png
+SHA1-Digest: LEfVjmazxQdr+S/Jc+B/6HomcgU=
+
+Name: assets/cnregion4alipay.txt
+SHA1-Digest: L0+2YcY57pP7Raf7p+dpmYTvU1s=
+
+Name: assets/emoji/emoji_443.png
+SHA1-Digest: zSt0h+5KuW+vMkkTAlzktWABl2k=
+
+Name: assets/emoji/emoji_101.png
+SHA1-Digest: uRWCmiWNecO3p6JFybUNFX864BQ=
+
+Name: assets/emoji/emoji_248.png
+SHA1-Digest: Xy+roJi12Cgb95/RCP8DnHx5P04=
+
+Name: assets/emoji/emoji_629.png
+SHA1-Digest: YYN8FyB/KElWSn3kAN2m9ZCVBsQ=
+
+Name: assets/emoji/emoji_566.png
+SHA1-Digest: 2YqX5OFI0awA5Qjuswu1mvBpwHI=
+
+Name: assets/emoji/emoji_320.png
+SHA1-Digest: 70x89SO074/19mgUG4UUzW6guMc=
+
+Name: lib/armeabi/libandroid-phone-wallet-cityservice.so
+SHA1-Digest: vihRfJObC7mKbC9OK1KokatUQXo=
+
+Name: assets/emoji/emoji_103.png
+SHA1-Digest: DsB4eHXj3An73A6JLYa1h1pBnVg=
+
+Name: assets/emoji/emoji_451.png
+SHA1-Digest: wwEupiHehoVpLW6wjSrauU5evK4=
+
+Name: lib/armeabi/libandroid-phone-wallet-messageboxstatic.so
+SHA1-Digest: DZWK8ltJGpNzeCb0car5EoT3C0Q=
+
+Name: assets/emoji/emoji_242.png
+SHA1-Digest: QlLjyM5norWp/Dtiqtpk5OB7Zvw=
+
+Name: assets/emoji/emoji_553.png
+SHA1-Digest: U0FQ3ni7p9Nvs7M0eXXG4s4eTxc=
+
+Name: assets/emoji/emoji_721.png
+SHA1-Digest: xO3F6hflXp9EV7NPicto1O2161g=
+
+Name: assets/emoji/emoji_376.png
+SHA1-Digest: CGCnUmZgasD1LQNEwuxQ8QlgRbY=
+
+Name: assets/emoji/emoji_339.png
+SHA1-Digest: mzcrVxinqqpQiiqFqq0xu00GaB0=
+
+Name: assets/emoji/emoji_738.png
+SHA1-Digest: iTyl1yh0AroasWRbcW87plS1Qp0=
+
+Name: assets/emoji/emoji_126.png
+SHA1-Digest: nZup5PshjI61PBdqJmEb62fkABw=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-falconservice.so
+SHA1-Digest: EGuu44JbbxAk1ZFGMngZ/7hsBNg=
+
+Name: assets/emoji/emoji_105.png
+SHA1-Digest: 9zpg7zFliYLKJP6DHCQhQ6QnNbg=
+
+Name: res/layout/wifi_popup.xml
+SHA1-Digest: F7szpzaeD9MazS8AJvc8xVE131o=
+
+Name: assets/emoji/emoji_540.png
+SHA1-Digest: p7AKia3mMKbE9AVPIhhKnLc6MyQ=
+
+Name: assets/emoji/emoji_102.png
+SHA1-Digest: 5c69WzG/fjWxP37rqfud5pju7mc=
+
+Name: res/drawable/sso_shape_circle_head_in.xml
+SHA1-Digest: YW2q8aOfjazr8tzGmhMfp2Msrlw=
+
+Name: assets/emoji/emoji_548.png
+SHA1-Digest: 3OeJ/qS4KQonJMkXDboN1wZu79A=
+
+Name: res/drawable-hdpi/app_2014021200003129.png
+SHA1-Digest: 8hDLnHw9A+F2jKUbToCriGdBgdo=
+
+Name: res/drawable-hdpi/startclient.jpg
+SHA1-Digest: rVPx6QzsrXBQLg2a9Ct1PhFJk7w=
+
+Name: res/drawable-hdpi/app_10000033.png
+SHA1-Digest: sgC0zSjKI8AEYCiRscOgwlbsKBg=
+
+Name: assets/emoji/emoji_350.png
+SHA1-Digest: U84y4/B2xp7vycOZGhg/JmBkh4A=
+
+Name: assets/emoji/emoji_637.png
+SHA1-Digest: OZvSLWQhGkuPPF+WswUy24io8og=
+
+Name: assets/apps_preInstall/2013062600000474.jar
+SHA1-Digest: lCPspadLAi3b7/mwss5MOCt71RA=
+
+Name: assets/emoji/emoji_554.png
+SHA1-Digest: RBCjIcxlhpksKudY5iq5H6413OA=
+
+Name: assets/emoji/emoji_346.png
+SHA1-Digest: 4LhyRNmh1/6368uuee5Ii5f3TJ0=
+
+Name: lib/armeabi/libandroid-phone-wallet-nebulacore.so
+SHA1-Digest: c3exQQSNwqtj000PBPMLUPnMb+g=
+
+Name: res/raw/diaoluo_da.mp3
+SHA1-Digest: YFR5kUcrb4tECfD1p94kqLmY53k=
+
+Name: assets/emoji/emoji_20.png
+SHA1-Digest: /PVBtoZeY0EA7HERP85DhVteGfU=
+
+Name: assets/emoji/emoji_784.png
+SHA1-Digest: Lv0e0558dSk/fyjhq+SlsDAYDPw=
+
+Name: assets/emoji/emoji_585.png
+SHA1-Digest: ByT9HVK11ywKYcZ47+ERzdaiYeY=
+
+Name: lib/armeabi/libandroid-phone-wallet-insurance.so
+SHA1-Digest: kWTmB7wamDOcidc/vobDGmCl8oY=
+
+Name: assets/emoji/emoji_580.png
+SHA1-Digest: wCUa9/vV1FQS4S9fLupiKWYso1k=
+
+Name: assets/emoji/emoji_622.png
+SHA1-Digest: GjjC+i7UZml5rIKIibcbp0f2r98=
+
+Name: assets/emoji/emoji_556.png
+SHA1-Digest: ll4K0eLGOGaeczhYGKD7Tic6ip4=
+
+Name: assets/emoji/emoji_791.png
+SHA1-Digest: ubuCX3PDr4DuxLh40nhotWbOMgU=
+
+Name: res/drawable-hdpi/wifiapp_small.png
+SHA1-Digest: G+C/KvIvYvSVgFowaYySBgyp1fo=
+
+Name: lib/armeabi/libandroid-phone-wallet-pushservice.so
+SHA1-Digest: qzWiNyUmOMI/8m98P1W7Ayb0wUM=
+
+Name: assets/emoji/emoji_408.png
+SHA1-Digest: cd7Fkhb/t/5ieloE6t7kl3ilSpM=
+
+Name: assets/emoji/emoji_148.png
+SHA1-Digest: UwZn8DKcxJ+8T8wSD8N+SqC9Wrw=
+
+Name: res/anim/push_up_in.xml
+SHA1-Digest: CcDafW6zpSqVak9lM3PWcyR0WzQ=
+
+Name: res/drawable-xxhdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: OY36pqSIzrKmKkjUiTLGpIS3yMA=
+
+Name: assets/emoji/emoji_118.png
+SHA1-Digest: y+XJW97SlMA9nCLfbV1+PNVDIGM=
+
+Name: assets/FA.bin
+SHA1-Digest: 7b9XgMpQfKVu9cf7os5xSiu2NA4=
+
+Name: lib/armeabi/librotationUtil_1.0.so
+SHA1-Digest: Wr3amoe9AJFevjPn30FXXDI5L9o=
+
+Name: assets/emoji/emoji_458.png
+SHA1-Digest: PqhqeEgLxiyVXaEJkyRgennikkk=
+
+Name: assets/emoji/emoji_576.png
+SHA1-Digest: UlwKLzsOZN+fbYB/y4B9873l3CY=
+
+Name: assets/emoji/emoji_197.png
+SHA1-Digest: VArp3MNRMkjs1VlXMrAlWTPEEIQ=
+
+Name: assets/emoji/emoji_712.png
+SHA1-Digest: Py6P+FXM3Ln4bQzGdJol8hFpFXA=
+
+Name: assets/emoji/emoji_225.png
+SHA1-Digest: +QASYr2Fy+uwJcq6QFBM74FWPig=
+
+Name: assets/emoji/emoji_241.png
+SHA1-Digest: YHhqz/yFe/nVu+qoYg93EiRGBIg=
+
+Name: res/drawable-hdpi/wifi_signal_level4.png
+SHA1-Digest: kVd3pIOr+KKhreuqPL5Ta6DZwV0=
+
+Name: lib/armeabi/libandroid-phone-wallet-trust.so
+SHA1-Digest: bDotDQtE0/q/iZ3HUShtmkWYVYE=
+
+Name: lib/armeabi/libandroid-phone-wallet-globalsearch.so
+SHA1-Digest: oOHrrzi8TL/paAANKIcio+qGDmk=
+
+Name: assets/emoji/emoji_5.png
+SHA1-Digest: yxg39rdgloWNt6x6n8LqI3Jh7lk=
+
+Name: assets/emoji/emoji_475.png
+SHA1-Digest: 4zMlIf3GVuPuPDdVH4/WrEZn2ls=
+
+Name: assets/emoji/emoji_244.png
+SHA1-Digest: mxUPwmhCYfLbJXuLgXC+I4eJ/G0=
+
+Name: assets/emoji/emoji_686.png
+SHA1-Digest: 0R+vHRV6DUOED2WFnZs8I9UGwUE=
+
+Name: assets/emoji/emoji_474.png
+SHA1-Digest: ESXKaSR8aSXPzt3UtuXf0hiRjvs=
+
+Name: assets/emoji/emoji_656.png
+SHA1-Digest: gF0QUZ4losgnmfDS1uEwEzUJmLQ=
+
+Name: assets/emoji/emoji_115.png
+SHA1-Digest: 1vtMqj1L5B6FrdEScTEOCICscTQ=
+
+Name: assets/emoji/emoji_619.png
+SHA1-Digest: pjfnqFxHxHWkLYu/Lmt+j0QZ6Ew=
+
+Name: assets/emoji/emoji_661.png
+SHA1-Digest: OrNxHsVdVLMlx1fcOAf/KD3QBko=
+
+Name: assets/emoji/emoji_691.png
+SHA1-Digest: 2olpMGk84hoDoyQU4d2m0T3uPTQ=
+
+Name: lib/armeabi/libandroid-phone-wallet-redenvelope.so
+SHA1-Digest: D77UXYXoyF8LXRyF9aEkVwZvyMk=
+
+Name: assets/emoji/emoji_130.png
+SHA1-Digest: rxVKVEMq4p/rE/6YpvMSulxP5eo=
+
+Name: assets/emoji/emoji_51.png
+SHA1-Digest: r+hgOoesk+kC1b/dF+DQhFTwQM4=
+
+Name: assets/emoji/emoji_412.png
+SHA1-Digest: LZdxDeetRdwxsEINGk8QY1s9Pcw=
+
+Name: assets/emoji/emoji_280.png
+SHA1-Digest: M7d5zLMRtWjt9O3seWHYsXVXymM=
+
+Name: lib/armeabi/libandroid-phone-thirdparty-securityguard.so
+SHA1-Digest: fvO/7G+fL+Lqe3MYKPCQ6JRnxcw=
+
+Name: assets/puk.dat
+SHA1-Digest: IPgvJL9liOZQo2QSHbgfu2a3Vnc=
+
+Name: assets/emoji/emoji_73.png
+SHA1-Digest: P+8/DKlojc/7FCl1o/YKxX3EJE4=
+
+Name: assets/emoji/emoji_136.png
+SHA1-Digest: mmwY1SRECFf2HZ8ngSL+HkX7x84=
+
+Name: res/drawable-hdpi/app_10000008.png
+SHA1-Digest: 01SrrYK826OuS60NBVaE9T4GAwU=
+
+Name: assets/emoji/emoji_285.png
+SHA1-Digest: IV7jNn6Iqej5XT16o/SOimsdAH0=
+
+Name: assets/emoji/emoji_258.png
+SHA1-Digest: ivK6+Rrfwpt3tSSnCbDFwobnyUg=
+
+Name: assets/emoji/emoji_114.png
+SHA1-Digest: iisvqVZtN3KbNS7t6FG7qx1bQ6s=
+
+Name: assets/emoji/emoji_6.png
+SHA1-Digest: wQ3OBpLYiCkqgN6lic0Nn/5Qb/8=
+
+Name: res/drawable/download_cancel_normal.png
+SHA1-Digest: EJJjeKOlfD+mTYdBY+y4UBT1EA0=
+
+Name: assets/emoji/emoji_777.png
+SHA1-Digest: 9qo24vYuFlNsLrYosRc/9UGSINc=
+
+Name: assets/emoji/emoji_315.png
+SHA1-Digest: uGv+Crg0gLk6hbUMSxb8jeldQYI=
+
+Name: assets/emoji/emoji_647.png
+SHA1-Digest: IAkn6LbipYoeEwSFS0EDA6pxc7A=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-ui.so
+SHA1-Digest: q4KYih0jXAchLkhCo6TBx9cyvtU=
+
+Name: assets/emoji/emoji_519.png
+SHA1-Digest: WOpr647euJ+AhliA3MUDogZjAhY=
+
+Name: assets/emoji/emoji_342.png
+SHA1-Digest: pBtL668IKKirEzlbEm3sI6g00no=
+
+Name: res/layout/app_launch_from_shotcut.xml
+SHA1-Digest: Xb7Jl/pcYio3uX6w3SI4uVROcVU=
+
+Name: assets/emoji/emoji_89.png
+SHA1-Digest: LtFHt0ENKPcD/I6G6QPICUyyajM=
+
+Name: assets/emoji/emoji_402.png
+SHA1-Digest: 6RxHD36xjMd41eAXhIW6bYjwr3E=
+
+Name: assets/emoji/emoji_289.png
+SHA1-Digest: lW1FYEtk1f4JdqnwBVbRFldplJU=
+
+Name: assets/emoji/emoji_789.png
+SHA1-Digest: tC/pTREYYeJPee4CQONeRGAYSHU=
+
+Name: assets/emoji/emoji_429.png
+SHA1-Digest: xebLn2J/YeAr2it+MDv3txEv+mA=
+
+Name: assets/emoji/emoji_415.png
+SHA1-Digest: u7ma1qaGkhb3IjtHrzLgPxQTkTA=
+
+Name: assets/emoji/emoji_110.png
+SHA1-Digest: qmqftYvlqnBil0YbAV14XiKVCRI=
+
+Name: assets/emoji/emoji_421.png
+SHA1-Digest: +C7F8iK6cWxsyCh659h86thMaow=
+
+Name: res/drawable-xxhdpi/appicon.png
+SHA1-Digest: XOmkY0GR4QVnHURv0g/WOTF1l0I=
+
+Name: assets/emoji/emoji_206.png
+SHA1-Digest: vIh/oNfWTpkMJR3nEWZBQeetCDI=
+
+Name: assets/emoji/emoji_812.png
+SHA1-Digest: /DwrWscT5HYRJdOWOzmHkwjrxgo=
+
+Name: assets/emoji/emoji_817.png
+SHA1-Digest: 4lmd+Zc8CAkeVXWN1kcMfDb4hBs=
+
+Name: assets/emoji/emoji_792.png
+SHA1-Digest: 7eWR/dwystx2DApXSaP28f4U7Og=
+
+Name: assets/emoji/emoji_689.png
+SHA1-Digest: Kq54VZ3kWmIGOntD+yWWT6B1XCU=
+
+Name: lib/armeabi/libandroid-phone-rpc-mobileapp.so
+SHA1-Digest: BSbG37kaNRShC2bFp6X0hiT2+Zs=
+
+Name: lib/armeabi/libandroid-phone-wallet-favorite.so
+SHA1-Digest: hvCyzMu7MMthNTy7XBVi7f0Qwr8=
+
+Name: assets/emoji/emoji_204.png
+SHA1-Digest: 2DmEfvE8GQyRpz2xWJ+jMdujmIQ=
+
+Name: assets/emoji/emoji_13.png
+SHA1-Digest: poy/300ai5Rbw5Y+ACnhFTD9zJ0=
+
+Name: assets/emoji/emoji_617.png
+SHA1-Digest: B0mPJkCts4FgF04CW/BbOL08yos=
+
+Name: assets/emoji/emoji_741.png
+SHA1-Digest: 3Mxu4l1GVVPdC/QCrA7LenBf9+U=
+
+Name: assets/emoji/emoji_829.png
+SHA1-Digest: PNgjoXqtoZUCQsAxEcKoC9DL+pI=
+
+Name: assets/emoji/emoji_803.png
+SHA1-Digest: kDsCLOh3KTF7JrIjf/3D9x2rRYg=
+
+Name: assets/emoji/emoji_253.png
+SHA1-Digest: u3OQt0G63EH3LjWkLXmaZ1I80Js=
+
+Name: assets/emoji/emoji_92.png
+SHA1-Digest: ga1IKS8laIm6AFsHgnpppv0Bm2U=
+
+Name: res/anim/dialog_enter.xml
+SHA1-Digest: HEQcW5JTS/nyHdQESbcSNqnWs3Q=
+
+Name: assets/emoji/emoji_559.png
+SHA1-Digest: aL3MkrUPBXJJSmmJUMKfloVwlyU=
+
+Name: lib/armeabi/libmobile-bqcscanservice-bqcscanservice.so
+SHA1-Digest: Mj+D8KFwAHmXpJ0H2R9cxUJaiYg=
+
+Name: assets/emoji/emoji_824.png
+SHA1-Digest: rTqRqYVO3zMKNpP4yJUgaCIY3dY=
+
+Name: res/drawable-hdpi/app_11000002.png
+SHA1-Digest: RYXF6O/0rEMteIIxYgS8Ww9U8Xw=
+
+Name: assets/emoji/emoji_743.png
+SHA1-Digest: n2H0o0s56HVOzX2WgdgZUcUz4lY=
+
+Name: assets/emoji/emoji_449.png
+SHA1-Digest: 1gxgi0F08cH+tpS+BoFtNH6If/8=
+
+Name: res/drawable-hdpi/app_20000135.png
+SHA1-Digest: BAPZi9QSGylffiK8/fhm7WJMRo0=
+
+Name: lib/armeabi/libdatabase_sqlcrypto.so
+SHA1-Digest: pSHORnmISZyeJjSJEbq/Yddl2zA=
+
+Name: assets/emoji/emoji_361.png
+SHA1-Digest: OcDFz54bGlgoIws6n9sj+zVX7oA=
+
+Name: assets/emoji/emoji_795.png
+SHA1-Digest: IvCdu5ff85haJLzTF18/THuAZ5s=
+
+Name: assets/emoji/emoji_611.png
+SHA1-Digest: JLc9sXHgQmW/he6F5gy9ygb9a40=
+
+Name: assets/emoji/emoji_745.png
+SHA1-Digest: zcNob6VCwZd9B/TXIIYkqJee+qo=
+
+Name: assets/emoji/emoji_30.png
+SHA1-Digest: 1xBTEsGLkaZ4ntN52rjmqmLI1+g=
+
+Name: assets/emoji/emoji_825.png
+SHA1-Digest: P2YdiC2j201WX4RmUwywlSV7lf4=
+
+Name: assets/emoji/emoji_545.png
+SHA1-Digest: V9YxMfXOV13ulfs8pbVGbQ7PSas=
+
+Name: assets/emoji/emoji_2.png
+SHA1-Digest: NGzJarSU5XijzOusKGOvy0FtdwA=
+
+Name: assets/emoji/emoji_845.png
+SHA1-Digest: ECE2W9LnrYHoc0+fz6mACCaUtP4=
+
+Name: assets/emoji/emoji_372.png
+SHA1-Digest: Yln6qmGyYc9H2nbkASjDxUk+C9s=
+
+Name: assets/emoji/emoji_385.png
+SHA1-Digest: 4SaJ1yTfTHDfKgWY2GOTsCzOZ7k=
+
+Name: assets/emoji/emoji_436.png
+SHA1-Digest: LRW8BYuybNzy3VdjzGjV18k/g+U=
+
+Name: assets/emoji/emoji_558.png
+SHA1-Digest: DiQG37GrpGrs9EQidrtxdGSMxGk=
+
+Name: assets/emoji/emoji_271.png
+SHA1-Digest: sLH+MXBr3xQS8cZSBnI7OVN7k30=
+
+Name: assets/emoji/emoji_496.png
+SHA1-Digest: sEdy8vgxAAxAPNNttWonb5XsJTU=
+
+Name: assets/emoji/emoji_747.png
+SHA1-Digest: JtIDI5DBeGvlJw6uV0O3fcAdSH8=
+
+Name: res/xml/nfc_tech_filter.xml
+SHA1-Digest: UmdMK1ryre4YKMQqdk8ASuwDRVo=
+
+Name: assets/emoji/emoji_34.png
+SHA1-Digest: 1KaGZUYcm10QtY7WvdjJAS36Szs=
+
+Name: lib/armeabi/libmnet-tcp.so
+SHA1-Digest: EkxwiNo43+NVNOdmOUH5ynh1yUI=
+
+Name: assets/emoji/emoji_561.png
+SHA1-Digest: s6F2zam8no3EeykZF9UxOeFwmJI=
+
+Name: assets/emoji/emoji_143.png
+SHA1-Digest: 7t0wxHGQP3gmsZQIcvPbmZ/551E=
+
+Name: assets/emoji/emoji_574.png
+SHA1-Digest: FVONvX9doOmpEkZqal1rPh3QdwQ=
+
+Name: assets/emoji/emoji_616.png
+SHA1-Digest: DfwMVoQ8lDoCITQWL2Y5FAs1FT0=
+
+Name: assets/emoji/emoji_151.png
+SHA1-Digest: Rx8VfoA8CjTQqXmrv3ydzH4XMDs=
+
+Name: assets/emoji/emoji_167.png
+SHA1-Digest: 7OUV8ObEISqj9G2DIWxhdkNIxgM=
+
+Name: assets/emoji/emoji_665.png
+SHA1-Digest: H8o+JK3KmkNSzWLPC9lum+yMwLg=
+
+Name: assets/emoji/emoji_503.png
+SHA1-Digest: pBAgImxfgUmwQ8rAEC4gjt8Y1Cc=
+
+Name: lib/armeabi/libandroid-phone-wallet-creditcardbill.so
+SHA1-Digest: t9s32myhTrYGa1J9t/BCIMVSeyw=
+
+Name: assets/emoji/emoji_331.png
+SHA1-Digest: wmVlAVk6d368e4IWxxT+wTlOsvI=
+
+Name: assets/emoji/emoji_512.png
+SHA1-Digest: 4l0IDw6llkt+7uWJvzpa6l7hU3I=
+
+Name: assets/emoji/emoji_530.png
+SHA1-Digest: yg6oHEDarmni+b416fdqoj9vOfQ=
+
+Name: res/drawable-mdpi/appicon.png
+SHA1-Digest: bEnzJBD574cmoR46pqdjkRYnO/k=
+
+Name: assets/emoji/emoji_564.png
+SHA1-Digest: T5RMR+KiNTuGxyy0agmKiKJe6AU=
+
+Name: res/drawable-hdpi/app_20000152.png
+SHA1-Digest: hCfAwwqUN2j1C2vzERhn0ErT2i4=
+
+Name: assets/emoji/emoji_454.png
+SHA1-Digest: hFpKYzr53q3AzohdRdVYXDmo7Bo=
+
+Name: assets/emoji/emoji_36.png
+SHA1-Digest: o45UL3ngKsGa7v004MNWhdLTEuw=
+
+Name: assets/emoji/emoji_127.png
+SHA1-Digest: qDVjJfmWXqzyg5iJYv+4C4GO0qk=
+
+Name: assets/emoji/emoji_432.png
+SHA1-Digest: cbxrZQ1NQHTLG8/RD/HUbcGSCXs=
+
+Name: assets/emoji/emoji_479.png
+SHA1-Digest: hfDs7DBObEp2xS8Yw1GU/fZHMkc=
+
+Name: assets/emoji/emoji_403.png
+SHA1-Digest: 8iR9XEgvB4ZYUdplFn0DE1wVTAE=
+
+Name: res/drawable/btn_nfd_wifipop_close.xml
+SHA1-Digest: 5fHtyZAHiV5lzuWFEqm27CZDJBQ=
+
+Name: assets/emoji/emoji_731.png
+SHA1-Digest: cPSINpl7W5YJgKBWeBLKE/NUw5g=
+
+Name: res/xml/alipay_authenticator.xml
+SHA1-Digest: QcqzzWOGlz6YHZIq3D6taz9GIxM=
+
+Name: assets/emoji/emoji_84.png
+SHA1-Digest: mvR+PFiniR69Ag9Ohh8orWmdQ98=
+
+Name: assets/emoji/emoji_404.png
+SHA1-Digest: CBx1+xl+Dubs2gj1XlEDVvijVW8=
+
+Name: assets/emoji/emoji_546.png
+SHA1-Digest: lo1ID2AFYFqOjIBZZGx/kzP/VEs=
+
+Name: assets/emoji/emoji_173.png
+SHA1-Digest: 6Ezx+JUqLI/cTosls3uBCQVPNPA=
+
+Name: res/raw/servicecert.cer
+SHA1-Digest: Bc9rEk16GTEpN3bbD+4zV/H3Msk=
+
+Name: lib/armeabi/libandroid-phone-wallet-alipassapp.so
+SHA1-Digest: lWrgghzcTb3QwJ5ugcaIUk7q9vs=
+
+Name: assets/emoji/emoji_668.png
+SHA1-Digest: KNoQ+L+CE8MuQVh2CiRHq46jfEc=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-share.so
+SHA1-Digest: ZQ7vZpUvulN7VSDUW/ObphyHSos=
+
+Name: res/drawable-xxhdpi/startclient.jpg
+SHA1-Digest: 0xBL8TTOu4H48h80TcW6qxig0dI=
+
+Name: assets/channel.config
+SHA1-Digest: kSXbWfJ6K0C6fH3F7e7dz6XRWcA=
+
+Name: assets/emoji/emoji_810.png
+SHA1-Digest: 13CHGqMSfQRM8FOXrpccEKit2WY=
+
+Name: assets/emoji/emoji_236.png
+SHA1-Digest: uWPVh0hky5+1B95P+Kef+tELbH4=
+
+Name: assets/emoji/emoji_626.png
+SHA1-Digest: DzCAfy2eN5tDtoI4fwNVf3j1JMM=
+
+Name: assets/emoji/emoji_380.png
+SHA1-Digest: G9706Qxs/j6Thmp23QJ2k9sMLwY=
+
+Name: res/layout/custom_wifi_notification.xml
+SHA1-Digest: pHxyxxepEKzbLP+VeNSUCXjjXU8=
+
+Name: assets/emoji/emoji_641.png
+SHA1-Digest: QT3rlfIHkibTcDRh0r7OO9FajZA=
+
+Name: assets/emoji/emoji_609.png
+SHA1-Digest: BwaW1mcxYvG00tPJ9qUn+N8eguc=
+
+Name: res/drawable/btn_nfd_wifipop_color.xml
+SHA1-Digest: yrfAulrIT1z75RJs5S90I/w+5MI=
+
+Name: res/drawable/btn_nfd_nt_bg.xml
+SHA1-Digest: nH+dzhylZAptO4buPeE8IPfoNWc=
+
+Name: assets/emoji/emoji_305.png
+SHA1-Digest: cVDOtD6cGlfvY3A6Dl1QhJJ53gE=
+
+Name: assets/emoji/emoji_607.png
+SHA1-Digest: zH2G9gZkWPy4SW3UVMBcRKnq+v0=
+
+Name: assets/emoji/emoji_268.png
+SHA1-Digest: jmU476WZDYTgK2sziItVUi06K3E=
+
+Name: lib/armeabi/libandroid-phone-wallet-billdetail.so
+SHA1-Digest: yWqox+xIBeH6NBBBngVqibazb3I=
+
+Name: assets/emoji/emoji_238.png
+SHA1-Digest: od5LZH3pMQHLJHAaaC81TfQEeX0=
+
+Name: assets/apps_preinstall_config/preinstall_apps_info.json
+SHA1-Digest: mrtSgU8GYuX1gx25CeYFrM4UMIA=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-framework.so
+SHA1-Digest: /mapzOpZDqGg41Kl+6ahOmZVq3s=
+
+Name: assets/emoji/emoji_338.png
+SHA1-Digest: v0LqUgPGZu8dy2W3UMzXujrvZcM=
+
+Name: assets/emoji/emoji_215.png
+SHA1-Digest: yMgq2GgrfFiS3CrfKfFaMWSu73k=
+
+Name: res/drawable/btn_nfd_nt_bg_round_pressed.xml
+SHA1-Digest: 43oY6wnfoY94GVm8S09YwnjbBow=
+
+Name: assets/emoji/emoji_352.png
+SHA1-Digest: 99CXI7kX9jwFd7Wx+Clde8ehQpM=
+
+Name: res/drawable-hdpi/btn_background.png
+SHA1-Digest: nFXqBfC+z8t8UcgMXcAJpB6BWEo=
+
+Name: lib/armeabi/libandroid-phone-wallet-wealthcommon.so
+SHA1-Digest: JQ4EMoJ0g4rLbANKzAYOwdo3LdA=
+
+Name: assets/emoji/emoji_604.png
+SHA1-Digest: bxJxSIoWnjaSgEqzSkcfOu3EfpQ=
+
+Name: assets/emoji/emoji_76.png
+SHA1-Digest: VPyWvCaos7Ujw7EmU4Wrwekj+TE=
+
+Name: assets/emoji/emoji_430.png
+SHA1-Digest: tJq3bDZJiPQLhSWVgJaE+5NEhFs=
+
+Name: assets/emoji/emoji_48.png
+SHA1-Digest: L65Ed725TjT3SIs+RKC22hEJn5w=
+
+Name: lib/armeabi/libandroid-phone-securitycommon-aliuser.so
+SHA1-Digest: b82/Al/DoBCDPP4aEyY1PhyhmTs=
+
+Name: assets/emoji/emoji_592.png
+SHA1-Digest: McP499Yewl6fIiUzvwcethH0L98=
+
+Name: assets/emoji/emoji_610.png
+SHA1-Digest: 0IbwL0XW6o1HRiQMy9kAAPY2yZI=
+
+Name: assets/emoji/emoji_511.png
+SHA1-Digest: v0JVW72o25wEZbZ3bP2ejz1i0YE=
+
+Name: assets/emoji/emoji_634.png
+SHA1-Digest: cHGDtG5gG61MWvXT2F7UIfCKOvU=
+
+Name: assets/emoji/emoji_42.png
+SHA1-Digest: ehym/MQNC1W343UBv7cKFVl/25g=
+
+Name: assets/emoji/emoji_464.png
+SHA1-Digest: PTEp0zGOLlsSke/fS/uO0nY4l4Y=
+
+Name: assets/emoji/emoji_677.png
+SHA1-Digest: JLbdb36SWgtr+Pl8w6oZeGlFmGo=
+
+Name: assets/emoji/emoji_135.png
+SHA1-Digest: tPMs9hPuww6NjDI3GNhjrvH1V0w=
+
+Name: assets/emoji/emoji_759.png
+SHA1-Digest: cJuPu0pAwJNoRLkLnSD3olukmtc=
+
+Name: assets/emoji/emoji_388.png
+SHA1-Digest: d9faS9JL6j6Jd0jXph9oCsyYMXE=
+
+Name: assets/emoji/emoji_106.png
+SHA1-Digest: /Bszw8309f5xJu1qR8dWYxTsG5w=
+
+Name: assets/emoji/emoji_438.png
+SHA1-Digest: wTcC+SpbEXwzkEp70nw+PdbLdpI=
+
+Name: assets/emoji/emoji_841.png
+SHA1-Digest: 8oHJKSPCUjPSNfKLJOX8ojMKbgk=
+
+Name: assets/emoji/emoji_282.png
+SHA1-Digest: ijaJgA8JeQ5Ol4mxoYrBs0U0cTA=
+
+Name: assets/emoji/emoji_572.png
+SHA1-Digest: F9WQNC+mLOsIskOE4NHtwHl78JA=
+
+Name: assets/emoji/emoji_91.png
+SHA1-Digest: x1dL/4W31xsJJpoi3hYsP8rvOMc=
+
+Name: assets/emoji/emoji_128.png
+SHA1-Digest: dS/oN8Gro3FDNuX6YRCrjBBiH8k=
+
+Name: assets/emoji/emoji_202.png
+SHA1-Digest: NTVrbTUk1iRB/GWIsVyc8uMm4F8=
+
+Name: assets/emoji/emoji_422.png
+SHA1-Digest: bdzlmW8nRGnLAAo7uoXsiOYxsjA=
+
+Name: assets/emoji/emoji_459.png
+SHA1-Digest: fTe0QtIaU8/d6O2udpxuaNlWhNQ=
+
+Name: assets/emoji/emoji_279.png
+SHA1-Digest: zskyqIQpB5mL89rAC6fvy+rqLeM=
+
+Name: assets/emoji/emoji_542.png
+SHA1-Digest: aJFNtYhJHNlq9GKFpn0Ocf59Hq4=
+
+Name: res/drawable/sso_button_text_normal.xml
+SHA1-Digest: OVJRPFN24sncnwDk8fTBgnoeMio=
+
+Name: res/drawable/btn_nfd_wifipop_connect_bg.xml
+SHA1-Digest: er+B7NVl4jlKeArb8xLkjPG/7mY=
+
+Name: assets/emoji/emoji_755.png
+SHA1-Digest: tN/tH+DdVrzAvSOFupNI3d1/FQM=
+
+Name: assets/emoji/emoji_816.png
+SHA1-Digest: jTpew2cgKKOG8IK4zanPIAED4Lo=
+
+Name: assets/emoji/emoji_613.png
+SHA1-Digest: 5bh9VqpFrEAuhaT1VdqKWJEyQYY=
+
+Name: assets/emoji/emoji_648.png
+SHA1-Digest: BshNhYlty40HrprNY419iIFUMz4=
+
+Name: assets/emoji/emoji_278.png
+SHA1-Digest: j206dQNZ0ZYZ0RXOIlRGO/hGBSk=
+
+Name: assets/emoji/emoji_63.png
+SHA1-Digest: cpVomwQowRyZbDOEHHviEPflPHk=
+
+Name: assets/emoji/emoji_704.png
+SHA1-Digest: ISXKYmM3mcV3CSg2l6FrvEvjJ9E=
+
+Name: assets/emoji/emoji_205.png
+SHA1-Digest: 0RBLaxaxy2S91vVUbzTtfe0Je18=
+
+Name: lib/armeabi/libandroid-phone-wallet-openplatformcommon.so
+SHA1-Digest: +2ykosqcfn1/J8KlghzbfjtSxDA=
+
+Name: assets/emoji/emoji_799.png
+SHA1-Digest: 4M+A445rHeK6uODMQ6gyb7aCpzw=
+
+Name: assets/emoji/emoji_194.png
+SHA1-Digest: bQ0HAvG5WvuVYwpL+eWkV9Aw/o0=
+
+Name: assets/emoji/emoji_4.png
+SHA1-Digest: f8fq9TvLFN57QI9pUKof9YzViNU=
+
+Name: assets/emoji/emoji_349.png
+SHA1-Digest: u1Mp3O3zHeEYGVRxFdaf2n8oQ+g=
+
+Name: assets/emoji/emoji_399.png
+SHA1-Digest: jW1nrbchrU8MOFhNBiVZ0cyuWGs=
+
+Name: assets/emoji/emoji_700.png
+SHA1-Digest: tHj3tQlun5mLJTZ7utBtw3xGWHI=
+
+Name: assets/emoji/emoji_706.png
+SHA1-Digest: i4kzsFzXu4L2rzViPq4k6iXYxyg=
+
+Name: lib/armeabi/libandroid-phone-wallet-o2ocommon.so
+SHA1-Digest: 6dW2fnq71DiqZObFoAcu/qhR6bI=
+
+Name: assets/emoji/emoji_170.png
+SHA1-Digest: DtEDysT636d8B63sdZx6HR9tl8M=
+
+Name: res/drawable-hdpi/app_20000197.png
+SHA1-Digest: nJMdQpMgt4Y/Z7sAoaCMdIo+kI8=
+
+Name: assets/emoji/emoji_488.png
+SHA1-Digest: jsK5QXDWj/FqorKgzFCLAW4yPMo=
+
+Name: lib/armeabi/libandroid-phone-wallet-phonecashier.so
+SHA1-Digest: TSie3+Ma0QlI70+YNz0UEJRJMB0=
+
+Name: assets/emoji/emoji_831.png
+SHA1-Digest: hRZYB+OEby/1GpoqWyK1xmIyos0=
+
+Name: res/anim/buttom_in.xml
+SHA1-Digest: ++X/YKOOsElI9u7bWqf1NXEeK1w=
+
+Name: assets/common-card-detail.css
+SHA1-Digest: lKJVK3rBA9oVCPfFWve6hY/NqcY=
+
+Name: assets/emoji/emoji_460.png
+SHA1-Digest: g0X/0sd/2//8SivP5wlQwcL/SW0=
+
+Name: res/drawable-hdpi/app_20000691.png
+SHA1-Digest: Mer/R1qCDYAYaVpPLOAl9JKqj3s=
+
+Name: res/drawable-hdpi/app_10000009.png
+SHA1-Digest: X6LH+T+eBl4IfpwDanUDkyIenLI=
+
+Name: lib/armeabi/liblivenessdetection_v2.3.3.so
+SHA1-Digest: Y0ODe19ldizRQchr17O3pFyY4RA=
+
+Name: assets/emoji/emoji_709.png
+SHA1-Digest: R6vScunFyu3TIdySGWs9GdK4mYI=
+
+Name: assets/emoji/emoji_166.png
+SHA1-Digest: nCeyM062RdwE1hygcmJjeJLnkcQ=
+
+Name: assets/emoji/emoji_480.png
+SHA1-Digest: Pim86z5TZxYs/iie+W+u2FFNoEs=
+
+Name: assets/emoji/emoji_571.png
+SHA1-Digest: Ivp2bhwmUTMQvPYrN+tqefW0gWU=
+
+Name: lib/armeabi/libmotu-crash.so
+SHA1-Digest: rR/gGYYHBLhyNmBBXBM8GjpplfM=
+
+Name: assets/emoji/emoji_381.png
+SHA1-Digest: 1PdhPQSlb3b4x/fy+4Vf/EFS0UA=
+
+Name: assets/emoji/emoji_124.png
+SHA1-Digest: +jy4hP8LdehbK2Yts2+6+WegVSg=
+
+Name: res/drawable-hdpi/ic_sso_taobao_account.png
+SHA1-Digest: PZZfz4KfPQkIvDhEeogFJzh6sLc=
+
+Name: res/drawable-xxxhdpi/appicon.png
+SHA1-Digest: XflZIUqxNsPlIE3kzTvRAbyt/5U=
+
+Name: res/drawable-xhdpi/wifi_signal_level2.png
+SHA1-Digest: TSW7KwUYaIuCKTzHZYnaTY8og6I=
+
+Name: assets/emoji/emoji_121.png
+SHA1-Digest: gVa+0Da9wz/vRJC0oAHkb5zR1vc=
+
+Name: assets/emoji/emoji_603.png
+SHA1-Digest: PDv8IdqEP/0qh6tWrQJ63nAYl8U=
+
+Name: assets/emoji/emoji_473.png
+SHA1-Digest: vHCfAxnfoSOCl+iyBHP12gRSiw4=
+
+Name: assets/emoji/emoji_52.png
+SHA1-Digest: 0tn2/iwvtCW5M0UfQT3zLGFJZc4=
+
+Name: assets/emoji/emoji_378.png
+SHA1-Digest: Sflry9L2cO1UoCQy11SvpJt8qBg=
+
+Name: assets/emoji/emoji_537.png
+SHA1-Digest: fxRN/67C8VtL50Lo3jK9gbHvzcM=
+
+Name: assets/emoji/emoji_247.png
+SHA1-Digest: Xor3LjMWS5Pq7KxmkXD8QdNqMlg=
+
+Name: assets/emoji/emoji_21.png
+SHA1-Digest: K4nGDn4bOwinbQ6zcdvbYr6T5Kc=
+
+Name: assets/emoji/emoji_499.png
+SHA1-Digest: FA10huX2362qXQM4zYCO15WNXPA=
+
+Name: res/drawable-hdpi/app_20000205.png
+SHA1-Digest: r453eejnzKeH5ry9Ks7rN3nz3cU=
+
+Name: assets/emoji/emoji_808.png
+SHA1-Digest: 14+seI0ez4MNgEsTrAD4LpscJ6k=
+
+Name: res/drawable-hdpi/app_10000003.png
+SHA1-Digest: 79rJU1TzSGU25Ud+cDIiBXfW6n4=
+
+Name: assets/emoji/emoji_69.png
+SHA1-Digest: 4FFGVg7zsD2iJjWIFDaFDhJYLSM=
+
+Name: res/anim/dismiss_out.xml
+SHA1-Digest: UoZRQrR9ar0dJkKUchBfmdzxECg=
+
+Name: assets/emoji/emoji_521.png
+SHA1-Digest: ztnNK5mUoHhLxHQkeKRCx/N92J0=
+
+Name: res/drawable-xxhdpi/appicon_push.png
+SHA1-Digest: VR+UQR2FISmRgXcBPJbGzhajf2U=
+
+Name: assets/emoji/emoji_27.png
+SHA1-Digest: hoyi7w9d1i3IGMVuYURmhxmXwMg=
+
+Name: lib/armeabi/libandroid-phone-securitycommon-verifyidentity.so
+SHA1-Digest: V0Oi5f6nvQ++k7jtODxhVc6Gqj0=
+
+Name: assets/emoji/emoji_410.png
+SHA1-Digest: ot9MFwFMX75ijjG/4t9sXui/Z8c=
+
+Name: assets/emoji/emoji_146.png
+SHA1-Digest: j2PxuxB03PRlafAFIjbvHL1/ka0=
+
+Name: assets/emoji/emoji_582.png
+SHA1-Digest: I1ITNr0+W3yPSEL0aiVoCEA69tI=
+
+Name: assets/emoji/emoji_822.png
+SHA1-Digest: Ev7zp1zd3gpzlollyCxZaxVAIuI=
+
+Name: assets/emoji/emoji_46.png
+SHA1-Digest: LbamSCxGJJXzYPNmGj8phmkTOP4=
+
+Name: assets/emoji/emoji_417.png
+SHA1-Digest: NZetoj5Eai35n4tvmTIWl2asqfg=
+
+Name: assets/emoji/emoji_164.png
+SHA1-Digest: 8W+8MPXbJ8ZOjEHxJqbLNqtuzM4=
+
+Name: res/drawable-hdpi/app_20000107.png
+SHA1-Digest: 9imRabEUsou45Kev2amA6hjkKe8=
+
+Name: assets/emoji/emoji_33.png
+SHA1-Digest: gusq7gcUE+EwRWVPdkJr3rKGQQg=
+
+Name: assets/emoji/emoji_601.png
+SHA1-Digest: q6ZySzOre/UZ/Qvzv44rk7+ZmFg=
+
+Name: assets/emoji/emoji_662.png
+SHA1-Digest: +p3QfiSpxUICapMXgFpkM3gvpSg=
+
+Name: assets/emoji/emoji_837.png
+SHA1-Digest: zr30RAZ7KQh0+tuucZ/nNyLoiTY=
+
+Name: assets/emoji/emoji_718.png
+SHA1-Digest: aHlHso/auCbd/pnt+eZHm9Kqk1k=
+
+Name: assets/yw_1222.jpg
+SHA1-Digest: Z2vYYBhEhG3NqmDe+yA5s+B/1Fc=
+
+Name: assets/emoji/emoji_468.png
+SHA1-Digest: YVm56fkN9penzYPYDdTYF5iRa/4=
+
+Name: assets/emoji/emoji_565.png
+SHA1-Digest: O9Cfv7XXgz2ifrwwuUDoOoJHR9A=
+
+Name: assets/emoji/emoji_783.png
+SHA1-Digest: 8Sd6WRTryhIy0I2JaEpk7t12ADc=
+
+Name: assets/emoji/emoji_583.png
+SHA1-Digest: /qCwv+xImu+OuByosCRQ1V4u1M0=
+
+Name: assets/emoji/emoji_79.png
+SHA1-Digest: S4ocZ3TRDVxoqgwPhPlJolqmZRQ=
+
+Name: assets/emoji/emoji_394.png
+SHA1-Digest: lEMcGwI0sLikuMxYyWt9TnwNxwY=
+
+Name: assets/emoji/emoji_638.png
+SHA1-Digest: ZwzBWxisLjOzvbKr8VjuWaqYjRo=
+
+Name: assets/emoji/emoji_446.png
+SHA1-Digest: nThhSyokAeA9hm7HcrMjhoxr2ls=
+
+Name: assets/emoji/emoji_513.png
+SHA1-Digest: om9cbTKGpaiB1gUWrpHTInp17Sk=
+
+Name: assets/emoji/emoji_260.png
+SHA1-Digest: hUOD3bge1VIDd7inaI7NiTQTvzo=
+
+Name: assets/emoji/emoji_90.png
+SHA1-Digest: gggUGlZpnY1IwunI9K8DmwWu0zY=
+
+Name: lib/armeabi/libmnet.so
+SHA1-Digest: D+stPpWRsIy8iPPMXn/hFFiRDd8=
+
+Name: assets/emoji/emoji_630.png
+SHA1-Digest: 47pUuTAI67YcqDBITTFRKU9ka1g=
+
+Name: assets/emoji/emoji_311.png
+SHA1-Digest: aO1igkDEFBI06MQhth+ULZ1EFxY=
+
+Name: assets/emoji/emoji_447.png
+SHA1-Digest: xZkWO5fCgDVSBqmx9fWBmER8AGs=
+
+Name: assets/emoji/emoji_599.png
+SHA1-Digest: L/J3IyOZdLCfSMmnF243rLKeBwA=
+
+Name: assets/emoji/emoji_55.png
+SHA1-Digest: GvhB/A7jdqoBb/tDcLEIhiFVILY=
+
+Name: assets/emoji/emoji_722.png
+SHA1-Digest: zT6zwQoeJBoRxLzgCDzLGTx0sF4=
+
+Name: assets/emoji/emoji_116.png
+SHA1-Digest: vkByPk7KTevGOMVknG5uIcwe4es=
+
+Name: assets/emoji/emoji_739.png
+SHA1-Digest: ZANgrNrm2aG5615/KYNH0K2Yyvo=
+
+Name: lib/armeabi/libandroid-phone-wallet-o2o.so
+SHA1-Digest: kiUAhaC7s1ZIxhKWiHVH7/a3n8M=
+
+Name: assets/emoji/emoji_100.png
+SHA1-Digest: x7qwKnqBzeLr3aQEbF1E40Q6GZA=
+
+Name: assets/emoji/emoji_552.png
+SHA1-Digest: 0A7Zqfkw3he3QmGNJH/kYjeGyF8=
+
+Name: assets/emoji/emoji_348.png
+SHA1-Digest: VYG0nx3+9NrY4bOU6Y5oplzgHFw=
+
+Name: assets/emoji/emoji_327.png
+SHA1-Digest: NIqsSD8uSj+PkCbpQwfVs8Vhjwc=
+
+Name: assets/emoji/emoji_584.png
+SHA1-Digest: 6WilsTvLmIwQK3Z14wFmlLmJpws=
+
+Name: assets/emoji/emoji_756.png
+SHA1-Digest: /M5ivjQGF90LP81JZ6yraSf3IVE=
+
+Name: assets/chatbg/chat_bg_default.png
+SHA1-Digest: JjWaqauagzx34vxfL6c5s6eLqds=
+
+Name: assets/emoji/emoji_193.png
+SHA1-Digest: 4dW4YQz+7UYgYKyySnSWCyxzr7M=
+
+Name: assets/emoji/emoji_93.png
+SHA1-Digest: Nt1m7cdHpdZJy8QOy5mZGD/xWJA=
+
+Name: assets/emoji/emoji_88.png
+SHA1-Digest: y/DIw7nhpIPE2oB85m6jBOl5hFA=
+
+Name: assets/emoji/emoji_243.png
+SHA1-Digest: b7r9WnRbYfAq+mTFCdPg2y1O7Ak=
+
+Name: assets/emoji/emoji_329.png
+SHA1-Digest: z81ZV/mMVUYDx4D2xhZbFFF5fQE=
+
+Name: res/drawable-hdpi/app_20000161.png
+SHA1-Digest: lrGqxop3i4TkuDlZgRQ+oGLSaKE=
+
+Name: res/raw/silent.mp3
+SHA1-Digest: Lz0VR8x/Zj6avFC4yOdkdtfIDkw=
+
+Name: assets/emoji/emoji_298.png
+SHA1-Digest: kFMt6Kmtg9FUKR+c6p/a/ppRY9k=
+
+Name: assets/emoji/emoji_235.png
+SHA1-Digest: NcgrSL/csQl0wUiUG9bRu6RZlDo=
+
+Name: assets/emoji/emoji_528.png
+SHA1-Digest: aGbJ3WgKCBkwpKoAc+38Lqi6QEs=
+
+Name: assets/emoji/emoji_83.png
+SHA1-Digest: A7w6iidJXAx3HqRkFo0oZr1ErpE=
+
+Name: assets/emoji/emoji_667.png
+SHA1-Digest: jhnEHDBwUpd/A1CHqLNqNjRTOrY=
+
+Name: assets/emoji/emoji_573.png
+SHA1-Digest: PK95I9OiRu2c5kNZ9EwZpG/EZ/Y=
+
+Name: res/drawable-hdpi/app_09999988.png
+SHA1-Digest: wOU938a8utr8WzcAYo3KAJJdUb0=
+
+Name: assets/emoji/emoji_226.png
+SHA1-Digest: dTIr7bprLmLkfK3kY9oe9hpBRno=
+
+Name: assets/emoji/emoji_698.png
+SHA1-Digest: FfqR56uYH2zvRAqEsZgrNvI4fps=
+
+Name: assets/emoji/emoji_222.png
+SHA1-Digest: MKUbubHlzD9+qQQ6J70h1ZjkwoY=
+
+Name: assets/emoji/emoji_717.png
+SHA1-Digest: hQtRcMSY5M81xzLDu/mBAIZ4jdk=
+
+Name: assets/emoji/emoji_754.png
+SHA1-Digest: HNf42Qu3TTMgWpmb3NttyYYe35Y=
+
+Name: assets/emoji/emoji_196.png
+SHA1-Digest: oLC3vbZJWC2RjR19jD/lcqhKj1o=
+
+Name: assets/emoji/emoji_725.png
+SHA1-Digest: JxqhvQ3ueB/4N3BM5oEYUYlrK1A=
+
+Name: assets/emoji/emoji_482.png
+SHA1-Digest: 5YLDLCOQM7LLRWpBhe49eQ7npz8=
+
+Name: assets/emoji/emoji_228.png
+SHA1-Digest: 91z0X3WdrcVsYrayaE40eEwa5HE=
+
+Name: assets/emoji/emoji_255.png
+SHA1-Digest: pwNzLtVIZ3JwD0/r36/bn0a4tIY=
+
+Name: assets/trafficMonitor.config
+SHA1-Digest: +r4654kv3a31oc3HOamSAPOc1TE=
+
+Name: assets/emoji/emoji_801.png
+SHA1-Digest: VlY408mj1+UqHv+McGTJ8ZmojFM=
+
+Name: res/drawable-hdpi/ic_sso_alipay_account.png
+SHA1-Digest: 04gA/aGBvBzIRHteFqPdWJKTa3I=
+
+Name: res/drawable-hdpi/first_deploy_logo.9.png
+SHA1-Digest: eFl674D12Peku04iFt4Oabxu6Cc=
+
+Name: assets/emoji/emoji_427.png
+SHA1-Digest: ZCjbvEHvVDeYO9vVvgG8AeELYx8=
+
+Name: assets/emoji/emoji_655.png
+SHA1-Digest: Koflqn2W14oDIkg2YVjidkX32d4=
+
+Name: res/anim/push_down_out.xml
+SHA1-Digest: NqfWxxcFcQPbJNyrvTJRyLJxqwE=
+
+Name: res/raw/mcdonalds.mp3
+SHA1-Digest: 2XViQYLrwzo9Mpi09SsAs+3iYCk=
+
+Name: assets/emoji/emoji_562.png
+SHA1-Digest: JED8rweFv9bTl00q7hCCvpTsat8=
+
+Name: assets/emoji/emoji_819.png
+SHA1-Digest: YCkunrNGoYxAb7jU4tYyK6QQatw=
+
+Name: res/drawable-mdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: qEOd8zfl45icZYYuW9YG2veCGjI=
+
+Name: assets/emoji/emoji_274.png
+SHA1-Digest: IJYD2zALMFc57tEgOIX8Z8Ktoz4=
+
+Name: res/drawable-xxhdpi/push_chat_default.png
+SHA1-Digest: 4DY7pehy0r6OL/AaByL57aGqiFs=
+
+Name: lib/armeabi/libandroid-phone-wallet-socialsdk.so
+SHA1-Digest: Zj3NZCnB4elV8lRhY+7JjTGbHMg=
+
+Name: assets/emoji/emoji_502.png
+SHA1-Digest: vmUiGDLp+GmDD24n6CH02ibC5So=
+
+Name: assets/emoji/emoji_341.png
+SHA1-Digest: Y7WYeBIyzOJd5QQBPefkeByA8ew=
+
+Name: assets/emoji/emoji_29.png
+SHA1-Digest: SPEb/XZFa+V5DFPXb/e5B69iuxo=
+
+Name: assets/emoji/emoji_541.png
+SHA1-Digest: I9iAEuiIgB5IiaHYS5FhNbivMZA=
+
+Name: assets/emoji/emoji_664.png
+SHA1-Digest: 6lNevC5v/sgKhGRboV7fMQaUIXg=
+
+Name: lib/armeabi/libandroid-phone-wallet-chatapp.so
+SHA1-Digest: yaA6FKjVKqQx4M8SCf7A+pFIumY=
+
+Name: res/drawable/app_launch_from_short_bg.xml
+SHA1-Digest: drI3MyT+bElP+rEQDknFZKI6VIA=
+
+Name: res/xml/authenticator_taobao.xml
+SHA1-Digest: xH+ymFl+i0Vfqk4Q3fwwNGpKGLU=
+
+Name: assets/emoji/emoji_735.png
+SHA1-Digest: eGqZ37jOVHmubafoEbZgNEOgg70=
+
+Name: assets/emoji/emoji_392.png
+SHA1-Digest: YjK5ph9HS7BFrxe96TjLv1kfiB0=
+
+Name: assets/emoji/emoji_823.png
+SHA1-Digest: XqaBtJC8v12Zrgt1MkGkiD3GVts=
+
+Name: assets/emoji/emoji_264.png
+SHA1-Digest: 1YNs6iZjTg8qVo45kerny0INo6g=
+
+Name: assets/emoji/emoji_309.png
+SHA1-Digest: 7PIOPupIc9VcBXj5DynvQR8cD+c=
+
+Name: assets/emoji/emoji_484.png
+SHA1-Digest: h05tBhIXG5UGQlozqhYb2s83J5E=
+
+Name: assets/emoji/emoji_149.png
+SHA1-Digest: +5BPFyNH75Pmi3UANfd0WbElL2k=
+
+Name: assets/emoji/emoji_695.png
+SHA1-Digest: 6gav83prqG2ateDnCOvCk+mI2lE=
+
+Name: assets/emoji/emoji_612.png
+SHA1-Digest: T3tKnuDDtgzb5Nn1dlz74bWNR2Y=
+
+Name: assets/emoji/emoji_1.png
+SHA1-Digest: MBxlTep4xq3lc5vI7EGs9GMpFqg=
+
+Name: assets/emoji/emoji_390.png
+SHA1-Digest: 2R7uVn2jimQ2hmXR0yKzhjIG1Ak=
+
+Name: assets/emoji/emoji_132.png
+SHA1-Digest: GjsPn4kAJe+1zcwA1H5L4ezbaaE=
+
+Name: assets/emoji/emoji_533.png
+SHA1-Digest: rhj+cPEr90rq/MqHJW2wE1+Hkz0=
+
+Name: res/drawable-hdpi/com_taobao_trip.png
+SHA1-Digest: 8KItvkVrVyMfSCXr8It2qb5iMVk=
+
+Name: assets/emoji/emoji_374.png
+SHA1-Digest: 9JjQuR0d4aADhhPS6fytuuX1rBQ=
+
+Name: assets/emoji/emoji_364.png
+SHA1-Digest: U1DreLfi2hJcRIW3oD8axrWB5ug=
+
+Name: assets/emoji/emoji_570.png
+SHA1-Digest: qm5yplg2QMzuT+N550zgOB60gjQ=
+
+Name: assets/emoji/emoji_169.png
+SHA1-Digest: JPoJR93oorosSMBezGadhux4eUY=
+
+Name: assets/emoji/emoji_119.png
+SHA1-Digest: 6cl9dgpAlyyFf9GjgHcFrodvTPw=
+
+Name: assets/emoji/emoji_67.png
+SHA1-Digest: yD3NeeAAIdd9WK/rXjGe+RZjbEY=
+
+Name: assets/emoji/emoji_369.png
+SHA1-Digest: h2g1LXEEeIqPL+vi8bI0RILuWW8=
+
+Name: assets/emoji/emoji_75.png
+SHA1-Digest: b0fwWKdkt0TGuuyZ1+4PQcqSi1M=
+
+Name: assets/emoji/emoji_407.png
+SHA1-Digest: GisRsIfbGbPXAtyKrT/89r4fcBc=
+
+Name: res/drawable-hdpi/wifipop_close_pressed.png
+SHA1-Digest: AZOI8GpK0BV0HHS5/RRqaNjhzNg=
+
+Name: assets/emoji/emoji_567.png
+SHA1-Digest: N/bTkbxEHtp/oMtR5MswN20Dw2o=
+
+Name: assets/emoji/emoji_140.png
+SHA1-Digest: W0KsCIqGjYzQbJf4BkZ8c60vi+M=
+
+Name: assets/emoji/emoji_448.png
+SHA1-Digest: JWKQ9EWGBNV35M0uklxikG9y1qE=
+
+Name: assets/emoji/emoji_535.png
+SHA1-Digest: dkgwzRcrNkWFndH7jX1qMnXp138=
+
+Name: assets/emoji/emoji_663.png
+SHA1-Digest: BcT53N3Fo3XPWnzJgHEyx4L6o3A=
+
+Name: lib/armeabi/libandroid-phone-wallet-securityappbiz.so
+SHA1-Digest: LmoptwYT90RBp+cDcTGBdK/Fqf4=
+
+Name: assets/emoji/emoji_440.png
+SHA1-Digest: tRrw0DEmNCLIQ/fl7baH8XhslQM=
+
+Name: assets/emoji/emoji_387.png
+SHA1-Digest: +Xc6sNU4gLOvnlKj99OjcQGaJnM=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-multimediabiz.so
+SHA1-Digest: DTMUdBsXTNSm+/Fasx1wQhDjua0=
+
+Name: lib/armeabi/libandroid-phone-wallet-yunoswear.so
+SHA1-Digest: 6B/hcDGpIjj4J+qJnPyo7HC1hQw=
+
+Name: res/drawable-hdpi/app_20000118.png
+SHA1-Digest: ndmmpDMGqmVcauQRl6Ba5vN3MRM=
+
+Name: assets/emoji/emoji_145.png
+SHA1-Digest: bBHFeO4UjovZ6ju9XFzrH/AyqXM=
+
+Name: assets/emoji/emoji_441.png
+SHA1-Digest: 3goA2TIAmU5Iddti3J8Lt4OOg3U=
+
+Name: lib/armeabi/libandroid-phone-wallet-publicplatformsynccenter.so
+SHA1-Digest: W1l1Zu3BV8EgFabg3nnvjEAKYek=
+
+Name: assets/emoji/emoji_322.png
+SHA1-Digest: A3k23TJSl1xD4l0qVmkJrmyYvpE=
+
+Name: res/drawable-hdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: NVHExZTMM8ttLBSwhDtkBhtPF9A=
+
+Name: assets/emoji/emoji_708.png
+SHA1-Digest: kPkfik99YbrOqfkJ5ex46/7zf2o=
+
+Name: res/drawable-hdpi/app_20000739.png
+SHA1-Digest: jaNlSos3Y8XF8G9+LjeQrJcI474=
+
+Name: assets/emoji/emoji_798.png
+SHA1-Digest: 8HLFAuk1TUSxSwcoiWK/+kuH3Rg=
+
+Name: assets/emoji/emoji_171.png
+SHA1-Digest: iwk0sZY8DtoFygFyLiTCAm5vqYw=
+
+Name: lib/armeabi/libandroid-phone-wallet-familyaccount.so
+SHA1-Digest: 6AVxdOHJZ4SrpwzGpVK36rdPASg=
+
+Name: lib/armeabi/libgif.so
+SHA1-Digest: 2wQeXQVUr5bkoYf0PlosHSU8AvE=
+
+Name: assets/emoji/emoji_840.png
+SHA1-Digest: PxdnryYUfgbtH7OrkgGcesR8v7E=
+
+Name: assets/emoji/emoji_523.png
+SHA1-Digest: CW/xNzK6gBKgxlZmSLw4CXgbDTA=
+
+Name: assets/emoji/emoji_112.png
+SHA1-Digest: HWsG+k6UgRT7txSSQnbyQcI25Mw=
+
+Name: assets/emoji/emoji_710.png
+SHA1-Digest: G4++lsIqROZ+zTEosJm95Q7JclY=
+
+Name: lib/armeabi/libandroid-phone-wallet-loan.so
+SHA1-Digest: q9AuKeq8YQE/slw2LdvMx8i9EnQ=
+
+Name: res/anim/buttom_out.xml
+SHA1-Digest: NkIrNWTsMTZnEY9h4dUcIeiKQvI=
+
+Name: assets/emoji/emoji_424.png
+SHA1-Digest: 0YjnWJDx1FpG3ISdczVE9BW9TuQ=
+
+Name: assets/emoji/emoji_287.png
+SHA1-Digest: lQf4t02I9/biqj2b3Jx0DEKBgms=
+
+Name: assets/iconfont/com.alipay.android.app.template/ttf/apcuiconfont
+ .ttf
+SHA1-Digest: BzfOSshnBjbtX8ZxCvCRGZm94Bg=
+
+Name: assets/emoji/emoji_332.png
+SHA1-Digest: udVwwEJuWOcJm/dTjL1ZmUb6zJ0=
+
+Name: res/drawable/tiledstripes.xml
+SHA1-Digest: 5GSta4uYgwNWrcG6Q3oOZLqPViI=
+
+Name: assets/emoji/emoji_787.png
+SHA1-Digest: RqsHBDbm+yYZizvql6bG2cx8U/c=
+
+Name: assets/emoji/emoji_462.png
+SHA1-Digest: uMea5Xe0dF/ILe2BlfnEICmWtq4=
+
+Name: assets/emoji/emoji_220.png
+SHA1-Digest: vRyQSCSiVPFpCLv/8ZdBlrAguW8=
+
+Name: assets/apps_preinstall_config/main_recommend_app.json
+SHA1-Digest: yJmBm22PL4hwHaqo3Zh0wV8R1iI=
+
+Name: assets/emoji/emoji_111.png
+SHA1-Digest: uZSzCRNnhzHjE2j7UlLvsCvffpk=
+
+Name: assets/emoji/emoji_713.png
+SHA1-Digest: I38UnoGZoG0ODQ8tma80Bg09frY=
+
+Name: assets/emoji/emoji_716.png
+SHA1-Digest: /ZCRAJm93nj5dUQqvi3yBfnFci8=
+
+Name: assets/emoji/emoji_500.png
+SHA1-Digest: E9P0G5eALBFj+JKlJHawZrA7qd8=
+
+Name: assets/emoji/emoji_642.png
+SHA1-Digest: +72P3OInLzNJ7xm/tUg0vy0SYrA=
+
+Name: lib/armeabi/libandroid-phone-wallet-alipassnfcapp.so
+SHA1-Digest: PDCrX/6eoG6oJn2G0pBKRIuAv7g=
+
+Name: assets/emoji/emoji_547.png
+SHA1-Digest: ZF0uPDtldbgZb4qwhxYT0iPAoeU=
+
+Name: res/anim/dialog_exit.xml
+SHA1-Digest: h50kqBwkWJldOvgqEGpkB8M/yHg=
+
+Name: assets/emoji/emoji_237.png
+SHA1-Digest: SyBadlc5tBrL3deTcGnBjhHz5wk=
+
+Name: assets/emoji/emoji_240.png
+SHA1-Digest: yLwMiSxaip16u1ikn2ipHmtaWNU=
+
+Name: assets/emoji/emoji_147.png
+SHA1-Digest: MwBI49Pz/IZeZE0UvrGJZsXiV2s=
+
+Name: assets/emoji/emoji_758.png
+SHA1-Digest: 2yN+E68THvVaiDaS1KWxJJV/Xaw=
+
+Name: assets/emoji/emoji_701.png
+SHA1-Digest: vsdf31+9HtfmVBoX/5NG2My0A84=
+
+Name: assets/emoji/emoji_158.png
+SHA1-Digest: YwXAfPgW5MXZe+A/LMeVjzaFTvk=
+
+Name: res/drawable/stripes.png
+SHA1-Digest: AMwtHYS57ZzmA4K8ocma0S5djzY=
+
+Name: assets/emoji/emoji_281.png
+SHA1-Digest: ygUpsjaLdPP1u5GxS8mmZ9xxyeM=
+
+Name: assets/emoji/emoji_751.png
+SHA1-Digest: 8rx4TTW0NXsGdqxzs3wUHQ08qME=
+
+Name: res/drawable-hdpi/wifipop_close_normal.png
+SHA1-Digest: Yh75dng4YK+mRwSVZpjUw0Xp81U=
+
+Name: assets/emoji/emoji_162.png
+SHA1-Digest: /m8WJutRYilRKl21H7Xc62NkaDA=
+
+Name: assets/emoji/emoji_671.png
+SHA1-Digest: KR8cZ4ZnJfAzkeVew88ao1LrSI4=
+
+Name: assets/emoji/emoji_835.png
+SHA1-Digest: SYtIXupxx81AcFXGl1+UBPiZ9b8=
+
+Name: assets/emoji/emoji_635.png
+SHA1-Digest: spgcuyEbH3kKw0bxvbBn9lcNA6I=
+
+Name: assets/emoji/emoji_644.png
+SHA1-Digest: Xv/JXKLAFc2IEkVthVaIOHffzxc=
+
+Name: assets/emoji/emoji_179.png
+SHA1-Digest: YYtnitkRRP/syW4DvP7pMDt2jcY=
+
+Name: assets/emoji/emoji_781.png
+SHA1-Digest: MK+6I9OiaS/jRbJ/2NAEdYODNkI=
+
+Name: assets/emoji/emoji_742.png
+SHA1-Digest: xu3GWogNkHEgKh7oYAk3YwAGIPA=
+
+Name: assets/emoji/emoji_141.png
+SHA1-Digest: xTjyZCVNkxLUeQXgDiAhQlz8WJM=
+
+Name: assets/emoji/emoji_150.png
+SHA1-Digest: cAMd6WkRZqYUF1spFvjw3Pd9sCc=
+
+Name: assets/emoji/emoji_137.png
+SHA1-Digest: FJWzBRdVagGZJRcmI/EKiq4TTsg=
+
+Name: assets/emoji/emoji_591.png
+SHA1-Digest: UIRNjsR+yK9iOnyrGHRrd1HHcXk=
+
+Name: assets/emoji/emoji_843.png
+SHA1-Digest: 0oe++EKlY0ZORVRZxbFbNeyJXq8=
+
+Name: assets/emoji/emoji_788.png
+SHA1-Digest: aI2YKbtKJrWifEFko95Wr5eGphw=
+
+Name: assets/emoji/emoji_230.png
+SHA1-Digest: cN5uqrXhQrfwbnGXWd3vOv/PQUo=
+
+Name: assets/emoji/emoji_120.png
+SHA1-Digest: qW3p933VbE99BBIQQcl3tcJoeXY=
+
+Name: assets/emoji/emoji_313.png
+SHA1-Digest: DGHN3DobWLtHYrU/cRSqOO7usuA=
+
+Name: assets/emoji/emoji_300.png
+SHA1-Digest: JrjODYWZcgii9FNK4dVWZjYmw/c=
+
+Name: assets/emoji/emoji_423.png
+SHA1-Digest: DftOsomXF1XBiDJWKJbfByV3ZE8=
+
+Name: assets/emoji/emoji_217.png
+SHA1-Digest: bbLHoFNVisXTfOuG6+2Oh79hjyA=
+
+Name: assets/common.css
+SHA1-Digest: OxNvX/nfkf5ZM5KIgedOYCjTgmw=
+
+Name: assets/emoji/emoji_340.png
+SHA1-Digest: gBgm6NXuX5SNNuu+Y3iXmQnyT10=
+
+Name: lib/armeabi/libandroid-phone-wallet-mobilechargeapp.so
+SHA1-Digest: 1KcxyB1CbRpCqM2G0LXpx6He7os=
+
+Name: lib/armeabi/libandroid-phone-wallet-stock.so
+SHA1-Digest: bn6oU9ASJA5y5ztUdOj2ZXLCQTs=
+
+Name: AndroidManifest.xml
+SHA1-Digest: +DxqkKMuGca8ZCOSo51qdNYF3LI=
+
+Name: assets/emoji/emoji_22.png
+SHA1-Digest: +RjxJBswqRZtifDMZ358zx5h2Cw=
+
+Name: assets/emoji/emoji_625.png
+SHA1-Digest: V7vXt4zJQeAlnsnckCV+mqcHyMc=
+
+Name: assets/emoji/emoji_719.png
+SHA1-Digest: AsfKv6dwE1pQvGccADYENl6/BYc=
+
+Name: assets/emoji/emoji_763.png
+SHA1-Digest: ihPIbS8Y7/NLM/JwnGpUDSaO4cg=
+
+Name: assets/emoji/emoji_680.png
+SHA1-Digest: L/kiBgntiyly6M4BM8AoZe5hcro=
+
+Name: res/raw/hongbao_gq.mp3
+SHA1-Digest: Y+LKw3LnCdpnHmjSa5p5SCaj0J8=
+
+Name: lib/armeabi/libpushtrackerso.so
+SHA1-Digest: QP8dwRFRgIJ7QiBHvX4d41cdFLM=
+
+Name: assets/emoji/emoji_323.png
+SHA1-Digest: esGdhxtGAj4CsvCnAl6xX5/u1ok=
+
+Name: assets/emoji/emoji_809.png
+SHA1-Digest: SaJt1e/I8q2VDmbMbr4jWCEAThA=
+
+Name: assets/libplugins.so
+SHA1-Digest: 0X95kNefIg44kgWqxBxST59xA5Y=
+
+Name: assets/emoji/emoji_12.png
+SHA1-Digest: zU2cx+/2Ie2VNOS/CkjcH61niJc=
+
+Name: assets/emoji/emoji_59.png
+SHA1-Digest: rtJxMJgpsl7motkA+t4do02VRZ8=
+
+Name: classes.dex
+SHA1-Digest: lSerVR2chXbZTYAFDSsi7Ydfh1k=
+
+Name: res/drawable-hdpi/wifi_signal_level1.png
+SHA1-Digest: W7pl/YW7HQyRro33W2q793D8EfA=
+
+Name: assets/NativeApkEngine.apk
+SHA1-Digest: Dkg9sB+ysfXlnYpZBYIFE47AFYs=
+
+Name: res/drawable-hdpi/app_20000155.png
+SHA1-Digest: WnMbwkvDY+Gr4a/b6u4QNZ6Shhs=
+
+Name: assets/emoji/emoji_806.png
+SHA1-Digest: K93cQYwwzeUubi3K/SR5xmzcw5o=
+
+Name: res/drawable-xxhdpi/social_head_default.png
+SHA1-Digest: SjxK69DfIEtzdlKiugA9JN3g4VE=
+
+Name: assets/emoji/emoji_673.png
+SHA1-Digest: 00H38Egfn4vg2soSigIgjGxI75U=
+
+Name: res/drawable-xhdpi/wifi_signal_level1.png
+SHA1-Digest: RX3QQk89NlMXEKdgGsZrCBERAUg=
+
+Name: assets/emoji/emoji_416.png
+SHA1-Digest: 6jgWCGwysvQTdZ2/Zbc7C54tDZE=
+
+Name: assets/emoji/emoji_651.png
+SHA1-Digest: NKb1BIHrrnhxMeu26qk9NPFQ0Ss=
+
+Name: assets/emoji/emoji_805.png
+SHA1-Digest: fYlonKwzMk7ZpUxIfa1kbLvWc4Q=
+
+Name: assets/emoji/emoji_761.png
+SHA1-Digest: 6MiIBvC6C2NocpoTzJ8EFkXv7LY=
+
+Name: assets/emoji/emoji_209.png
+SHA1-Digest: 6YE5OjwjROhoDcqDOYOjxJk31dA=
+
+Name: assets/emoji/emoji_491.png
+SHA1-Digest: zl3Ki52lpkrm1gfwjStlyEzi6t4=
+
+Name: assets/emoji/emoji_828.png
+SHA1-Digest: +L1LVAm9YCMUwJldlAGZbxYXDGQ=
+
+Name: assets/emoji/emoji_17.png
+SHA1-Digest: afW5WrspOSgc5iZtBqEdNSwplFM=
+
+Name: assets/emoji/emoji_478.png
+SHA1-Digest: 3+BA2GgwLWZflJ0RyLCgpgC1ikQ=
+
+Name: assets/emoji/emoji_373.png
+SHA1-Digest: yC2c92mWpj+hV5Z6A2XYz3o27bY=
+
+Name: assets/emoji/emoji_304.png
+SHA1-Digest: xQ4ZaaHUz1dmH+l0YN3zu7Q8qcQ=
+
+Name: assets/emoji/emoji_457.png
+SHA1-Digest: eSFgY6JdDuxWZcuICc2FiqgGr/4=
+
+Name: assets/emoji/emoji_760.png
+SHA1-Digest: o484e383C+3F0Fo+gMGDpmK4Jsw=
+
+Name: assets/emoji/emoji_393.png
+SHA1-Digest: Au5FtKxvTmts/4dPFGvxMz9dztk=
+
+Name: assets/emoji/emoji_249.png
+SHA1-Digest: tddscUoSPjObOKloYZWlwVtvLSc=
+
+Name: assets/emoji/emoji_621.png
+SHA1-Digest: t6fOZjqzISKyNy/e52KDwMUEQf8=
+
+Name: assets/emoji/emoji_152.png
+SHA1-Digest: 5iUiMXpejVUXMEs96088cZ9c8dI=
+
+Name: assets/emoji/emoji_694.png
+SHA1-Digest: 9LCu7slKbFAVC3lBKpF1GKoJ1u8=
+
+Name: assets/emoji/emoji_461.png
+SHA1-Digest: OXTAkSCS2iwKLKBl8NsKoZgYMwg=
+
+Name: assets/emoji/emoji_830.png
+SHA1-Digest: AMWO4RS2bHcYIESOXRECX/6Gjxo=
+
+Name: assets/emoji/emoji_520.png
+SHA1-Digest: r9j02f8Vp1lQKSVEGmVJhd4HNdg=
+
+Name: assets/emoji/emoji_538.png
+SHA1-Digest: y5k9mHAx6v3twczizw/pCoMKSys=
+
+Name: lib/armeabi/libandroid-phone-wallet-nebulabiz.so
+SHA1-Digest: 36fmDOdWY+kJiIJDHFpqIGGzB8M=
+
+Name: res/drawable-xhdpi/startclient.jpg
+SHA1-Digest: 0g2DbVBu3Urq6B65Z3dMoEPt+pY=
+
+Name: assets/emoji/emoji_292.png
+SHA1-Digest: LUqExnH3Bp/mpkAZaHeun3XIdCg=
+
+Name: res/xml/account_preferences.xml
+SHA1-Digest: 6D/QvemgBe1sm+U3L+QqIbyzmok=
+
+Name: res/drawable-hdpi/wifi_signal_level3.png
+SHA1-Digest: QoyFgg8ihEsNxSvuy55Innv+uKM=
+
+Name: assets/emoji/emoji_737.png
+SHA1-Digest: 66v3r2aSmaWHZggXpaE5DuHwX9c=
+
+Name: assets/emoji/emoji_379.png
+SHA1-Digest: +Y5GcZZDJLwtt/ksSAonNSipCBM=
+
+Name: assets/emoji/emoji_245.png
+SHA1-Digest: PmAv/3iH2h+l4BnvXRuWrZwaP50=
+
+Name: assets/apps_preinstall_config/home_display_apps_info.json
+SHA1-Digest: 33N+zo5n2j1tDGI8uPABOH8AYcE=
+
+Name: lib/armeabi/libpushinitzip.so
+SHA1-Digest: 3dug38+yHuXb+b/pqiF54brGyG0=
+
+Name: assets/emoji/emoji_497.png
+SHA1-Digest: WfMvMTtKnUdrlyOQdB68r2UTkvU=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-mapbiz.so
+SHA1-Digest: PG3OwIf+7GE4XQX4UqS6iIJgETg=
+
+Name: assets/emoji/emoji_563.png
+SHA1-Digest: R9Pp0QcdfogeMKj4GE/l+4LxI5o=
+
+Name: assets/emoji/emoji_362.png
+SHA1-Digest: 5UqCA5u3p3LL2zath6gMFkDKxs8=
+
+Name: assets/emoji/emoji_383.png
+SHA1-Digest: yrM/IOiZW78Rdu9XK/DT4ux/iQY=
+
+Name: assets/emoji/emoji_296.png
+SHA1-Digest: 3xZRDHloHmGMxZbdFKrmhQ9ykts=
+
+Name: assets/emoji/emoji_188.png
+SHA1-Digest: riI5YMmeHB95WecSfaXBtOt49iY=
+
+Name: assets/emoji/emoji_366.png
+SHA1-Digest: Z9kFDdoT6T+8EKmELuU0H7winFE=
+
+Name: assets/emoji/emoji_775.png
+SHA1-Digest: JFUmhZQpUtaO/3kYZr4lhvpq8NA=
+
+Name: assets/emoji/emoji_318.png
+SHA1-Digest: U2E3QVxD3WqunwzLdKdHVzx6sZ4=
+
+Name: assets/emoji/emoji_411.png
+SHA1-Digest: YCHEecN/SOuTZG2dNp0e+I58uDs=
+
+Name: assets/emoji/emoji_263.png
+SHA1-Digest: x7afWZnDawvXuyeryX3mTCv14Pk=
+
+Name: assets/emoji/emoji_444.png
+SHA1-Digest: bFHuI2bW4CcdWYDYyosAw2Gf0vM=
+
+Name: assets/emoji/emoji_201.png
+SHA1-Digest: MPpRsic4weArtggefOiEAYgt9ko=
+
+Name: res/drawable-xhdpi/appicon.png
+SHA1-Digest: 3zlqKHvEMjkd3YuYeepynjho0l4=
+
+Name: assets/emoji/emoji_790.png
+SHA1-Digest: +Yyu5xpdsX2Lva2VZl8k9pA5yN8=
+
+Name: assets/emoji/emoji_418.png
+SHA1-Digest: y8fcykK0xF4GVn9lNtNj/uXN1VQ=
+
+Name: assets/emoji/emoji_485.png
+SHA1-Digest: 9S7U5LRjQLa0d6A6x5rbqaXQn9c=
+
+Name: assets/emoji/emoji_284.png
+SHA1-Digest: Bzr3SGh7nQ8Uo+vg8my8SVwdyc4=
+
+Name: assets/emoji/emoji_269.png
+SHA1-Digest: uJ0vHsRQKBS2rJMX5jUS75uUW7Y=
+
+Name: assets/emoji/emoji_38.png
+SHA1-Digest: jozY3G5MrgZJlebMewCaWeBrjHM=
+
+Name: assets/emoji/emoji_398.png
+SHA1-Digest: WPmyIkbOiCxi5dIsGfgIEd8wXv4=
+
+Name: assets/emoji/emoji_184.png
+SHA1-Digest: m0epFspSes6BcpLkgdljkvlLy/Y=
+
+Name: assets/emoji/emoji_43.png
+SHA1-Digest: ProC3ZfdIt6u0NbyFfnHp/83MBU=
+
+Name: assets/emoji/emoji_450.png
+SHA1-Digest: M8seT2X1Z/SUUXB0eCqzSBSozaM=
+
+Name: assets/emoji/emoji_62.png
+SHA1-Digest: ahVAZA57CqNhfyMpL3pTlzOCy3g=
+
+Name: assets/emoji/emoji_676.png
+SHA1-Digest: J3wsexDY5C8Wyo3zmKrfW6B8fMU=
+
+Name: assets/emoji/emoji_723.png
+SHA1-Digest: mVFaZWQPLeGSd5yXs/VpLkxhZSI=
+
+Name: assets/emoji/emoji_359.png
+SHA1-Digest: 9mC7/FwCJ0dHnd2TxPUPJn0DJWk=
+
+Name: res/xml/taobao_authenticator.xml
+SHA1-Digest: UZj59jaaI4ut2gePb6KJ0OmZYVo=
+
+Name: assets/emoji/emoji_433.png
+SHA1-Digest: KBc1j2ghmWvnbeiKoN2YFXvgyGU=
+
+Name: assets/emoji/emoji_321.png
+SHA1-Digest: wVJZd+Q6rT689j7BQn0Yv94BweA=
+
+Name: assets/emoji/emoji_295.png
+SHA1-Digest: t0hMNeHwBrOg9HgbOmUnEy1M0Mc=
+
+Name: assets/emoji/emoji_551.png
+SHA1-Digest: pTp8kZkJfzesPADj8OJyKU8JbXY=
+
+Name: assets/emoji/emoji_139.png
+SHA1-Digest: F0anqTPOq82WgXyqDLa/VoWvIpw=
+
+Name: assets/emoji/emoji_509.png
+SHA1-Digest: OpbkyWoAhth554GXNKMtA+zTIuo=
+
+Name: assets/emoji/emoji_779.png
+SHA1-Digest: HmXskofyg/HOPKvd+OwhDX++IzA=
+
+Name: assets/emoji/emoji_643.png
+SHA1-Digest: RMS2vbTx1r0iy50hduJZnEzGnB4=
+
+Name: lib/armeabi/libandroid-phone-wallet-o2ohome.so
+SHA1-Digest: NfZB7h/H4UibBJrK0rNYtA0LGks=
+
+Name: assets/emoji/emoji_156.png
+SHA1-Digest: gTStkIuNDbMNgblHZWiUCWtHZHw=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-falcon.so
+SHA1-Digest: sDHxNdZVLNTMqn1L3Ii98tUCMek=
+
+Name: lib/armeabi/libandroid-phone-wallet-onsitepay.so
+SHA1-Digest: 9kYVaRQZ+YILd/H/flta23kvjIU=
+
+Name: assets/emoji/emoji_818.png
+SHA1-Digest: 8J0rgNNMof4gaUUQI5CIq9zo9GM=
+
+Name: assets/emoji/emoji_117.png
+SHA1-Digest: G9a4ewHmYUdYJ5K1WfD95wM0Ilk=
+
+Name: assets/emoji/emoji_487.png
+SHA1-Digest: qEwSIi7pdUvVosE9B3WPaf5yiCg=
+
+Name: res/drawable-hdpi/app_20000134.png
+SHA1-Digest: D7mPJAUr9C20zR0KQA03shtHtXo=
+
+Name: assets/emoji/emoji_371.png
+SHA1-Digest: R29zuSIsX6BZyt0JZJjaNYQZbwA=
+
+Name: res/drawable-xhdpi/appicon_push.png
+SHA1-Digest: yHoYOD8Q9TIKDHK/7b/ZsD3uQIc=
+
+Name: res/drawable-xxhdpi/wifiapp.png
+SHA1-Digest: ga+0Kq8YZBhe3cnrgaE+nZMTX7c=
+
+Name: assets/emoji/emoji_49.png
+SHA1-Digest: zGwe39Mg5sPIiWl5tIAhGn9OcVA=
+
+Name: assets/emoji/emoji_108.png
+SHA1-Digest: /5XVA37bl1YqugSCD3nlKJiQ8Fs=
+
+Name: assets/emoji/emoji_57.png
+SHA1-Digest: SBoqXsI4hxyuzRj0nAcAlcAhD6Q=
+
+Name: res/xml/taobao_account_preferences.xml
+SHA1-Digest: htNerfZJsaG/ECPoL21Kg5xbOog=
+
+Name: res/drawable-hdpi/app_20000078.png
+SHA1-Digest: CvJ4cMBJgeTE5xVcrTxeQPSSKDw=
+
+Name: assets/emoji/emoji_97.png
+SHA1-Digest: UCOGNFDjJf/Ebf/cOyVx3VQRlrk=
+
+Name: assets/emoji/emoji_434.png
+SHA1-Digest: PQZ8yyCI0l8FZLjLz5mO16trTGY=
+
+Name: assets/emoji/emoji_455.png
+SHA1-Digest: ikBrTjyDD6SZvkQpBz+8rYBIIvg=
+
+Name: assets/emoji/emoji_47.png
+SHA1-Digest: rlxi02tOMHT2dzQ9xfNej7te4tI=
+
+Name: assets/emoji/emoji_560.png
+SHA1-Digest: CEKZ26oyUJZO1Xs+a4/IJl+4SLY=
+
+Name: assets/emoji/emoji_838.png
+SHA1-Digest: +UFcMipNCHaXXcpYy9TWgYp0sCw=
+
+Name: assets/emoji/emoji_113.png
+SHA1-Digest: TPg4EeMPk4ovAxgBQ8W6fv4SqqM=
+
+Name: lib/armeabi/libandroid-phone-wallet-nfdbiz.so
+SHA1-Digest: esG+KQpJsyJP3fiyzXBC3g4HvlM=
+
+Name: assets/emoji/emoji_53.png
+SHA1-Digest: xWiZ3hESV1sId7/LmgcCWv9R83M=
+
+Name: assets/emoji/emoji_736.png
+SHA1-Digest: lJwA0pZM9bcpa0G+K5Qh/RTon3c=
+
+Name: assets/emoji/emoji_577.png
+SHA1-Digest: oqhAbQqYXnRY3CUSj1NgOrH05sQ=
+
+Name: assets/emoji/emoji_631.png
+SHA1-Digest: Dae6NfbTiMeFFI5PcTORJp8BhU0=
+
+Name: res/drawable/download_progress_horizontal.xml
+SHA1-Digest: OsNiFj7whkIyiwJZ09+ma4+xrr4=
+
+Name: assets/emoji/emoji_200.png
+SHA1-Digest: a+OEgsLHb1gT/RCk//uA1OC8j30=
+
+Name: assets/emoji/emoji_714.png
+SHA1-Digest: qG08h9eSWFLUtSgSKPHUp4BC494=
+
+Name: lib/armeabi/libandroid-phone-wallet-messageboxapp.so
+SHA1-Digest: uCsY5A67yecxHCcqAaNbZtcO45A=
+
+Name: lib/armeabi/libandroid-phone-wallet-advertisement.so
+SHA1-Digest: lmM0r4QxeoncsWfIcbDIjur59J4=
+
+Name: lib/armeabi/libgcanvas.so
+SHA1-Digest: DPIGXREyF1QQ3SpgruvsBuvY3aY=
+
+Name: res/drawable-hdpi/app_20000131.png
+SHA1-Digest: iorVqz920Nd7/iptW2ONALokt/A=
+
+Name: lib/armeabi/libsecuritysdk-2.7.43.so
+SHA1-Digest: IJTN5hawHHblfDo99BPLZXcHK+U=
+
+Name: assets/emoji/emoji_420.png
+SHA1-Digest: PzAm38IPA/jWRDq6uAJsME2SRd0=
+
+Name: assets/emoji/emoji_214.png
+SHA1-Digest: uccxAKdLijdtPyIO2Qvwt/PpD2s=
+
+Name: assets/emoji/emoji_262.png
+SHA1-Digest: sdHaFBxt7TiCjxZwYl/ISts4PQw=
+
+Name: assets/emoji/emoji_19.png
+SHA1-Digest: eow93kQW2U3Aau4DIbP8vVyer3w=
+
+Name: assets/emoji/emoji_445.png
+SHA1-Digest: Sul6+KI5ZSBpSf0+zJr7N3vxr58=
+
+Name: res/layout/sso_login_confirm.xml
+SHA1-Digest: HK332SwwbjVVjH9ot7mR7xLATdM=
+
+Name: assets/emoji/emoji_386.png
+SHA1-Digest: 8f84PluElcBD0jpCMQWep7ipDJo=
+
+Name: res/xml/authenticator.xml
+SHA1-Digest: yEn5/Bn1M7EnKmwjJnXrmS5NRQw=
+
+Name: assets/ctwifiapi_rc.lic
+SHA1-Digest: Hksg7HoMAH58gZI4FSKmsuvILQU=
+
+Name: lib/armeabi/libandroid-phone-wallet-emotion.so
+SHA1-Digest: d1HgLI2LV2j1KcudnCHqihXPpNc=
+
+Name: assets/emoji/emoji_64.png
+SHA1-Digest: WTZDUMJqvzhlUef5QigEvZCryt4=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-tablauncher.so
+SHA1-Digest: 6RGkovzdl/zLtgC8yML6FslGLNc=
+
+Name: assets/emoji/emoji_463.png
+SHA1-Digest: HJwj4ON0uUNIINv9sYuARrLPkaw=
+
+Name: lib/armeabi/libandroid-phone-wallet-healthcommon.so
+SHA1-Digest: UrWvBIyE9zYdjXVJa+AZgoJUHhQ=
+
+Name: assets/emoji/emoji_353.png
+SHA1-Digest: c0LYYBljZFi/9q22YYGD7oYM3qo=
+
+Name: assets/emoji/emoji_275.png
+SHA1-Digest: yJw0a15eAA1v6D/hf+jwVwQpzsc=
+
+Name: assets/emoji/emoji_227.png
+SHA1-Digest: 2FL6Gc4AxtgFc9B6jw+ro/5E/5M=
+
+Name: lib/armeabi/libandroid-phone-wallet-authorizationbiz.so
+SHA1-Digest: h3zulsDG+mRX9+0n3bTfvZUifVg=
+
+Name: assets/emoji/emoji_778.png
+SHA1-Digest: OdKLRQL57WafGmwfo8TIi6bTnjQ=
+
+Name: lib/armeabi/libandroid-phone-wallet-aapay.so
+SHA1-Digest: Bfo/mkEzSxSpX+iJ7JVivZVWPUI=
+
+Name: assets/emoji/emoji_405.png
+SHA1-Digest: SsN8PUkkY9zCpfAtFdx+lmJq2vY=
+
+Name: assets/emoji/emoji_813.png
+SHA1-Digest: p9Extzw2o7AfIQ2eIricxEu1RKo=
+
+Name: lib/armeabi/libandroid-phone-wallet-openplatform.so
+SHA1-Digest: 1jPOk8F27OlrSIpv0xsEhTPasv0=
+
+Name: assets/emoji/emoji_133.png
+SHA1-Digest: WXHNbCezZstqjaqeNlbp4mUv7mM=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-mtop.so
+SHA1-Digest: q2bgXRap75Qk1mjdetKuzgkUcAc=
+
+Name: assets/emoji/emoji_605.png
+SHA1-Digest: AVCnSV+QBMs//YKJ+F2xUdjggOE=
+
+Name: assets/emoji/emoji_203.png
+SHA1-Digest: ka979BB/zX/hFGdovesAOP7BobI=
+
+Name: assets/emoji/emoji_465.png
+SHA1-Digest: 3UZTzJYAVbW7dMnlpUSW/XYdknY=
+
+Name: assets/emoji/emoji_131.png
+SHA1-Digest: u7cQJhOw5M24+lT7eeUD2PHZxuk=
+
+Name: assets/emoji/emoji_690.png
+SHA1-Digest: fuo8OHrJufpXb/SVQFI3QmLbBq8=
+
+Name: lib/armeabi/libandroid-phone-wallet-accountauthbiz.so
+SHA1-Digest: Jijy3OubfC+yJiCMr8+/DANsNsU=
+
+Name: res/drawable-hdpi/app_20000032.png
+SHA1-Digest: Q0W5Emy8PzPginpqwdfhVXNtcPc=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-multimedia.so
+SHA1-Digest: MbNee58o68pbNU0RpxWIng4zbDU=
+
+Name: assets/emoji/emoji_14.png
+SHA1-Digest: /9YXYKSBzc9AO4n+b7V4tnyZm1E=
+
+Name: res/drawable-hdpi/app_20000150.png
+SHA1-Digest: ReUFa3k1awBztgzDVsq8TpXiA28=
+
+Name: res/drawable-hdpi/com_ucmobile.png
+SHA1-Digest: q86nr4PZc8dWlDkRFLYhW37uFrY=
+
+Name: res/raw/diaoluo_xiao.mp3
+SHA1-Digest: J2ekUEyZr1Oh95zPGMJNswD01D0=
+
+Name: assets/emoji/emoji_527.png
+SHA1-Digest: 0NP9UyyX3SnIR4AsdYCUZhDr+48=
+
+Name: res/drawable-hdpi/appicon_push.png
+SHA1-Digest: wfBJ8/G7NSYuNZ3Fkkajy6foeew=
+
+Name: assets/emoji/emoji_312.png
+SHA1-Digest: znU6zcv1kpXPCb4RwUGOVii89D8=
+
+Name: assets/emoji/emoji_786.png
+SHA1-Digest: n72D1JFqC0BUEdoJFkEgFeIrz6M=
+
+Name: assets/emoji/emoji_435.png
+SHA1-Digest: c4GKBKZzrjvG8RFxS4h0Ha4VVwA=
+
+Name: lib/armeabi/libandroid-phone-wallet-transferapp.so
+SHA1-Digest: pZyEaUyWC3xsl7+Iw4Ot7SN3WMA=
+
+Name: assets/commandCenter_initial.html
+SHA1-Digest: 9edsSTEwXbDto451hNNcns7tXy0=
+
+Name: assets/emoji/emoji_233.png
+SHA1-Digest: gVdvbjacwg89/pQgzZN5BUEsnAQ=
+
+Name: res/drawable-xxhdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: 2DA7cKQ4zWFtshc1SBsZ9tVa5w0=
+
+Name: assets/emoji/emoji_384.png
+SHA1-Digest: FFt8QImNa/Jv0KBSUJjpBLU4d8k=
+
+Name: assets/emoji/emoji_657.png
+SHA1-Digest: wc5UYa5vJSwN+4Z4ssytTPY3VXQ=
+
+Name: assets/emoji/emoji_138.png
+SHA1-Digest: ZnxJCsyl7UN+Ee+oRFdUQt1BFA4=
+
+Name: assets/emoji/emoji_354.png
+SHA1-Digest: efHOcp+lUHY7SKj7UNln/U+c2ls=
+
+Name: assets/emoji/emoji_78.png
+SHA1-Digest: t9JhRYGdHFcKevm7MDwqI131zDE=
+
+Name: assets/emoji/emoji_163.png
+SHA1-Digest: zZcLRKFPqRKXHw2yEVxEOqwvs1Q=
+
+Name: assets/emoji/emoji_814.png
+SHA1-Digest: kvK6fjmvJOaB4/OGiGch3wouIbo=
+
+Name: res/drawable-hdpi/app_2013082800000932.png
+SHA1-Digest: 8aWa7zl3+bpLxx6fk0lQefYonjA=
+
+Name: assets/emoji/emoji_439.png
+SHA1-Digest: VAXOp3R2Rg4sYZbo+cTsF2xSYvg=
+
+Name: assets/emoji/emoji_589.png
+SHA1-Digest: 5uREercNIsC8FOueMR9X3nC5atc=
+
+Name: assets/emoji/emoji_659.png
+SHA1-Digest: uJ81MIQ08LmzYsWK2qg7lgKuh88=
+
+Name: res/drawable-xxxhdpi/appicon_push.png
+SHA1-Digest: y4Bygrq8E5Y3HjZZeqJpmzj2kzQ=
+
+Name: assets/emoji/emoji_494.png
+SHA1-Digest: ginjHM052ObNoqhwxUnA4uu1Lp8=
+
+Name: assets/emoji/emoji_77.png
+SHA1-Digest: eNQVvNqV6Yr5ObNe3Lc7YDSP5As=
+
+Name: lib/armeabi/libandroid-phone-wallet-personalbase.so
+SHA1-Digest: qcaqrZkK+JQeYlR20mA+N27O8iM=
+
+Name: assets/emoji/emoji_732.png
+SHA1-Digest: f3hENVoBOQCw+esFOeq+juU0MXw=
+
+Name: assets/emoji/emoji_414.png
+SHA1-Digest: ng4GRy+1II6gM3U2JDlOnSwlC6M=
+
+Name: assets/emoji/emoji_800.png
+SHA1-Digest: sqP+sePbMUwgZonUGvNgDUIWw64=
+
+Name: assets/emoji/emoji_270.png
+SHA1-Digest: qb+zKe5m5a6SAgGqihRNaoX6fyg=
+
+Name: assets/emoji/emoji_618.png
+SHA1-Digest: B0IA8Jwawpe2ZBpyqVe+kTFsSl0=
+
+Name: assets/emoji/emoji_715.png
+SHA1-Digest: UXOaKsN6cQCwhaGa6Zasd0q1Bag=
+
+Name: assets/emoji/emoji_389.png
+SHA1-Digest: NKVMAfDoOS+rk7FtT3StQCMWKq0=
+
+Name: assets/emoji/emoji_489.png
+SHA1-Digest: UmFMkYXMPipGR+MyBcwWeJZ7nyU=
+
+Name: assets/emoji/emoji_32.png
+SHA1-Digest: FoHyISUsl4C+rK6Qc61RJ8yx8Ug=
+
+Name: assets/emoji/emoji_501.png
+SHA1-Digest: nOyBv0xd0zx8Ld7ZZfYeGpHRlPQ=
+
+Name: assets/emoji/emoji_767.png
+SHA1-Digest: Pypj8vjxhSNXgt2K9/LJuGgjLCo=
+
+Name: assets/emoji/emoji_602.png
+SHA1-Digest: oXQJvRmPbWofX3sP7MdxM4hH6/g=
+
+Name: lib/armeabi/libandroid-phone-wallet-payanotherapp.so
+SHA1-Digest: MGFb0u+dxbVp26Ccu+Cy9pZFC5Q=
+
+Name: assets/emoji/emoji_15.png
+SHA1-Digest: IigCHxTPACzJ+XGLkBj0FGIgU4I=
+
+Name: assets/emoji/emoji_290.png
+SHA1-Digest: g/Oj520inNabxm510g3bkyMMjzc=
+
+Name: assets/emoji/emoji_794.png
+SHA1-Digest: QMV+0ySW3XdKblFsq/Q4XxyUbt8=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-commonbiz.so
+SHA1-Digest: /iVN7FCauZEQvuvzCakB9RwtrWU=
+
+Name: assets/emoji/emoji_182.png
+SHA1-Digest: 0gZt8VemrK8k3k2LycPKmljEQOo=
+
+Name: assets/emoji/emoji_844.png
+SHA1-Digest: EidNfnyyFiW6U8GbZlDuz/CF3Po=
+
+Name: assets/emoji/emoji_302.png
+SHA1-Digest: IRCDZva/LXpV2xKqZ8gSJuHGW98=
+
+Name: assets/emoji/emoji_744.png
+SHA1-Digest: qU+HEJGVx/kU+dJjxt/xVrL/eNE=
+
+Name: lib/armeabi/libandfix.so
+SHA1-Digest: fAfl8M8xXA5jev/7jgqpik4oKgk=
+
+Name: assets/emoji/emoji_549.png
+SHA1-Digest: wSU9pIDJRvvzE0rX2LjO5SsoT9I=
+
+Name: assets/emoji/emoji_699.png
+SHA1-Digest: X653YhDAB5rHidbK7TrD4R8s278=
+
+Name: assets/emoji/emoji_8.png
+SHA1-Digest: IPgRUJYs7ahq679asFW+b0t1UmA=
+
+Name: assets/emoji/emoji_347.png
+SHA1-Digest: I3kxHp7f/8hueOxGDoKiIvjFDiA=
+
+Name: res/drawable-hdpi/app_20000088.png
+SHA1-Digest: Wa4yd2bGPG0LmDZxF1zwtb87RBU=
+
+Name: assets/emoji/emoji_683.png
+SHA1-Digest: WGBvyZuRZudG/UXs2TSD09ECStA=
+
+Name: lib/armeabi/libamnet-mmtp.so
+SHA1-Digest: hkqjCyUnQFl0EnnnM+rfphqgF8I=
+
+Name: assets/common.js
+SHA1-Digest: X26QiNzlNvxtd7e5LPjlDZrn4WI=
+
+Name: assets/emoji/emoji_826.png
+SHA1-Digest: tpp0fjDiPu/je62hhNVhd1skwcw=
+
+Name: assets/emoji/emoji_358.png
+SHA1-Digest: x20BrDUhbNnnFctXjUPhHGmsrLQ=
+
+Name: assets/emoji/emoji_94.png
+SHA1-Digest: /C3jlxOxdgyt16jjIBp+V1UFF3M=
+
+Name: lib/armeabi/libandroid-phone-wallet-creditcard.so
+SHA1-Digest: XCR/1Rjr1NxXyNp01PrpxVwOAMM=
+
+Name: assets/emoji/emoji_770.png
+SHA1-Digest: Gy2F8rTC+yHJS505ya1x6BIBLMQ=
+
+Name: assets/emoji/emoji_557.png
+SHA1-Digest: suDsVoWsa4O2PPHIoqBnYavBuk4=
+
+Name: assets/emoji/emoji_600.png
+SHA1-Digest: yHJT9iUboZ2yk9CW+hAN43EjbA8=
+
+Name: assets/emoji/emoji_646.png
+SHA1-Digest: 9RaOQ1X6apcglvKNTXAnyT9zAJc=
+
+Name: res/layout/custom_wifi_notification_small.xml
+SHA1-Digest: iznmSDtk28+2NMp2aDYq497BKnk=
+
+Name: assets/emoji/emoji_266.png
+SHA1-Digest: q2QhJBSMhKkD52VO6kiRPn3pwls=
+
+Name: assets/emoji/emoji_748.png
+SHA1-Digest: iRPKfnNKkPoJ5mKbkX2juWFUxC8=
+
+Name: res/drawable-hdpi/wifiapp.png
+SHA1-Digest: kVhcXOKYuwC32UC6s0xoSTewMHQ=
+
+Name: assets/emoji/emoji_696.png
+SHA1-Digest: CAf4drJDN6H6n8eZim447+n3aSI=
+
+Name: assets/emoji/emoji_324.png
+SHA1-Digest: E32HJqatJy/uFN78ZmXRp5lj2zY=
+
+Name: assets/emoji/emoji_82.png
+SHA1-Digest: aBamXZDGWBSgTRC2RfPRRYKkJzI=
+
+Name: assets/emoji/emoji_277.png
+SHA1-Digest: xJRkDH5+Jnib1YXIwW6P7M9CYHU=
+
+Name: lib/armeabi/libatls.so
+SHA1-Digest: /+ei3tzR5vIeaXV+GOwICvX8438=
+
+Name: res/drawable-hdpi/security_login_logo_a.png
+SHA1-Digest: n7Ob9spgCug4Fj9xgkQCLRBJIsc=
+
+Name: lib/armeabi/libamnet-mng.so
+SHA1-Digest: qm64J4c93qxh7rJR3xI1zIlT+/Y=
+
+Name: lib/armeabi/libandroid-phone-thirdparty-rdssecuritysdk.so
+SHA1-Digest: spCvrl3+D59JVgBjr9EgjqIMjJA=
+
+Name: assets/emoji/emoji_752.png
+SHA1-Digest: zdkEaLVi83FXuZ4rq6jGL8nFOes=
+
+Name: assets/emoji/emoji_344.png
+SHA1-Digest: 79qVtgOCQCKC9bXyr+qm9ttOMiU=
+
+Name: assets/emoji/emoji_231.png
+SHA1-Digest: eqdV007bPaz/zripWmIvQdCtrnM=
+
+Name: assets/emoji/emoji_522.png
+SHA1-Digest: LGkRuWBjpNBa3ijHsdp+ZJ3GO4M=
+
+Name: res/drawable-hdpi/app_20000046.png
+SHA1-Digest: 1MKoUEEme6N3NmrDJ3Suxe6hLBA=
+
+Name: assets/emoji/emoji_175.png
+SHA1-Digest: rRYVnJdgRNsj3sYasj4h/ay2o1U=
+
+Name: assets/emoji/emoji_588.png
+SHA1-Digest: icnQCqpsyoHhTXbIJgNkSSgMZrU=
+
+Name: assets/emoji/emoji_35.png
+SHA1-Digest: K58F/UcqF3/5cYk0wfF+pGy9xRY=
+
+Name: assets/emoji/emoji_86.png
+SHA1-Digest: qUHG3VBctOmccx+5g/c7LZTuzyg=
+
+Name: lib/armeabi/libandroid-phone-wallet-scan.so
+SHA1-Digest: sCR0On/Ni1F7sg9ZUyBUvE4nFPk=
+
+Name: assets/apps_preinstall_config/preinstall_appid.json
+SHA1-Digest: vO1fvMagwlDrhrabj3RduoJOcBY=
+
+Name: res/drawable/sso_button_bg_normal.xml
+SHA1-Digest: mO4vCvXVDbCY9FIQbWme5jHRs4s=
+
+Name: assets/emoji/emoji_568.png
+SHA1-Digest: lv6t4Jr8WCB3dWWYHE1MFVElTeo=
+
+Name: res/raw/hongbao_gx.mp3
+SHA1-Digest: zDxGKW+VwTRmRHWWV0f8vb4hWbY=
+
+Name: assets/emoji/emoji_37.png
+SHA1-Digest: jbU5lfxjf9+Cau2HBvpyXSr3yeE=
+
+Name: assets/emoji/emoji_517.png
+SHA1-Digest: e5+mdtvduaC845Y+y3LNoyc0baU=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-falconocridcardauth.so
+SHA1-Digest: zEElXClPp8VToXowffLhexLc6qo=
+
+Name: res/drawable-hdpi/app_20000725.png
+SHA1-Digest: BqbAg+5mCi4/o9rUsHkn5IA4dCs=
+
+Name: assets/SE.bin
+SHA1-Digest: 7b9XgMpQfKVu9cf7os5xSiu2NA4=
+
+Name: assets/emoji/emoji_294.png
+SHA1-Digest: e3ezfOnRyCaDc4boJZek8iwrF4k=
+
+Name: assets/emoji/emoji_96.png
+SHA1-Digest: yEg4w1mpjzviC6JLdk5myYSiTJs=
+
+Name: assets/emoji/emoji_232.png
+SHA1-Digest: qj3tH3yLMVe81Z7oO/EHC7Doxak=
+
+Name: lib/armeabi/libandroid-phone-wallet-balance.so
+SHA1-Digest: 1RaMkNNoPShQC0Llw7z6B3cr8lw=
+
+Name: assets/emoji/emoji_431.png
+SHA1-Digest: I/SVeqUxRsbLG3plLWHnPXjhwMI=
+
+Name: res/drawable-hdpi/app_20000130.png
+SHA1-Digest: ZY4S7G4eJnG+/wTlEIhiO3iICuY=
+
+Name: assets/emoji/emoji_44.png
+SHA1-Digest: J/4BXw4UgygJRQv1uRHHozm1Vz0=
+
+Name: assets/emoji/emoji_539.png
+SHA1-Digest: OhKLUoHEcKW6XZzctuNYZh1aqeI=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-imageworker.so
+SHA1-Digest: BoztlV7FURP7ayscnhlky8ETPrI=
+
+Name: assets/emoji/emoji_679.png
+SHA1-Digest: VN5hFWLkCqSxubAFt+fjyECujBg=
+
+Name: assets/emoji/emoji_578.png
+SHA1-Digest: 15httx7SwKaBd3+IXce+ilICIWA=
+
+Name: assets/bundles.cfg
+SHA1-Digest: vA4LtTtyxkIrYqtM0ceBwX1viwU=
+
+Name: assets/emoji/emoji_470.png
+SHA1-Digest: QW6yoIE7ISlnlqyIRsJU+Vjf4VE=
+
+Name: assets/emoji/emoji_437.png
+SHA1-Digest: ZNBx3DRPB1QRaXiqWwvathjqq80=
+
+Name: assets/emoji/emoji_534.png
+SHA1-Digest: Uvmh9hRNPKeEgNHdybu+5IGebqk=
+
+Name: assets/emoji/emoji_711.png
+SHA1-Digest: JB/PAE8nnL95yxdQF9GkiI+6abY=
+
+Name: assets/emoji/emoji_355.png
+SHA1-Digest: 56jVQDy7LEmCsmhXpwvi9HNMCjA=
+
+Name: assets/emoji/emoji_252.png
+SHA1-Digest: rDBXdPYC7fFE7ZZUgs1usBTxP7k=
+
+Name: assets/emoji/emoji_345.png
+SHA1-Digest: nYM9zi9proPuYV98VjAlIGzxbHc=
+
+Name: assets/emoji/emoji_729.png
+SHA1-Digest: yFfiMFcAvgKIOvjbsS9wUwEKBR4=
+
+Name: res/anim/bill_detail_anim_in.xml
+SHA1-Digest: lqxFPBb5WOfY+Hr2Q/mMxuCLw4I=
+
+Name: assets/emoji/emoji_645.png
+SHA1-Digest: JpQ9dBwP7TBDxVDeogSt4ncbfs0=
+
+Name: assets/emoji/emoji_218.png
+SHA1-Digest: JcpswsRhMo6v6DN2iMNS6Evi/5Y=
+
+Name: assets/emoji/emoji_766.png
+SHA1-Digest: PUBLojldU5TILt8jIrdPc465/Fk=
+
+Name: resources.arsc
+SHA1-Digest: /jfs9FLiRqvrzNDAS82Btk+UzYs=
+
+Name: res/drawable/sso_shape_button_normal_dw.xml
+SHA1-Digest: LS1o7L+y5eoqiqEi86wNeRNGxT8=
+
+Name: assets/emoji/emoji_650.png
+SHA1-Digest: fwOZeaBOBCEHk8Ni2Ar3vj0Q6/A=
+
+Name: assets/emoji/emoji_286.png
+SHA1-Digest: 6BH9mqzO7ln1klz4YcbEhFmSiNU=
+
+Name: assets/emoji/emoji_7.png
+SHA1-Digest: 939aWPg690JEbNRkMoN6qbKMymk=
+
+Name: res/drawable-hdpi/app_09999999.png
+SHA1-Digest: CcnwXCzUhxHeBwCCOD7Bm1IN1e0=
+
+Name: lib/armeabi/libandroid-phone-wallet-clientsecurity.so
+SHA1-Digest: W2QTRjSihHmXdtUJNR55AaZR+yc=
+
+Name: res/drawable-xhdpi/wifi_signal_level4.png
+SHA1-Digest: h1UN5B52As7ca0jd7Cs1nk0x9Qs=
+
+Name: assets/emoji/emoji_41.png
+SHA1-Digest: S0qxk7zfihryu6EVo58c2dWrAIc=
+
+Name: assets/emoji/emoji_219.png
+SHA1-Digest: j0ZjoznraLEV26nT79PwusD7ahY=
+
+Name: res/xml/alipay_account_preferences.xml
+SHA1-Digest: 2BIT8+WwMsrUMEuJtBmsjKgwOv4=
+
+Name: res/layout/activity_start_logo.xml
+SHA1-Digest: POuHMoV8o+I7Xdrc+w/F8j320EQ=
+
+Name: assets/emoji/emoji_555.png
+SHA1-Digest: F/Ydh+xr+B5swNIuE1Aha5Fdyoo=
+
+Name: assets/emoji/emoji_773.png
+SHA1-Digest: Ypdq3VK7ZVAUNtw++gqVxF7Ccp8=
+
+Name: assets/emoji/emoji_343.png
+SHA1-Digest: 6HIN+KnxxfpqECH/vjb7vZV2cQs=
+
+Name: res/drawable-hdpi/wifi_signal_level0.png
+SHA1-Digest: dAJ/DXI8H4ieMxnCfLXn/WwvfBw=
+
+Name: assets/emoji/emoji_183.png
+SHA1-Digest: dcxurPr1BabWuKqWEP6EJivwS0Y=
+
+Name: res/layout/alipay_push_dialog.xml
+SHA1-Digest: 2NzjILKdiQFQaZzAt/R/iQ7X7hM=
+
+Name: res/drawable-hdpi/app_2013062600000474.png
+SHA1-Digest: 3Bis7Fvy8WZKN4cjdLFl1YwX2fU=
+
+Name: res/drawable/download_icon.png
+SHA1-Digest: 11T/DU5bmMIdvw+8cdHYb/Ew3bs=
+
+Name: assets/emoji/emoji_80.png
+SHA1-Digest: uBJXGpR0AkGGfBF07nyGTSaMnOE=
+
+Name: assets/emoji/emoji_334.png
+SHA1-Digest: L6QgyJ9T/JtOLiZ7gpRUFU28L8o=
+
+Name: assets/emoji/emoji_681.png
+SHA1-Digest: 61zOx1yEe6Ok+1n/1KrPRaTttGs=
+
+Name: assets/emoji/emoji_177.png
+SHA1-Digest: J245eCyTm6PhbWLqS5v0m9a8+MQ=
+
+Name: assets/emoji/emoji_772.png
+SHA1-Digest: jUZAvoeIYcqYkNpTTyhEjhyvWPQ=
+
+Name: assets/emoji/emoji_31.png
+SHA1-Digest: jrRDBjchTXlIEksOzr3GBRJVLZE=
+
+Name: assets/emoji/emoji_265.png
+SHA1-Digest: +77vS+THFMR5Vl6IJt03eKFqlqk=
+
+Name: assets/emoji/emoji_208.png
+SHA1-Digest: Hy/xh8Y9QBvjpLQuJvj0lTYTFRQ=
+
+Name: lib/armeabi/libandroid-phone-secauthenticator-kcart.so
+SHA1-Digest: U9YayEW+sM34Wk43H7IVLlbmHq4=
+
+Name: assets/emoji/emoji_796.png
+SHA1-Digest: OfGN/ScN0i1R627/FuHAxJBFcg4=
+
+Name: assets/emoji/emoji_375.png
+SHA1-Digest: 87FauErSSrebcGZXyIektV2G1z8=
+
+Name: assets/emoji/emoji_216.png
+SHA1-Digest: EvucLRUYn3FjyuDklD9MIOz7KxI=
+
+Name: assets/emoji/emoji_9.png
+SHA1-Digest: mx4sclURe08ro0KlugbWY6sn19s=
+
+Name: assets/emoji/emoji_476.png
+SHA1-Digest: RD2KU4t6UTlhOkuE15ToX1mGXnM=
+
+Name: assets/emoji/emoji_608.png
+SHA1-Digest: FQifyv33RyGMxJWwWjD5JoE6o40=
+
+Name: res/drawable/yw_1222.jpg
+SHA1-Digest: Z2vYYBhEhG3NqmDe+yA5s+B/1Fc=
+
+Name: assets/emoji/emoji_239.png
+SHA1-Digest: iB9KzEZNq7XpQouVGKIQuuaCQrw=
+
+Name: assets/emoji/emoji_191.png
+SHA1-Digest: hWHyMJmSLI2YpZoVdCYO2WqcKVo=
+
+Name: assets/emoji/emoji_532.png
+SHA1-Digest: 8e/d5Fqn7R3lGSdyN9whijCJIV4=
+
+Name: assets/emoji/emoji_707.png
+SHA1-Digest: ZwudTMJB0y0O+zti/SAPY99rNiE=
+
+Name: assets/emoji/emoji_749.png
+SHA1-Digest: hslvKheQBd2OWdIwfolq8uBLJ+k=
+
+Name: assets/emoji/emoji_654.png
+SHA1-Digest: y4ffV07XaRn+7rFk3GUbh1AwTzQ=
+
+Name: res/drawable-hdpi/app_20000123.png
+SHA1-Digest: XL4a9GnPgoR760ElS0Ygn/Ck1f4=
+
+Name: assets/emoji/emoji_273.png
+SHA1-Digest: U83++xd6UntQxp8MQ1JkZptc4hc=
+
+Name: assets/apps_preinstall_config/my_appid.json
+SHA1-Digest: MzUiJZDpNYC2gnOboqUenaMgJ8I=
+
+Name: assets/emoji/emoji_207.png
+SHA1-Digest: 8CdYe2CNdmXGQMmYMRLtkEFWuEk=
+
+Name: assets/emoji/emoji_614.png
+SHA1-Digest: pPVlhaHJiVd4IxH0HTr1zrI2wZs=
+
+Name: assets/emoji/emoji_780.png
+SHA1-Digest: 7uh5aQnhFnZ3ZGdL3RJ77MFr/R0=
+
+Name: assets/emoji/emoji_769.png
+SHA1-Digest: RwKazJUV/FLCUeL9GdEOxyvviIQ=
+
+Name: assets/emoji/emoji_649.png
+SHA1-Digest: a/cFOyz3veZfkd0JuUjy6aDvVlA=
+
+Name: assets/common-new.css
+SHA1-Digest: rPiKDS5LqGbPfWfcDYeDtCv/woM=
+
+Name: lib/armeabi/libandroid-phone-thirdparty-weibosdk.so
+SHA1-Digest: lgUONmUdXxWyFSMrqzBDK0lA7aQ=
+
+Name: res/drawable-hdpi/app_20000781.png
+SHA1-Digest: hUMyNAK/2ZrQS2/so2hek/j4Cmg=
+
+Name: assets/emoji/emoji_452.png
+SHA1-Digest: ZHS1bK+8t42uaerwsZQ30eqMnRs=
+
+Name: assets/emoji/emoji_58.png
+SHA1-Digest: Gxyf0jbL5MYZV1fraWA/6XRfGpI=
+
+Name: assets/ctwifiapi.lic
+SHA1-Digest: C3sVPaFX+Gt/kKAQgTCgVC5ivxU=
+
+Name: assets/emoji/emoji_466.png
+SHA1-Digest: F75hhdN8P2OdEqs8B31lmS8KOqc=
+
+Name: lib/armeabi/libandroid-phone-wallet-otp.so
+SHA1-Digest: bgaiOybpqsOlzT/9/O4AwxIx47Y=
+
+Name: res/drawable-hdpi/com_sina_weibo.png
+SHA1-Digest: od2Ysf2RtbiLowkgZObIpKogJWs=
+
+Name: assets/emoji/emoji_652.png
+SHA1-Digest: 9mJV8sLaNbVEE1JHW8N9AqlwSHc=
+
+Name: assets/emoji/emoji_316.png
+SHA1-Digest: sDrb9xYzVGkhKrp6jh1tqlIboPM=
+
+Name: assets/emoji/emoji_377.png
+SHA1-Digest: eyUTFgKmfFZiXX3gb/4qXIQ3VIY=
+
+Name: assets/emoji/emoji_125.png
+SHA1-Digest: ZGt5doq0tM4FctUMHxG+QTPCSK8=
+
+Name: lib/armeabi/libandroid-phone-wallet-wealthhome.so
+SHA1-Digest: g/GLm/ToHZ8ZVFSxr1tklDJnTRI=
+
+Name: assets/emoji/emoji_134.png
+SHA1-Digest: QwgYvAu6V6nVDnh+0jUw+U+c8O0=
+
+Name: assets/emoji/emoji_594.png
+SHA1-Digest: qePqqNPXojm1x1eySF4LI8w6wpA=
+
+Name: assets/emoji/emoji_308.png
+SHA1-Digest: yfkAIlk1yBvJH+s/YvAJUrJEh+4=
+
+Name: assets/emoji/emoji_65.png
+SHA1-Digest: U5ILkHl5vv64Jo9BKpINnxvi2a0=
+
+Name: assets/emoji/emoji_395.png
+SHA1-Digest: 8iCCtQ6ls2+YoHwI1KXrqRBjxCw=
+
+Name: assets/emoji/emoji_109.png
+SHA1-Digest: Lkg0ITsh6YvVMlZUqpwGNXfCGus=
+
+Name: assets/emoji/emoji_490.png
+SHA1-Digest: J7XtmHYSTS62lLFdKlKLqg5EgHA=
+
+Name: assets/emoji/emoji_593.png
+SHA1-Digest: nyCLjOWH2ehHh4Ciw1J4/NUcN2k=
+
+Name: lib/armeabi/libandroid-phone-wallet-timelineapp.so
+SHA1-Digest: i27Ev0rTjmo79NgWyUCpf1sFREw=
+
+Name: lib/armeabi/libmnet-http.so
+SHA1-Digest: B6R1qXlPfVjAkaX0Q3bDuXLsXZ8=
+
+Name: assets/emoji/emoji_23.png
+SHA1-Digest: zh931LGUlVLON4mIVcDRRebaZHc=
+
+Name: assets/emoji/emoji_543.png
+SHA1-Digest: fOBtqXXUG0o0GOy+sh9ecQ9JWGI=
+
+Name: assets/emoji/emoji_159.png
+SHA1-Digest: psjfUho16KTLRZ/V6onqvS4/fBE=
+
+Name: assets/emoji/emoji_142.png
+SHA1-Digest: Hfp1Qv3SPCz1jrYn7hUz2gQxB4A=
+
+Name: lib/armeabi/libandroid-phone-wallet-transfercardapp.so
+SHA1-Digest: s/JC1qGgLfJEgRZ9BCxwLWvX93A=
+
+Name: assets/emoji/emoji_753.png
+SHA1-Digest: rcFrAojFt0vq0LikeiSNKsYQnhM=
+
+Name: assets/emoji/emoji_161.png
+SHA1-Digest: efoHZaZH+a+wWQfea6vitfucR3M=
+
+Name: assets/emoji/emoji_50.png
+SHA1-Digest: JkMs84tw7MkOVvtpX9Y0anGJ1tQ=
+
+Name: assets/emoji/emoji_11.png
+SHA1-Digest: BiZVnaKimS0d9XvQ8VpJCiCM2PY=
+
+Name: assets/emoji/emoji_507.png
+SHA1-Digest: /Lhgk6Jr2zQ6RylRM9+EHLAaddE=
+
+Name: assets/emoji/emoji_730.png
+SHA1-Digest: cDJMzwIyrKW778UOqP/bj8JUhI8=
+
+Name: assets/emoji/emoji_785.png
+SHA1-Digest: wWeot905KuGXLMoUhkT0Vih808I=
+
+Name: assets/emoji/emoji_104.png
+SHA1-Digest: V+KXUEJ6Xh16OlJcbmOqmNq9mqE=
+
+Name: assets/emoji/emoji_122.png
+SHA1-Digest: FsS6wKPuz+/NYmOqN0vfCD5e2uw=
+
+Name: assets/emoji/emoji_685.png
+SHA1-Digest: yBJHZ9ClJUIU8I6FMNfOHD/ZPoA=
+
+Name: assets/emoji/emoji_623.png
+SHA1-Digest: BRwzGR6TPt0A67sMVmsBPacTpWY=
+
+Name: assets/emoji/emoji_702.png
+SHA1-Digest: 5jiiFvS7UxRvo0otScaBoRbv6ks=
+
+Name: lib/armeabi/libandroid-phone-secauthenticator-iotauth.so
+SHA1-Digest: WiNH1laUBNEaz6FDn+Vw6vi2RF8=
+
+Name: assets/emoji/emoji_842.png
+SHA1-Digest: kyJbWemkmvyNAN0KUeU65/wPx8Q=
+
+Name: res/drawable/btn_nfd_nt_bg_round_normal.xml
+SHA1-Digest: sWK0786X0VyhfWtNoom6bbKtz28=
+
+Name: assets/emoji/emoji_498.png
+SHA1-Digest: ++k374nTo1xA25UCpOZN2AO3IeE=
+
+Name: res/drawable-hdpi/app_20000153.png
+SHA1-Digest: LZSnEHyStt4v1qMM8Y8/Urmrvx4=
+
+Name: res/anim/zoomout.xml
+SHA1-Digest: jwyilpaW0sQoTIykxp0Ra/I78j8=
+
+Name: assets/emoji/emoji_782.png
+SHA1-Digest: hVyJrL6fia9u1MuE88nVx+f5TM4=
+
+Name: assets/emoji/emoji_337.png
+SHA1-Digest: a/X8o/HhJdhL//coF5rDj0iAn2g=
+
+Name: assets/emoji/emoji_382.png
+SHA1-Digest: i5G2NPZvEHrydd4v6gNFe8HLQZ4=
+
+Name: assets/emoji/emoji_624.png
+SHA1-Digest: yI8e8g2HfT4kRbFBMBtrVZ+UP+M=
+
+Name: assets/emoji/emoji_821.png
+SHA1-Digest: Jza4yRhzF9q+dvR22MZFW9g86R0=
+
+Name: assets/emoji/emoji_627.png
+SHA1-Digest: 3vbNPw1GiefX5pQA+CEcUFnJbOM=
+
+Name: assets/emoji/emoji_187.png
+SHA1-Digest: NIBUpvP3JUyM5ilyQOmcGyWNHo0=
+
+Name: assets/emoji/emoji_45.png
+SHA1-Digest: A27XpKiqOa12TYMSABYfDUVMyvM=
+
+Name: assets/emoji/emoji_628.png
+SHA1-Digest: juSArwPK25FzTJtD7HZuXC4YiJc=
+
+Name: lib/armeabi/libandroid-phone-wallet-openplatformhome.so
+SHA1-Digest: 65UMBiC9KwgDyneId3LXU1iPiwM=
+
+Name: assets/emoji/emoji_211.png
+SHA1-Digest: VASuHd2q0X1Ly1uVZOpgfP4fzog=
+
+Name: assets/emoji/emoji_426.png
+SHA1-Digest: E5PuTXzDEj7cj4+rRsPOyjYdX4Y=
+
+Name: assets/emoji/emoji_26.png
+SHA1-Digest: ft5dYNb8XS0FWhJ109zqN510YEo=
+
+Name: assets/emoji/emoji_802.png
+SHA1-Digest: 1UJ792pSzFPXdw4e3Fx2Aq65IdE=
+
+Name: assets/emoji/emoji_740.png
+SHA1-Digest: P+4aNrJbC9TEX7k9cKn0ddhs1uM=
+
+Name: res/layout/download_progress.xml
+SHA1-Digest: 5EW75EvN2FLNEpRNbxSLBh6XYJM=
+
+Name: res/drawable-hdpi/app_20000120.png
+SHA1-Digest: 5mO8At/Is06VQ4ffdYci/8OUWbo=
+
+Name: assets/emoji/emoji_276.png
+SHA1-Digest: CCTw12gkbzVwTo95dJmJGjzKgfc=
+
+Name: lib/armeabi/libandroid-phone-wallet-ppchat.so
+SHA1-Digest: ZPCwiR/ZWc37dxdEZavSE8wyD68=
+
+Name: lib/armeabi/libdexposed2.3.so
+SHA1-Digest: Fp2qTyAblSS7Rr12VX+HCE+bvtQ=
+
+Name: assets/emoji/emoji_25.png
+SHA1-Digest: S+SAsPAqOHRQdteTSo6ob3SomVY=
+
+Name: assets/emoji/emoji_506.png
+SHA1-Digest: PLHrgvmcTs6KnzPvxSC9yuDFEtc=
+
+Name: assets/emoji/emoji_727.png
+SHA1-Digest: kPL+5DI1SsxaEcjUB/R/daeAFlw=
+

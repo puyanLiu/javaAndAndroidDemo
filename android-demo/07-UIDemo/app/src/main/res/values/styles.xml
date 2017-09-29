@@ -12,5 +12,8 @@
         <item name="android:minHeight">24dip</item>
         <item name="android:maxHeight">24dip</item>
     </style>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/rad_btn_selctor</item>
+    </style>
 
 </resources>

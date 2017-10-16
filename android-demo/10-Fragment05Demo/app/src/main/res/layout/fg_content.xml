@@ -7,5 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="呵呵"/>
+        android:text="呵呵"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"/>
 </LinearLayout>

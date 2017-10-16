@@ -1,92 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--底部导航栏 通过LinearLayout+TextView实现，每次点击都要重置所有TextView的状态-->
+<!--新闻购物类APP列表Fragment的简单实现-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.queqianme.www.a10_fragmentdemo.MainActivity">
-
-    <RelativeLayout
-        android:id="@+id/rl_top_bar"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@color/bg_topbar">
-        <TextView
-            android:id="@+id/txt_top_bar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="提醒"
-            android:layout_centerInParent="true"
-            android:gravity="center"/>
-        <View
-            android:id="@+id/div_top_bar"
-            android:layout_width="match_parent"
-            android:layout_height="2px"
-            android:background="@color/div_white"
-            android:layout_alignParentBottom="true"/>
-    </RelativeLayout>
-    <LinearLayout
-        android:id="@+id/ll_tab_bar"
+    <TextView
+        android:id="@+id/txt_title"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/txt_channel"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/tab_menu_bg"
-            android:gravity="center"
-            android:drawableTop="@drawable/tab_menu_channel"
-            android:padding="5dp"
-            android:text="提醒"/>
-        <TextView
-            android:id="@+id/txt_message"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/tab_menu_bg"
-            android:gravity="center"
-            android:drawableTop="@drawable/tab_menu_message"
-            android:padding="5dp"
-            android:text="信息"/>
-        <TextView
-            android:id="@+id/txt_better"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/tab_menu_bg"
-            android:gravity="center"
-            android:drawableTop="@drawable/tab_menu_better"
-            android:padding="5dp"
-            android:text="我的"/>
-        <TextView
-            android:id="@+id/txt_setting"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/tab_menu_bg"
-            android:gravity="center"
-            android:drawableTop="@drawable/tab_menu_setting"
-            android:padding="5dp"
-            android:text="设置"/>
-    </LinearLayout>
-
-    <View
-        android:id="@+id/div_tab_bar"
-        android:layout_width="match_parent"
-        android:layout_height="2px"
-        android:background="@color/div_white"
-        android:layout_above="@id/ll_tab_bar"/>
+        android:text="新闻列表"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
 
     <FrameLayout
         android:id="@+id/fl_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/ll_tab_bar"
-        android:layout_below="@id/rl_top_bar">
+        android:layout_below="@id/txt_title">
 
     </FrameLayout>
 

@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -48,6 +49,8 @@ public class ListViewActivity3 extends Activity {
             map.put("salary", salary);
             p_list.add(map);
         }
+
+        Log.i("", "-----------------------------");
 
         lv_list.setAdapter(new SimpleAdapter(this, p_list, R.layout.item_row, new String[]{"name", "phone", "salary"},
                 new int[]{R.id.txt_name, R.id.txt_phone, R.id.txt_salary}));

@@ -15,6 +15,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * Created by liupuyan on 2017/10/23.
@@ -39,7 +40,7 @@ public class PostActivity extends Activity {
         EditText tv_name = (EditText)findViewById(R.id.tv_name);
         EditText tv_pwd = (EditText)findViewById(R.id.tv_pwd);
 
-        final String name = tv_name.getText().toString();
+        final String name = tv_name.getText().toString() + "哈哈";
         final String pwd = tv_pwd.getText().toString();
 
         new Thread() {
@@ -56,7 +57,7 @@ public class PostActivity extends Activity {
 
                     // 添加post请求头中自动添加的属性
                     connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-                    String content = "username=" + name + "&password=" + pwd;
+                    String content = "username=" + URLEncoder.encode(name, "utf-8") + "&password=" + pwd;
                     // 流里数据长度
                     connection.setRequestProperty("Content-Length", content.length() + "");
 

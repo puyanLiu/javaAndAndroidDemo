@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    // 在Android 6.0（API 23） 中，Google已经移除了Apache HttpClient 想关类，推荐使用HttpUrlConnection 解决Android studio开发找不到HttpClient问题
+    android {
+        useLibrary 'org.apache.http.legacy'
+    }
 }
 
 dependencies {

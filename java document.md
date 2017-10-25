@@ -18,7 +18,7 @@
 * ADB(android debug bridge)安卓调试桥
 * ADB指令
     * adb install：安装指定apk
-    * adb uninstall com.yingyonghui.market： 删除指定应用
+    * adb uninstall com.haha.market： 删除指定应用
     * adb start-server：开启adb进程
     * adb kill-server：杀死adb进程
     * adb devices：列出与开发环境建立连接的Android设备的列表
@@ -26,8 +26,135 @@
         * ls：列出当前目录结构
         * ps：列出当前设备的所有进程
     * netstat -ano：查看端口占用情况
+    * exit 退出当前shell
+    
+* 在Mac上配置Android studio的adb
+    * 对于Android studio而言，默认adb路径~/Library/Android/sdk/platform-tools
+    * 在mac系统终端下，输入 open -e .bash_profile，加入`export PATH=${PATH}:~/Library/Android/sdk/platform-tools` 
+
+### 快捷键
+* command+alt+l 格式化代码
+* command+s 保存（支持自动保存）
+* command+z 关闭tab后还可以撤销编辑
+* ctrl+d Debug 'app'
+* ctrl+r Run 'app'
+* command+n 构造方法、getter/setter、toString等等
+* ctrl+h 类层级
+
+* command+o 在当前project中搜索class，在搜索文本后跟:lineNumber，可以定位到某行
+* command+shift+o 在当前project中搜索file(包含class)，在搜索文本后跟:lineNumber，可以定位到某行
+* command+alt+o 在当前project中搜索属性（成员和静态，不论是否私有）
+* command+f 当前文件查找，查找后command+g定位到下一个text
+* command+r 当前文件替换
+* command+shift+f 全局查找
+* command+shift+r 全局替换
+* command+f12 查看当前类成员
+    * command+i 显示/取消匿名类
+    * command+f12 显示继承自父类、父接口的成员
+* shift+f7 查找方法在哪被使用
+* f4 定位属性、方法、类等它们的声明
+* f1 查看doc/文档注释 或者按住command，鼠标悬浮在方法名上，也可查看具体的参数类型
+* f2 定位到未使用的声明
+
+* ctrl+o 选择能重写或实现的方法
+* shift+F6 重构-重命名
+* command+alt+v 自动声明变量
+* command+alt+m 抽取方法
+* command+alt+f 抽取为成员属性
+* command+alt+p 将内部变量抽取成方法的参数
+
+* command+d 复制整行
+* command+删除 删除整行
+* command+shift+t 代码包入 if、while、try-catch、synchronized等等
+* command+e 历史打开过的文件
+* alt+enter 当该代码行下标红时，快速修复，需光标移动到分号之前，可以在代码内容里
+* command+u 查看父类的同名方法
+* command+shift+l 整理代码并能去除无效引用
+* command+shift+u 大小写转换
+* command+shift+enter 光标换行
+* command+alt+enter 在当前行上添加一行，光标定位到行首
+* command+shift+上下箭头 内容行上下移动，不会出方法体；或光标在方法体外且在方法行上时，移动整个方法
+* shift+alt+上下箭头 上下移动光标所在行
+* command+x 剪切，若无选中文本事剪切整行
+* command+shift+删除 将光标定位到最后编辑的地方
+* command+j 快捷代码片段
+
+### 模板
+* 系统提供的模板
+```
+// 输入const，按下Tab键
+private static final int aa = 728;
+// 输入key，按下Tab键
+private static final String KEY_a = "a";
+// 输入logt，按下Tab键
+private static final String TAG = "MainActivity";
+
+// 输入Toast，按下Tab键
+Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+// 输入sout，回车
+System.out.println("哈哈");
+// 输入soutm，回车
+System.out.println("MainActivity.onCreate");
+// 输入soutp，回车
+System.out.println("savedInstanceState = [" + savedInstanceState + "]");
+// 输入soutv，回车
+System.out.println("savedInstanceState = " + savedInstanceState);
+// 输入logi
+Log.i(TAG, "onCreate: ");
+// 输入logd
+Log.d(TAG, "onCreate: ");
+// 输入loge
+Log.e(TAG, "onCreate: ", new Throwable());
+// 对一个对象判断空 输入ifn
+if (savedInstanceState == null) {
+
+}
+// 对一个对象判断非空，输入inn
+if (savedInstanceState != null) {
+
+}
+// IntentView
+Intent view = new Intent();
+view.setAction(Intent.ACTION_VIEW);
+view.setData(Uri.parse(""));
+startActivity(view);
+```
+
+* 自定义Live Template
+preference->Editor->Live Templates
+右边+-可以添加、删除
+例如创建mytag
+`private static final String $tag$ = "$tag$";`
+    
+* File Template
+preference->Editor->File and Code Template
+可进行修改添加
+在AS创建类的时候，在类名上有如下注释
+```
+/**
+ * Created by 电脑用户名 on 当前的日期.
+ */
+```
+
+例如添加Activity的时候自动继承Activity
+自定义Activity class File Template模板代码如下
+```
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+public class ${NAME} extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+}
+```
+    创建Activity时选择kind为刚刚创建的Activity类型即可
+
 
 ### sdk
+
 * 路径/Users/liupuyan/Library/Android/sdk 
 * extras 
     * 支持类库 让低版本系统可以运行高版本的新特性
@@ -67,6 +194,8 @@
 - unable to access Android SDK add-on list
     在 Android Studio 安装目录 bin/idea.properties 文件最后追加一句
     disable.android.first.run=true
+
+## 网络请求
 
 ### 网络图片查看
 * 发送http请求
@@ -162,7 +291,7 @@
 * 浏览器在发送请求携带数据时会对数据进行URL编码，我们写代码时也需要为中文进行URL编码
 
         String path = "http://*/login?name=" + URLEncoder.encode(name) + "&pass=" + pass;
-        
+
 ### POST方式提交数据
 * post提交数据是用输出流写给服务器的
 * 协议头中多了两个属性
@@ -229,6 +358,189 @@
                 break;
             }       
         }
+
+### HttpClient 已过时
+#### 发送get请求
+* 创建一个客户端对象
+
+    HttpClient client = new DefaultHttpClient();
+
+* 创建一个get请求对象
+
+    HttpGet hg = new HttpGet(path);
+
+* 发送get请求，建立连接，返回响应头对象
+
+    HttpResponse hr = hc.execute(hg);
+
+* 获取状态行对象，获取状态码，如果为200则说明请求成功
+
+        if(hr.getStatusLine().getStatusCode() == 200){
+            //拿到服务器返回的输入流
+            InputStream is = hr.getEntity().getContent();
+            String text = Utils.getTextFromStream(is);
+        }
+
+#### 发送post请求
+
+        //创建一个客户端对象
+        HttpClient client = new DefaultHttpClient();
+        //创建一个post请求对象
+        HttpPost hp = new HttpPost(path);
+
+* 往post对象里放入要提交给服务器的数据
+    
+        //要提交的数据以键值对的形式存在BasicNameValuePair对象中
+        List<NameValuePair> parameters = new ArrayList<NameValuePair>();
+        BasicNameValuePair bnvp = new BasicNameValuePair("name", name);
+        BasicNameValuePair bnvp2 = new BasicNameValuePair("pass", pass);
+        parameters.add(bnvp);
+        parameters.add(bnvp2);
+        //创建实体对象，指定进行URL编码的码表
+        UrlEncodedFormEntity entity = new UrlEncodedFormEntity(parameters, "utf-8");
+        //为post请求设置实体
+        hp.setEntity(entity);
+
+### 多线程下载
+> 原理：服务器CPU分配给每条线程的时间片相同，服务器带宽平均分配给每条线程，所以客户端开启的线程越多，就能抢占到更多的服务器资源
+
+#### 确定每条线程下载多少数据
+* 发送http请求至下载地址
+
+        String path = "http://192.168.40.182/xampp/myfile/QQ_V6.1.0.dmg";     
+        URL url = new URL(path);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setReadTimeout(5000);
+        conn.setConnectTimeout(5000);
+        conn.setRequestMethod("GET");                   
+* 获取文件总长度，然后创建长度一致的临时文件
+
+        if(conn.getResponseCode() == 200){
+            //获得服务器流中数据的长度
+            int length = conn.getContentLength();
+            //创建一个临时文件存储下载的数据
+            RandomAccessFile raf = new RandomAccessFile(getFileName(path), "rwd");
+            //设置临时文件的大小
+            raf.setLength(length);
+            raf.close();
+* 确定线程下载多少数据
+
+            //计算每个线程下载多少数据
+            int blockSize = length / THREAD_COUNT;
+
+#### 计算每条线程下载数据的开始位置和结束位置
+
+        for(int id = 1; id <= 3; id++){
+            //计算每个线程下载数据的开始位置和结束位置
+            int startIndex = (id - 1) * blockSize;
+            int endIndex = id * blockSize - 1;
+            if(id == THREAD_COUNT){
+                endIndex = length;
+            }
+                            
+            //开启线程，按照计算出来的开始结束位置开始下载数据
+            new DownLoadThread(startIndex, endIndex, id).start();
+        }
+
+#### 再次发送请求至下载地址，请求开始位置至结束位置的数据
+
+        String path = "http://192.168.1.102:8080/editplus.exe";
+    
+        URL url = new URL(path);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setReadTimeout(5000);
+        conn.setConnectTimeout(5000);
+        conn.setRequestMethod("GET");
+        
+        //向服务器请求部分数据
+        conn.setRequestProperty("Range", "bytes=" + startIndex + "-" + endIndex);
+        conn.connect();
+
+* 下载请求到的数据，存放至临时文件中
+
+        if(conn.getResponseCode() == 206){
+            InputStream is = conn.getInputStream();
+            RandomAccessFile raf = new RandomAccessFile(getFileName(path), "rwd");
+            //指定从哪个位置开始存放数据
+            raf.seek(startIndex);
+            byte[] b = new byte[1024];
+            int len;
+            while((len = is.read(b)) != -1){
+                raf.write(b, 0, len);
+            }
+            raf.close();
+        }
+
+
+### 带断点续传的多线程下载
+* 定义一个int变量记录每条线程下载的数据总长度，然后加上该线程的下载开始位置，得到的结果就是下次下载时，该线程的开始位置，把得到的结果存入缓存文件
+
+        //用来记录当前线程总的下载长度
+        int total = 0;
+        while((len = is.read(b)) != -1){
+            raf.write(b, 0, len);
+            total += len;
+            //每次下载都把新的下载位置写入缓存文本文件
+            RandomAccessFile raf2 = new RandomAccessFile(threadId + ".txt", "rwd");
+            raf2.write((startIndex + total + "").getBytes());
+            raf2.close();
+        }
+* 下次下载开始时，先读取缓存文件中的值，得到的值就是该线程新的开始位置
+
+        FileInputStream fis = new FileInputStream(file);
+        BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+        String text = br.readLine();
+        int newStartIndex = Integer.parseInt(text);
+        //把读到的值作为新的开始位置
+        startIndex = newStartIndex;
+        fis.close();
+* 三条线程都下载完毕之后，删除缓存文件
+
+        RUNNING_THREAD--;
+        if(RUNNING_THREAD == 0){
+            for(int i = 0; i <= 3; i++){
+                File f = new File(i + ".txt");
+                f.delete();
+            }
+        }
+
+### HttpUtils的使用
+>HttpUtils本身就支持多线程断点续传，使用起来非常的方便
+
+* 创建HttpUtils对象
+
+        HttpUtils http = new HttpUtils();
+* 下载文件
+        
+        http.download(url, //下载请求的网址
+                target, //下载的数据保存路径和文件名
+                true, //是否开启断点续传
+                true, //如果服务器响应头中包含了文件名，那么下载完毕后自动重命名
+                new RequestCallBack<File>() {//侦听下载状态
+            
+            //下载成功此方法调用
+            @Override
+            public void onSuccess(ResponseInfo<File> arg0) {
+                tv.setText("下载成功" + arg0.result.getPath());
+            }
+            
+            //下载失败此方法调用，比如文件已经下载、没有网络权限、文件访问不到，方法传入一个字符串参数告知失败原因
+            @Override
+            public void onFailure(HttpException arg0, String arg1) {
+                tv.setText("下载失败" + arg1);
+            }
+            
+            //在下载过程中不断的调用，用于刷新进度条
+            @Override
+            public void onLoading(long total, long current, boolean isUploading) {
+                super.onLoading(total, current, isUploading);
+                //设置进度条总长度
+                pb.setMax((int) total);
+                //设置进度条当前进度
+                pb.setProgress((int) current);
+                tv_progress.setText(current * 100 / total + "%");
+            }
+        });
 
 ## 数据存储
 

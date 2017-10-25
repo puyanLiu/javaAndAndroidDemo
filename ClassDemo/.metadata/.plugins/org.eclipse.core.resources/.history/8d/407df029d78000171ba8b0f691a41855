@@ -1,7 +1,0 @@
-package ioTest;
-
-public class PropertiesDemo1 {
-	public static void main(String[] args) {
-		
-	}
-}

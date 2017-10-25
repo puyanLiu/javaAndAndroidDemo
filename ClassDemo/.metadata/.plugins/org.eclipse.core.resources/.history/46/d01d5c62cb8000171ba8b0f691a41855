@@ -1,9 +1,0 @@
-package ioTest;
-
-/**
- * @author liupuyan
- * 随机访问流
- */
-public class RandomAccessFileDemo {
-
-}

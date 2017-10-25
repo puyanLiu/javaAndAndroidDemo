@@ -1,7 +1,0 @@
-package ioTest;
-
-public class copyFileDemo1 {
-	public static void main(String[] args) {
-		
-	}
-}

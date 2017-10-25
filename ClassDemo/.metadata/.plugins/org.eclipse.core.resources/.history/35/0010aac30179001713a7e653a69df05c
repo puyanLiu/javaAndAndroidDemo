@@ -1,5 +1,0 @@
-package treeSetTest;
-
-public class MyComparator implements Comparable<T> {
-
-}

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.widget.TextView;
 
 /**
  * Created by liupuyan on 2017/9/16.
@@ -12,6 +13,7 @@ import android.util.Log;
 public class LifeActivity extends Activity {
 
     public String tag = "second";
+    private TextView tv;
 
     // 生命周期相关方法
     /*该方法是在Activity被创建时回调，它是生命周期第一个调用的方法，我们在创建Activity时一般都需要重写该方法，
@@ -20,6 +22,8 @@ public class LifeActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_life);
+
+        tv = (TextView) findViewById(R.id.tv);
 
         Log.i(tag, "-----------------------second create-----------------------");
     }
@@ -82,5 +86,6 @@ public class LifeActivity extends Activity {
         super.onDestroy();
 
         Log.i(tag, "-----------------------second destory-----------------------");
+
     }
 }

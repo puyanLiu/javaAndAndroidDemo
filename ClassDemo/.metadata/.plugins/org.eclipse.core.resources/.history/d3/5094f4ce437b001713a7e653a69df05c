@@ -1,9 +1,0 @@
-package mapTest;
-
-/**
- * @author liupuyan
- * ArrayList集合嵌套HashMap集合
- */
-public class demo2 {
-	
-}

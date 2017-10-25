@@ -1,8 +1,0 @@
-package genericTest;
-
-public class InterDemo {
-	public static void main(String[] args) {
-		InterImpl1 impl1 = new InterImpl1();
-		impl1.show("哈喽");
-	}
-}

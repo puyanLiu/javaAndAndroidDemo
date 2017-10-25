@@ -24,5 +24,6 @@ public class SecondActivity extends Activity {
         TextView tv2 = (TextView)findViewById(R.id.txtBundle);
         tv2.setText(bungle.getString("bundle"));
     }
+
 }
 

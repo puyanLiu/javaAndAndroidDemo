@@ -1,9 +1,0 @@
-package stringBufferTest;
-
-public class demo1 {
-	public static void main(String[] args) {
-		// 线程安全的可变字符串
-		StringBuffer sb1 = new StringBuffer();
-		System.out.println(sb1);
-	}
-}

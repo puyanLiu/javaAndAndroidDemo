@@ -1,7 +1,0 @@
-package genericTest;
-
-public class InterDemo {
-	public static void main(String[] args) {
-		
-	}
-}

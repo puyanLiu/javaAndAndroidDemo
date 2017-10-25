@@ -1,3 +1,4 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.jdt.ui.presentation
 ColorsAndFontsPreferencePage.selectedElement=Corg.eclipse.jdt.ui.Javadoc.backgroundColor
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;

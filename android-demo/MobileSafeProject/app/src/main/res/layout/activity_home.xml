@@ -4,7 +4,26 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
     <TextView
-        android:layout_width="wrap_content"
+        style="@style/TitleStyle"
+        android:text="功能列表"/>
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我是主页"/>
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="手机卫士，您的贴身好管家，能防盗，能杀毒，能清理缓存，能GPS定位，等等等哈哈"/>
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="15dp"></GridView>
 </LinearLayout>

@@ -6,19 +6,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     public String tag = "liu";
-    private int a;
-    // 输入const，按下Tab键
-    private static final int aa = 728;
-    // 输入key，按下Tab键
-    private static final String KEY_a = "a";
-    // 输入logt，按下Tab键
-    private static final String TAG = "MainActivity";
-    private static final String aaaa = "aaaa";
 
     // 生命周期相关方法
     /*该方法是在Activity被创建时回调，它是生命周期第一个调用的方法，我们在创建Activity时一般都需要重写该方法，
@@ -28,42 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 输入Toast，按下Tab键
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
-        // 输入sout，回车
-        System.out.println("哈哈");
-        // 输入soutm，回车
-        System.out.println("MainActivity.onCreate");
-        // 输入soutp，回车
-        System.out.println("savedInstanceState = [" + savedInstanceState + "]");
-        // 输入soutv，回车
-        System.out.println("savedInstanceState = " + savedInstanceState);
-        // 输入logi
-        Log.i(TAG, "onCreate: ");
-        // 输入logd
-        Log.d(TAG, "onCreate: ");
-        // 输入loge
-        Log.e(TAG, "onCreate: ", new Throwable());
-        // 对一个对象判断空 输入ifn
-        if (savedInstanceState == null) {
-
-        }
-        // 对一个对象判断非空，输入inn
-        if (savedInstanceState != null) {
-
-        }
-        // IntentView
-        Intent view = new Intent();
-        view.setAction(Intent.ACTION_VIEW);
-        view.setData(Uri.parse(""));
-        startActivity(view);
-
-
         Log.i(tag, "-----------------------main create-----------------------");
     }
 
     /*此方法被回调时表示Activity正在启动，此时Activity已处于可见状态，只是还没有在前台显示，因此无法与用户进行交互。
-    可以简单理解为Activity已显示而我们无法看见*/
+        可以简单理解为Activity已显示而我们无法看见*/
     @Override
     protected void onStart() {
         super.onStart();
@@ -120,6 +80,34 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
 
         Log.i(tag, "-----------------------main destory-----------------------");
+
+    }
+
+    // 隐式启动打电话
+    public void showImplictCallClick(View v) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:224324235"));
+        startActivity(intent);
+    }
+
+    // 显示启动拨号器
+    public void showDialClick(View v) {
+        Intent intent = new Intent();
+        // 参数1：目标Activity所在应用的包名
+        // 参数2：目标Activity的类名，要带包名
+        // 拨号界面
+        intent.setClassName("com.android.contacts", "com.android.contacts.activities.DialtactsActivity");
+        intent.setData(Uri.parse("tel:224324235"));
+        startActivity(intent);
+    }
+
+    // 隐式启动拨号器
+    public void showImplictDialClick(View v) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:123344235"));
+        startActivity(intent);
     }
 
     // 显式启动SecondActivity
@@ -144,18 +132,36 @@ public class MainActivity extends AppCompatActivity {
     public void showImplictSecondClick(View v) {
         Log.i("liu", "哈哈");
         // 通过指定动作实现跳转，称为隐式跳转
-        Intent intent = new Intent();
-        // 匹配name
-//        intent.setAction("a.b.c");
-
+        // 方式一
+//        Intent intent = new Intent();
 //        intent.setAction("a.b.c2");
+//        // 如果没有设置Category，自动匹配到DEFAULT，配置文件中必须设置此项
+//        intent.addCategory(Intent.CATEGORY_DEFAULT);
+//        startActivity(intent);
 
-        intent.setAction("a.b.c");
+        // 方式二
+//        Intent intent = new Intent();
+//        intent.setAction("a.b.c");
+//        // 如果没有设置Category，自动匹配到DEFAULT，配置文件中必须设置此项
+//        intent.addCategory(Intent.CATEGORY_DEFAULT);
 //        intent.setData(Uri.parse("qqm:嘿嘿"));
-        intent.setDataAndType(Uri.parse("qqm2:呵呵"), "text/name");
+//        startActivity(intent);
 
+        // 方式三
+        Intent intent = new Intent();
+        intent.setAction("a.b.c");
         // 如果没有设置Category，自动匹配到DEFAULT，配置文件中必须设置此项
         intent.addCategory(Intent.CATEGORY_DEFAULT);
+        intent.setDataAndType(Uri.parse("qqm2:呵呵"), "text/name");
+
+        // 数据封装到intent中
+        intent.putExtra("name", "main传递的");
+
+        // Bundle传递
+        Bundle extras = new Bundle();
+        extras.putString("bundle", "main通过bundle传递的");
+        intent.putExtras(extras);
+
         startActivity(intent);
     }
 
@@ -175,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // 跳转到生命周期
     public void jumpLifeClick(View v) {
         Intent intent = new Intent();
         intent.setClass(this, LifeActivity.class);

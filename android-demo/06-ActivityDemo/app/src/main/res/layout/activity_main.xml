@@ -22,7 +22,19 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="隐式启动打电话Activity"/>
+            android:text="隐式启动打电话Activity"
+            android:onClick="showImplictCallClick"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示启动拨号器"
+            android:onClick="showDialClick"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐式启动拨号器"
+            android:onClick="showImplictDialClick"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,15 +45,6 @@
             android:layout_height="wrap_content"
             android:text="隐式启动SecondActivity"
             android:onClick="showImplictSecondClick"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="显示启动拨号器"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="隐式启动拨号器"/>
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

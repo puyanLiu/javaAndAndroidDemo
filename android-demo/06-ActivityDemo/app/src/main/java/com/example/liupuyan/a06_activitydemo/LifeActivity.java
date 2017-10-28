@@ -29,7 +29,7 @@ public class LifeActivity extends Activity {
     }
 
     /*此方法被回调时表示Activity正在启动，此时Activity已处于可见状态，只是还没有在前台显示，因此无法与用户进行交互。
-    可以简单理解为Activity已显示而我们无法看见*/
+        可以简单理解为Activity已显示而我们无法看见*/
     @Override
     protected void onStart() {
         super.onStart();

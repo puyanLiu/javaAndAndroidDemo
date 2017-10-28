@@ -152,7 +152,6 @@ public class ${NAME} extends AppCompatActivity {
 ```
     创建Activity时选择kind为刚刚创建的Activity类型即可
 
-
 ### sdk
 
 * 路径/Users/liupuyan/Library/Android/sdk 
@@ -190,10 +189,286 @@ public class ${NAME} extends AppCompatActivity {
     </intent-filter>
     ```
 
+### 配置在debug的时候使用我们自定义的keystore
+* 新建keystore
+* 在项目上右键Open Module Settings
+    * app->Signing 填写路径配置
+    * app->Build Types分别设置刚填写的keystore
+* 填写完成，我们的配置文件如下
+```
+android {
+    signingConfigs {
+        config {
+            keyPassword '123456'
+            storeFile file('/Users/liupuyan/Desktop/JavaBaseDemo/android-demo/MobileSafeProject/mobileSafe.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.queqianme.www.mobilesafeproject"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+```
+
+### 测试apk是否使用了我们创建的keystore
+* 第一步： keytool -list -v -keystore  xxx.keystore 
+通过工具查看sha1的值.，例如 5C:93:68:2C:E3:2B:00:F1:D6:11:0F:46:08:93:32:1D:FD:6E:60:CC
+* 第二步：在APP内部通过代码的方式获取sha1 两者一比较即可
+```
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateEncodingException;
+import java.security.cert.CertificateFactory;
+import java.security.cert.X509Certificate;
+
+//这个是获取SHA1的方法
+public static String getCertificateSHA1Fingerprint(Context context) {
+    //获取包管理器
+    PackageManager pm = context.getPackageManager();
+    //获取当前要获取SHA1值的包名，也可以用其他的包名，但需要注意，
+    //在用其他包名的前提是，此方法传递的参数Context应该是对应包的上下文。
+    String packageName = context.getPackageName();
+    //返回包括在包中的签名信息
+    int flags = PackageManager.GET_SIGNATURES;
+    PackageInfo packageInfo = null;
+    try {
+        //获得包的所有内容信息类
+        packageInfo = pm.getPackageInfo(packageName, flags);
+    } catch (PackageManager.NameNotFoundException e) {
+        e.printStackTrace();
+    }
+    //签名信息
+    Signature[] signatures = packageInfo.signatures;
+    byte[] cert = signatures[0].toByteArray();
+    //将签名转换为字节数组流
+    InputStream input = new ByteArrayInputStream(cert);
+    //证书工厂类，这个类实现了出厂合格证算法的功能
+    CertificateFactory cf = null;
+    try {
+        cf = CertificateFactory.getInstance("X509");
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    //X509证书，X.509是一种非常通用的证书格式
+    X509Certificate c = null;
+    try {
+        c = (X509Certificate) cf.generateCertificate(input);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    String hexString = null;
+    try {
+        //加密算法的类，这里的参数可以使MD4,MD5等加密算法
+        MessageDigest md = MessageDigest.getInstance("SHA1");
+        //获得公钥
+        byte[] publicKey = md.digest(c.getEncoded());
+        //字节到十六进制的格式转换
+        hexString = byte2HexFormatted(publicKey);
+    } catch (NoSuchAlgorithmException e1) {
+        e1.printStackTrace();
+    } catch (CertificateEncodingException e) {
+        e.printStackTrace();
+    }
+    return hexString;
+}
+//这里是将获取到得编码进行16进制转换
+private static String byte2HexFormatted(byte[] arr) {
+    StringBuilder str = new StringBuilder(arr.length * 2);
+    for (int i = 0; i < arr.length; i++) {
+        String h = Integer.toHexString(arr[i]);
+        int l = h.length();
+        if (l == 1)
+            h = "0" + h;
+        if (l > 2)
+            h = h.substring(l - 2, l);
+        str.append(h.toUpperCase());
+        if (i < (arr.length - 1))
+            str.append(':');
+    }
+    return str.toString();
+}
+```
+
 ### 安装出现的问题
-- unable to access Android SDK add-on list
+* unable to access Android SDK add-on list
     在 Android Studio 安装目录 bin/idea.properties 文件最后追加一句
     disable.android.first.run=true
+
+## Android四大组件
+
+### Activity
+> 直接翻译为：“活动”，在Android中更多的是代表手机的屏幕，是Android四大组件之一，重要的组成单元，提供了与用户交互的可视化界面，大多数的App都是由多个屏幕组成的；Android系统使用Task(栈)来存储Activity（Activity栈），后进先出，当在一个Activity启动另外一个Activity时，第二个Activity压入栈中，此时两个Activity是放在同一个Task中的，当我们按下回退键时，第二个从栈中弹出，第一个Activity回到栈顶，即显示到当前屏幕
+
+* 需要在清单文件中为其配置一个activity标签
+* 标签中如果带有这个子节点，则会在系统中多创建一个快捷图标
+
+         <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+* 一个应用程序可以在桌面创建多个快捷图标。
+* activity的名称、图标可以和应用程序的名称、图标不相同
+
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+
+#### 跳转方式
+>Activity的跳转需要创建Intent对象，通过设置intent对象的参数指定要跳转Activity
+>通过设置Activity的包名和类名实现跳转，称为显式意图
+>通过指定动作实现跳转，称为隐式意图
+
+* 显式跳转
+    * 同一应用中，指定目标Activity的字节码和当前的上下文
+```
+Intent intent = new Intent();
+intent.setClass(this, SecondActivity.class);
+startActivity(intent);
+```
+    * 不同应用中，指定目标Activity所在的应用的包名和目标Activity的包名加类名
+```
+Intent intent = new Intent();
+//启动系统自带的拨号器应用
+intent.setClassName("com.android.dialer", "com.android.dialer.DialtactsActivity");
+startActivity(intent);
+```
+
+* 隐式跳转
+    * 隐式意图跳转至指定Activity
+
+        Intent intent = new Intent();
+        //启动系统自带的拨号器应用
+        intent.setAction(Intent.ACTION_DIAL);
+        startActivity(intent);
+    * 要让一个Activity可以被隐式启动，需要在清单文件的activity节点中设置intent-filter子节点
+
+        <intent-filter >
+            <action android:name="com.haha.second"/>
+            <data android:scheme="asd" android:mimeType="aa/bb"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        * action 指定动作（可以自定义，可以使用系统自带的）
+        * data   指定数据（操作什么内容）
+        * category 类别 （默认类别，机顶盒，车载电脑）
+    * 隐式意图启动Activity，需要为intent设置以上三个属性，且值必须与该Activity在清单文件中对三个属性的定义匹配
+    * intent-filter节点及其子节点都可以同时定义多个，隐式启动时只需与任意一个匹配即可
+
+* 获取通过setData传递的数据
+        //获取启动此Activity的intent对象
+        Intent intent = getIntent();
+        Uri uri = intent.getData();
+
+### 应用场景
+* 显式启动效率高于隐式
+* 显式意图用于启动同一应用中的Activity
+* 隐式意图用于启动不同应用中的Activity
+    * 如果系统中存在多个Activity的intent-filter同时与你的intent匹配，那么系统会显示一个对话框，列出所有匹配的Activity，由用户选择启动哪一个
+
+### 跳转时传递数据
+* Activity通过Intent启动时，可以通过Intent对象携带数据到目标Activity
+
+        Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra("maleName", maleName);
+        intent.putExtra("femaleName", femaleName);
+        startActivity(intent);
+* intent中可以封装的数据类型：八大基本数据类型和字符串及它们的数组，还有实现了序列化接口的对象，还有bundle对象
+* 数据可以先封装至Bundle，再把Bundle封装至intent
+* 在目标Activity中取出数据
+
+        Intent intent = getIntent();
+        String maleName = intent.getStringExtra("maleName");
+        String femaleName = intent.getStringExtra("femaleName");
+
+### 生命周期
+* onCreate：Activity已经被创建完毕
+* onStart：Activity已经显示在屏幕，但没有得到焦点
+* onResume：Activity得到焦点，可以与用户交互
+* onPause：Activity失去焦点，无法再与用户交互，但依然可见
+* onStop：Activity不可见，进入后台
+* onDestroy：Activity被销毁
+* onRestart：Activity从不可见变成可见时会执行此方法
+* 手机内存不足时，会杀死之前启动的进程，按照LRU算法（最近最少使用）锁定杀死谁
+* Activity创建时需要初始化资源，销毁时需要释放资源；或者播放器应用，在界面进入后台时需要自动暂停
+
+* 完整生命周期
+`onCreate-->onStart-->onResume-->onPause-->onStop-->onDestory`
+* 可视生命周期
+`onStart-->onResume-->onPause-->onStop`
+* 前台生命周期
+`onResume-->onPause`
+
+### 启动模式
+>每个应用会有一个Activity任务栈Activity task stack，存放已启动的Activity
+>Activity的启动模式，修改任务栈的排列情况
+
+* 栈
+    * 连续的内存空间
+    * 后进先出
+* standard：默认就是标准模式
+* singleTop 单一顶部模式 
+    * 如果任务栈的栈顶存在这个要开启的activity，不会重新的创建activity，而是复用已经存在的activity。保证栈顶如果存在，不会重复创建。
+    * 应用场景：浏览器的书签
+* singeTask 单一任务栈，在当前任务栈里面只能有一个实例存在
+    * 当开启activity的时候，就去检查在任务栈里面是否有实例已经存在，如果有实例存在就复用这个已经存在的activity，并且把这个activity上面的所有的别的activity都清空，复用这个已经存在的activity。保证整个任务栈里面只有一个实例存在
+    * 应用场景：浏览器的activity
+    * 如果一个activity的创建需要占用大量的系统资源（cpu，内存）一般配置这个activity为singletask的启动模式。webkit内核 c代码
+* singleInstance启动模式非常特殊， activity会运行在自己的任务栈里面，并且这个任务栈里面只有一个实例存在
+    * 如果你要保证一个activity在整个手机操作系统里面只有一个实例存在，使用singleInstance
+    * 应用场景： 电话拨打界面
+
+### 横竖屏切换
+* 默认情况横竖屏切换会触发生命周期方法重新执行，Activity销毁重建
+* 用以下代码让横竖屏切换时不重建Activity
+
+        android:configChanges="orientation|screenSize|keyboardHidden"
+* 用以下代码写死屏幕方向
+
+        android:screenOrientation="portrait"
+        android:screenOrientation="landscape"
+
+### Activity摧毁时返回数据
+> 从A界面打开B界面， B界面关闭的时候，返回一个数据给A界面
+
+1. 开启activity并且获取返回值
+
+        startActivityForResult(intent, 0);
+2. 在新开启的界面里面实现设置数据的逻辑
+    
+        Intent data = new Intent();
+        data.putExtra("phone", phone);
+        //设置一个结果数据，数据会返回给调用者
+        setResult(0, data);
+        finish();//关闭掉当前的activity，才会返回数据
+
+3. 在开启者activity里面实现方法
+
+        //通过data获取返回的数据
+        onActivityResult(int requestCode, int resultCode, Intent data) {
+        
+        }
+4. 通过判断请求码和结果码确定返回值的作用
 
 ## 网络请求
 

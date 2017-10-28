@@ -29,6 +29,7 @@ public class PackageUtils {
         try {
             PackageInfo packInfo = pm.getPackageInfo(context.getPackageName(), 0); // 根据包名 获取相关信息
             int versionCode = packInfo.versionCode;
+            LogUtils.i("A", "-----------------------" + versionCode);
             return versionCode;
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();

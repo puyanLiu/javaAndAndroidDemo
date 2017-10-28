@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        style="@style/TitleStyle"
+        android:text="设置中心"/>
+
+    <!--
+              xmlns:qqm="http://schemas.android.com/apk/res/com.queqianme.mobile.app"-->
+    <com.queqianme.www.mobilesafeproject.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:qqm="http://schemas.android.com/apk/res-auto"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
@@ -7,11 +8,12 @@
         style="@style/TitleStyle"
         android:text="设置中心"/>
 
-    <!--
-              xmlns:qqm="http://schemas.android.com/apk/res/com.queqianme.mobile.app"-->
     <com.queqianme.www.mobilesafeproject.view.SettingItemView
         android:id="@+id/siv_update"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        qqm:title="自动更新设置"
+        qqm:desc_on="自动更新已开启"
+        qqm:desc_off="自动更新已关闭" />
 
 </LinearLayout>

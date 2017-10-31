@@ -7,7 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.queqianme.www.mobilesafeproject.R;
+import com.queqianme.mobilesafe.app.R;
 
 /**
  * Created by liupuyan on 2017/10/28.

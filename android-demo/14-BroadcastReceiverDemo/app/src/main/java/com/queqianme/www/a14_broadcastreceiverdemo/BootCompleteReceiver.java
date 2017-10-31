@@ -20,5 +20,11 @@ public class BootCompleteReceiver extends BroadcastReceiver {
         if (ACTION_BOOT.equals(intent.getAction())) {
             Toast.makeText(context, "开机完毕~", Toast.LENGTH_SHORT).show();
         }
+
+        // 开机启动此应用
+        Intent it = new Intent(context, MainActivity.class);
+        // 创建新的任务栈，因为这行代码运行时，没有任务栈
+        it.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(it);
     }
 }

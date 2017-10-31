@@ -17,7 +17,13 @@ public class MainActivity extends AppCompatActivity {
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 标准广播
+                // 标准广播(自定义无序广播)
+
+//                Intent intent = new Intent();
+//                intent.setAction("com.queqianme.www.broadcastreceiver.MY_BROADCAST");
+//                sendBroadcast(intent);
+
+                // 发送自定义无序广播
                 sendBroadcast(new Intent("com.queqianme.www.broadcastreceiver.MY_BROADCAST"));
             }
         });

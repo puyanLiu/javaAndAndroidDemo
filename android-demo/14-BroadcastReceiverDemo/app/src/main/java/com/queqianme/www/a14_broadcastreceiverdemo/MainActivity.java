@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         unregisterReceiver(myBReceiver);
     }
+
+    @Override
+    public void onBackPressed() {
+//        super.onBackPressed();
+    }
 }
 
 /*

@@ -21,12 +21,13 @@ import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
-import com.queqianme.www.mobilesafeproject.R;
+import com.queqianme.mobilesafe.app.R;
 import com.queqianme.www.mobilesafeproject.model.AppVersionModel;
 import com.queqianme.www.mobilesafeproject.utils.LogUtils;
 import com.queqianme.www.mobilesafeproject.utils.PackageUtils;
 import com.queqianme.www.mobilesafeproject.utils.SignUtils;
 import com.queqianme.www.mobilesafeproject.utils.StreamUtils;
+import com.queqianme.www.mobilesafeproject.utils.ToastUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -66,13 +67,13 @@ public class SplashActivity extends Activity {
                     enterHome();
                     break;
                 case CODE_URL_ERROR:
-                    Toast.makeText(getApplicationContext(), "网络链接错误", Toast.LENGTH_SHORT).show();
+                    ToastUtils.showToast(getApplicationContext(), "网络链接错误");
                     break;
                 case CODE_NETWORK_ERROR:
-                    Toast.makeText(getApplicationContext(), "网络请求错误", Toast.LENGTH_SHORT).show();
+                    ToastUtils.showToast(getApplicationContext(), "网络请求错误");
                     break;
                 case CODE_JSON_ERROR:
-                    Toast.makeText(getApplicationContext(), "数据解析错误", Toast.LENGTH_SHORT).show();
+                    ToastUtils.showToast(getApplicationContext(), "数据解析错误");
                     break;
             }
         }
@@ -226,7 +227,7 @@ public class SplashActivity extends Activity {
                 }
             });
         } else {
-            Toast.makeText(this, "没有找到sdcard", Toast.LENGTH_SHORT).show();
+            ToastUtils.showToast(this, "没有找到sdcard");
         }
     }
 

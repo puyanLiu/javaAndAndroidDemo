@@ -33,13 +33,55 @@
                 <data android:scheme="file" />
             </intent-filter>
         </receiver>
+
+        <!--自定义广播-->
         <receiver android:name=".MyBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.queqianme.www.broadcastreceiver.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <!--IP拨号-->
+        <receiver android:name=".CallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+        <!--拦截短信-->
+        <receiver android:name=".SMSReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!--监听SD卡变化-->
+        <receiver android:name=".SDReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+
+        <!--监听应用安装卸载更新-->
+        <receiver android:name=".AppsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
             </intent-filter>
         </receiver>
     </application>
 
     <!--对该BroadcastReceiver进行注册，添加开机广播的intent-filter 相对应的权限-->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--IP拨号-->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <!--拦截短信-->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 </manifest>

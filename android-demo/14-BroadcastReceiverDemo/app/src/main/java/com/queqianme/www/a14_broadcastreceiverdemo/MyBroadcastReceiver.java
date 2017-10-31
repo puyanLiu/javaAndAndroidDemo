@@ -26,7 +26,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
      */
     @Override
     public void onReceive(Context context, Intent intent) {
-        // 标准广播
+        // 接收到自定义广播
         if (ACTION_BOOT.equals(intent.getAction())) {
             Toast.makeText(context, "收到告白~", Toast.LENGTH_SHORT).show();
         }

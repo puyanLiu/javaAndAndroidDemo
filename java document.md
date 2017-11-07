@@ -27,10 +27,14 @@
         * ps：列出当前设备的所有进程
     * netstat -ano：查看端口占用情况
     * exit 退出当前shell
+    * adb push 文件路径 手机文件路径： 拷贝文件
     
 * 在Mac上配置Android studio的adb
     * 对于Android studio而言，默认adb路径~/Library/Android/sdk/platform-tools
     * 在mac系统终端下，输入 open -e .bash_profile，加入`export PATH=${PATH}:~/Library/Android/sdk/platform-tools` 
+
+### Android源码下载
+- https://source.android.com/source/downloading?hl=zh-cn
 
 ### 快捷键
 * command+alt+l 格式化代码

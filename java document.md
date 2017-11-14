@@ -316,10 +316,41 @@ private static String byte2HexFormatted(byte[] arr) {
 }
 ```
 
-### 安装出现的问题
-* unable to access Android SDK add-on list
+### 报错总结
+* 安装出现的问题 unable to access Android SDK add-on list
     在 Android Studio 安装目录 bin/idea.properties 文件最后追加一句
     disable.android.first.run=true
+
+* Gradle xxx project refresh failed的问题
+    + Error:Cause: https://downloads.gradle.org/distributions/gradle-2.1.0-all.zip
+    + studio新导入一个文件,总是报错,最快的解决办法就是把项目下的gradle/wrapper文件夹下的gradle.properties删掉，问题就解决了.
+
+* Unsupported Modules Detected: Compilation is not supported for following modules
+    * 解决方法 File -> Invalidate Caches / Restart -> Invalidate Caches & Restart. 
+
+* AndroidStudio3.0 注解报错Annotation processors must be explicitly declared now.
+```
+项目的butter knife报错，用到注解的应该都会报错
+Error:Execution failed for task ':app:javaPreCompileDebug'.
+> Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.
+    - butterknife-7.0.1.jar
+  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.
+  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.
+```
+
+解决方案
+```
+在app的build中
+android {
+    ...
+    defaultConfig {
+        ...
+        //添加如下配置就OK了
+        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+    }
+    ...
+}
+```
 
 ## Android四大组件
 

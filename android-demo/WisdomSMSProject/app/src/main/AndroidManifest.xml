@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.queqianme.www.wisdomsmsproject">
+          package="com.queqianme.www.sms">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/queqianme_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/queqianme_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.queqianme.www.wisdomsmsproject.ui.activity.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity android:name="com.queqianme.www.wisdomsmsproject.ui.activity.ConverstaionDetailActivity"
+            android:windowSoftInputMode="stateUnspecified|adjustResize"/>
+        <activity android:name="com.queqianme.www.wisdomsmsproject.ui.activity.NewMsgActivity" />
+        <activity android:name="com.queqianme.www.wisdomsmsproject.ui.activity.GroupDetailActivity" />
+
+        <receiver android:name="com.queqianme.www.wisdomsmsproject.receiver.SendSmsReceivr">
+            <intent-filter>
+                <action android:name="com.queqianme.www.sms.send" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:authorities="com.queqianme.www.sms"
+            android:exported="true"
+            android:name="com.queqianme.www.wisdomsmsproject.provider.GroupProvider" />
+    </application>
 </manifest>

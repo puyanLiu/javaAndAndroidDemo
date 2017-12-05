@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ExperimentActivity">
+    <com.queqianme.www.refresh_layout.widget.RefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#888">
+        <com.queqianme.www.refresh_layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlPrimaryColor="#444"
+            app:srlAccentColor="@android:color/white"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1bf"
+            android:overScrollMode="never"
+            tools:listitem="@android:layout/simple_list_item_2"/>
+        <com.queqianme.www.refresh_layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlPrimaryColor="#444"
+            app:srlAccentColor="@android:color/white"/>
+    </com.queqianme.www.refresh_layout.widget.RefreshLayout>
+</android.support.constraint.ConstraintLayout>

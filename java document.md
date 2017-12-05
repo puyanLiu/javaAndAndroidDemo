@@ -1202,3 +1202,21 @@ data.add(map1);
 lv.setAdapter(new SimpleAdapter(this, data, R.layout.item_array, 
                 new String[]{"name", "image"}, new int[]{R.id.tv_name, R.id.iv_photo}));
 ```
+
+## Drawable
+
+### 13种Drawable
+* ColorDrawable
+* NinePathDrawable
+* ShapeDrawable
+* GradientDrawable
+* BitmapDrawable
+* InsetDrawable
+* ClipDrawable
+* RotateDrawable
+* AnmationDrawable
+* LayerDrawable
+* LevelListDrawable
+* StateListDrawable
+* TransitionDrawable
+

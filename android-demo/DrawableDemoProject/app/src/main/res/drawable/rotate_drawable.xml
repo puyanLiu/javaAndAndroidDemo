@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    RotateDrawable
+    用来对Drawable进行旋转,也是通过setLevel来控制旋转的,最大值也是:10000
+
+    属性
+    fromDegrees:起始的角度,,对应最低的level值,默认为0
+    toDegrees:结束角度,对应最高的level值,默认360
+    pivotX:设置参照点的x坐标,取值为0~1,默认是50%,即0.5
+    pivotY:设置参照点的Y坐标,取值为0~1,默认是50%,即0.5
+    ps:如果出现旋转图片显示不完全的话可以修改上述两个值解决!
+    drawable:设置位图资源
+    visible:设置drawable是否可见
+                    0（360）
+                    |
+                    |
+                    |
+    270（-90）———————————————— 90（-270）
+                    |
+                    |
+                    |
+                    180（-180）
+
+
+-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@mipmap/ic_launcher"
+    android:fromDegrees="-180"
+    android:pivotX="50%"
+    android:pivotY="50%">
+
+</rotate>

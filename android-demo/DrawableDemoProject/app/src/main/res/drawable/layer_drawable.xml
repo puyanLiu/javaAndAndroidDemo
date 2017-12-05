@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    LayerDrawable
+    层图形对象，包含一个Drawable数组，然后按照数组对应的顺序来绘制他们，
+    索引值最大的Drawable会被绘制在最上层！虽然这些Drawable会有交叉或者重叠的区域，
+    但他们位于不同的层，所以并不会相互影响，以<layer-list>作为根节点
+
+    属性
+    drawable:引用的位图资源,如果为空需要有一个Drawable类型的子节点
+    left:层相对于容器的左边距
+    right:层相对于容器的右边距
+    top:层相对于容器的上边距
+    bottom:层相对于容器的下边距
+    id:层的id
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#c2c2c1"/>
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+    <item android:id="@+id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#bcda73" />
+                <corners android:radius="50dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

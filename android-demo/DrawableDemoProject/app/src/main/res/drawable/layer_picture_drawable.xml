@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/bg_receive_sms" android:gravity="center"/>
+    </item>
+    <item android:left="25dp"
+        android:top="25dp">
+        <bitmap android:src="@drawable/bg_receive_sms" android:gravity="center"/>
+    </item>
+    <item android:left="50dp"
+        android:top="50dp">
+        <bitmap android:src="@drawable/bg_receive_sms" android:gravity="center"/>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--dither 是否对图片进行抖动处理-->
+<nine-patch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/bg_receive_sms"
+    android:dither="true">
+
+</nine-patch>

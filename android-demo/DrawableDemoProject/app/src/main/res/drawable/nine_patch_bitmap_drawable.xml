@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--bitmap 包装.9图片
+dither 是否对位图进行抖动处理-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/bg_receive_sms"
+    android:dither="true">
+
+</bitmap>

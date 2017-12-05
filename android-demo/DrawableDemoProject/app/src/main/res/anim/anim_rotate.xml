@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    RotateAnimation(旋转渐变)
+
+    fromDegrees/toDegrees：旋转的起始/结束角度
+    repeatCount：旋转的次数，默认值为0，代表一次，假如是其他值，比如3，则旋转4次 另外，值为-1或者infinite时，表示动画永不停止
+    repeatMode：设置重复模式，默认restart，但只有当repeatCount大于0或者infinite或-1时 才有效。还可以设置成reverse，表示偶数次显示动画时会做方向相反的运动！
+-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toDegrees="360">
+
+</rotate>

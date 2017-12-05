@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ClipDrawable
+    把ClipDrawable理解为从位图上剪下一个部分;
+    Android中的进度条就是使用ClipDrawable来实现的,他根据设置level的值来决定剪切区域的大小
+
+    属性
+    clipOrietntion:设置剪切的方向,可以设置水平和竖直2个方向
+    gravity:从那个位置开始裁剪
+    drawable:引用的drawable资源,为空的话需要有一个Drawable类型的子节点
+-->
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@mipmap/launch_1"
+    android:clipOrientation="horizontal"
+    android:gravity="left">
+
+</clip>

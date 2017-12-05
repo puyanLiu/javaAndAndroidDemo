@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_level_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/level_list_drawable"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:background="@drawable/state_list_drawable"/>
+        <ImageView
+            android:id="@+id/img_rotate"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rotate_drawable"/>
+        <ImageView
+            android:id="@+id/img_animation"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/animation_drawable"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="10dp"
+            android:minHeight="5dp"
+            android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/layer_drawable"
+            android:thumb="@drawable/bg_receive_sms"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/layer_picture_drawable"/>
+        <ImageView
+            android:id="@+id/img_transition"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/transition_drawable"/>
+    </LinearLayout>
+</ScrollView>

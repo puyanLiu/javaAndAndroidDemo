@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ShapeDrawable 定义基本的几何图形
+
+    ① <shape>:
+        ~ visible:设置是否可见
+        ~ shape:形状,可选:rectangle(矩形,包括正方形),oval(椭圆,包括圆),line(线段),ring(环形)
+        ~ innerRadiusRatio:当shape为ring才有效,表示环内半径所占半径的比率,如果设置了innerRadius, 他会被忽略
+        ~ innerRadius:当shape为ring才有效,表示环的内半径的尺寸
+        ~ thicknessRatio:当shape为ring才有效,表环厚度占半径的比率
+        ~ thickness:当shape为ring才有效,表示环的厚度,即外半径与内半径的差
+        ~ useLevel:当shape为ring才有效,表示是否允许根据level来显示环的一部分
+        值为true意味着这是一个levelListDrawable。当我们要画一个圆环是，应当而且必须将该值设为false，否则会看不到画面
+
+    ②<size>:
+        ~ width:图形形状宽度
+        ~ height:图形形状高度
+
+    ③<gradient>：
+        GradientDrawable
+        一个具有渐变区域的Drawable，可以实现线性渐变,发散渐变和平铺渐变效果
+        ~ startColor:渐变的起始颜色
+        ~ centerColor:渐变的中间颜色
+        ~ endColor:渐变的结束颜色
+        ~ type:渐变类型,可选(linear,radial,sweep), 线性渐变(可设置渐变角度),发散渐变(中间向四周发散),平铺渐变
+        ~ centerX:渐变中间亚瑟的x坐标,取值范围为:0~1
+        ~ centerY:渐变中间颜色的Y坐标,取值范围为:0~1
+        ~ angle:只有linear类型的渐变才有效,表示渐变角度,必须为45的倍数哦
+        ~ gradientRadius:只有radial和sweep类型的渐变才有效,radial必须设置,表示渐变效果的半径
+        ~ useLevel:判断是否根据level绘制渐变效果
+
+    ④<solid>
+        ~ color:背景填充色,设置solid后会覆盖gradient设置的所有效果!!!!!!
+
+    ⑤<stroke>
+        ~ width:边框的宽度
+        ~ color:边框的颜色
+        ~ dashWidth:边框虚线段的长度
+        ~ dashGap:边框的虚线段的间距
+
+    ⑥<conner>
+        ~ radius:圆角半径,适用于上下左右四个角
+        ~ topLeftRadius,topRightRadius,BottomLeftRadius,tBottomRightRadius: 依次是左上,右上,左下,右下的圆角值,按自己需要设置!
+
+    ⑦<padding>
+        left,top,right,bottm:依次是左上右下方向上的边距
+
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring" android:innerRadius="30dp"
+    android:thickness="10dp" android:visible="true"
+    android:useLevel="false">
+    <size android:width="100dp" android:height="100dp" />
+    <solid android:color="@color/colorGrey" />
+    <stroke android:width="1dp"
+            android:color="@android:color/holo_green_light"
+            android:dashWidth="3dp"
+            android:dashGap="2dp" />
+    <corners android:radius="10dp" />
+    <padding android:top="20dp" />
+</shape>

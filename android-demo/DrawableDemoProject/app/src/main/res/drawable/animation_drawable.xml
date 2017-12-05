@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AnimationDrawable
+    用来实现Android中帧动画的,就是把一系列的 Drawable，按照一定得顺序一帧帧地播放；
+    Android中动画比较丰富,有传统补间动画,平移, 缩放等等效果
+
+    属性
+    oneshot:设置是否循环播放,false为循环播放
+    duration:帧间隔时间,通常我们会设置为300毫秒
+
+    我们获得AniamtionDrawable实例后，需要调用它的start()方法播放动画，
+    另外要注意 在OnCreate()方法中调用的话,是没有任何效果的,
+    因为View还没完成初始化,我们可以 用简单的handler来延迟播放动画
+    其他播放动画方式 http://www.runoob.com/w3cnote/android-animationdrawable.html
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@mipmap/fly1" android:duration="100"/>
+    <item android:drawable="@mipmap/fly2" android:duration="100"/>
+    <item android:drawable="@mipmap/fly3" android:duration="100"/>
+    <item android:drawable="@mipmap/fly4" android:duration="100"/>
+    <item android:drawable="@mipmap/fly5" android:duration="100"/>
+    <item android:drawable="@mipmap/fly6" android:duration="100"/>
+    <item android:drawable="@mipmap/fly7" android:duration="100"/>
+    <item android:drawable="@mipmap/fly8" android:duration="100"/>
+</animation-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    BitmapDrawable
+    对Bitmap的一种封装,可以设置它包装的bitmap在BitmapDrawable区域中的绘制方式,有: 平铺填充,拉伸填或保持图片原始大小
+    ~ src:图片资源~
+    ~ antialias:是否支持抗锯齿
+    ~ filter:是否支持位图过滤,支持的话可以是图批判显示时比较光滑
+    ~ dither:是否对位图进行抖动处理
+    ~ gravity:若位图比容器小,可以设置位图在容器中的相对位置
+    ~ tileMode:指定图片平铺填充容器的模式,设置这个的话,gravity属性会被忽略,
+    有以下可选值: disabled(整个图案拉伸平铺),clamp(原图大小), repeat(平铺),mirror(镜像平铺)
+
+-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@mipmap/ic_launcher"
+    android:dither="true"
+    android:tileMode="mirror">
+</bitmap>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AlphaAnimation透明度渐变
+
+    fromAlpha :起始透明度
+    toAlpha:结束透明度
+    透明度的范围为：0-1，完全透明-完全不透明
+    duration动画的持续时间，单位是毫秒
+    Interpolator 用来控制动画的变化速度
+-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+       android:duration="2000"
+       android:fromAlpha="1.0"
+       android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+       android:toAlpha="0.1">
+
+</alpha>

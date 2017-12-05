@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.style.BezierStyleActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar style="@style/AppTheme.Toolbar"
+        android:id="@+id/toolbar"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="@string/title_activity_style_storehouse"/>
+
+    <com.queqianme.www.refresh_layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlPrimaryColor="#333"
+        app:srlAccentColor="#fff"
+        app:srlEnableLoadmore="false"
+        app:srlEnableHeaderTranslationContent="true">
+        <com.queqianme.www.refresh_header.StoreHouseHeader
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:shhText="StoreHouse"
+            app:shhLineWidth="2dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:overScrollMode="never"
+            tools:listitem="@android:layout/simple_list_item_2"/>
+    </com.queqianme.www.refresh_layout.SmartRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TransitionDrawable
+    LayerDrawable的一个子类，TransitionDrawable只管理两层的Drawable！
+    并且提供了透明度变化的动画，可以控制一层Drawable过度到另一层Drawable的动画效果。
+    根节点为<transition>，记住只有两个Item，多了也没用，属性和LayerDrawable差不多， 我
+    们需要调用startTransition方法才能启动两层间的切换动画；
+    也可以调用reverseTransition()方法反过来播放
+-->
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/launch_1"></item>
+    <item android:drawable="@mipmap/launch_2"></item>
+</transition>

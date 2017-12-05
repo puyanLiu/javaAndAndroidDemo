@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+InsetDrawable
+表示把一个Drawable嵌入到另外一个Drawable的内部，并且在内部留一些间距, 类似与Drawable的padding属性,
+但padding表示的是Drawable的内容与Drawable本身的边距!
+而InsetDrawable表示的是两个Drawable与容器之间的边距,当控件需要的背景比实际的边框小的时候,
+比较适合使用InsetDrawable,
+只需为InsetDrawable设置一个insetXxx设置不同方向的边距
+
+属性
+1.drawable:引用的Drawable,如果为空,必须有一个Drawable类型的子节点!
+2.visible:设置Drawable是否额空间
+3.insetLeft,insetRight,insetTop,insetBottm:设置左右上下的边距
+-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:drawable="@drawable/gradient_linear_drawable"
+       android:insetTop="10dp"
+       android:insetLeft="10dp"
+       android:insetRight="10dp"
+       android:insetBottom="10dp">
+    <!--<shape android:shape="rectangle">-->
+        <!--<solid android:color="#ffe0ff" />-->
+    <!--</shape>-->
+</inset>

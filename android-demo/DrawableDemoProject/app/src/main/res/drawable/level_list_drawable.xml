@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    LevelListDrawable
+    用来管理一组Drawable的,我们可以为里面的drawable设置不同的level，
+    当他们绘制的时候，会根据level属性值获取对应的drawable绘制到画布上，
+    根节点 为:<level-list>他并没有可以设置的属性，我们能做的只是设置每个<item> 的属性
+
+    属性
+    drawable:引用的位图资源,如果为空需要有一个Drawable类型的子节点
+    minlevel:level对应的最小值
+    maxlevel:level对应的最大值
+-->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/shape_cir1" android:maxLevel="2000"/>
+    <item android:drawable="@drawable/shape_cir2" android:maxLevel="4000"/>
+    <item android:drawable="@drawable/shape_cir3" android:maxLevel="6000"/>
+    <item android:drawable="@drawable/shape_cir4" android:maxLevel="8000"/>
+    <item android:drawable="@drawable/shape_cir5" android:maxLevel="10000"/>
+</level-list>

@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+apply plugin: 'walle'
+
+// 自动版本号
+// 获取当前分支的commit数量
+def gitVersionCode() {
+    def cmd = 'git rev-list HEAD --count'
+    cmd.execute().text.trim().toInteger()
+}
+
+android {
+    signingConfigs {
+        config {
+            storeFile file(STORE_FILE)
+            storePassword STORE_PASSWORD
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.queqianme.www.packupdemoproject"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        // 调试版本 无混淆
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.config
+            // 为了不和release版本冲突
+            applicationIdSuffix ".debug"
+        }
+        // 发布版本 有混淆
+        release {
+            // 是否混淆编译
+            minifyEnabled true
+            // 移除无用的资源文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+
+
+    // 减少gradle脚本运算，版本号自增放入release编译中去
+    applicationVariants.all { variant ->
+        if (variant.buildType.name.equals("release")) {
+            variant.mergedFlavor.versionCode = gitVersionCode()
+        }
+    }
+
+    flavorDimensions("qqm")
+
+    productFlavors {
+        // 开发环境
+        appdebug {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "1")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/appdebug\"")
+            buildConfigField("boolean", "LOG_DEBUG", "true")
+            applicationId 'com.queqianme.app.debug'
+            manifestPlaceholders = [
+                    app_name: "缺钱么开发版",
+                    app_icon: "@mipmap/app_debug_icon"
+            ]
+        }
+        // 测试环境
+        apptest {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "2")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/apptest\"")
+            buildConfigField("boolean", "LOG_DEBUG", "true")
+            applicationId 'com.queqianme.app.test'
+            manifestPlaceholders = [
+                    app_name: "缺钱么测试版",
+                    app_icon: "@mipmap/app_test_icon"
+            ]
+
+        }
+        // 生产环境
+        apprelease {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "3")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/apprelease\"")
+            buildConfigField("boolean", "LOG_DEBUG", "false")
+            applicationId 'com.queqianme.app'
+            manifestPlaceholders = [
+                    app_name: "缺钱么",
+                    app_icon: "@mipmap/app_release_icon"
+            ]
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    // 用于读取渠道号的AAR
+    compile 'com.meituan.android.walle:library:1.1.5'
+}
+
+// 配置插件
+walle {
+    // 指定渠道包的输出路径 默认值为new File("${project.buildDir}/outputs/apk")
+    apkOutputFolder = new File("${project.buildDir}/outputs/channels")
+    // 定制渠道包的APK文件名称 默认值为'${appName}-${buildType}-${channel}.apk'
+    /*
+    * 可使用如下变量
+         projectName - 项目名字
+         appName - App模块名字
+         packageName - applicationId (App包名packageName)
+         buildType - buildType (release/debug等)
+         channel - channel名称 (对应渠道打包中的渠道名字)
+         versionName - versionName (显示用的版本号)
+         versionCode - versionCode (内部版本号)
+         buildTime - buildTime (编译构建日期时间)
+         fileSHA1 - fileSHA1 (最终APK文件的SHA1哈希值)
+         flavorName - 编译构建 productFlavors 名
+    * */
+    apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}--v${versionName}-${versionCode}-${buildTime}.apk'
+    // 包含渠道配置信息的文件路径
+    channelFile = new File("${project.getProjectDir()}/../channel")
+}
+
+// 生成渠道包
+// 通过 ./gradlew tasks 获取渠道指令
+// 项目根目录下运行 ./gradlew clean assembleAppdebugDebugChannels

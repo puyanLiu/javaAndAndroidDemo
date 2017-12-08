@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.queqianme.www.packupdemoproject">
+
+    <!--根据不同的环境生成了不同包名的apk，方便在手机上同时安装多个环境的应用-->
+    <!--gradle动态更改apk的名称和图标-->
+    <application
+        android:allowBackup="true"
+        android:icon="${app_icon}"
+        android:label="${app_name}"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--友盟统计APPKEY-->
+        <meta-data android:name="UMENG_APPKEY" android:value="58cba6c6e88bad3c540008d3" />
+        <!--设置一个默认的渠道名：service-->
+        <meta-data android:name="UMENG_CHANNEL" android:value="service"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -18,6 +18,16 @@
 * ADB(android debug bridge)安卓调试桥
 * ADB指令
     * adb install：安装指定apk
+        - 安装出错 Failure [INSTALL_FAILED_TEST_ONLY]
+            + 应用是 test-only 的，但安装时没有指定 -t 参数 
+            + adb -s 192.168.57.101:5555 install -t app-apprelease-release.apk 
+            +  Build Apk(s)打包
+               + 在AS3.0内，点击绿三角运行Run，跑出的apk，一定是TEST_ONLY的，必须通过Build Apk(s)运行出的包才可以直接拖拽安装
+        - Failure [INSTALL_FAILED_ALREADY_EXISTS]
+            + 删除应用重新安装
+            + adb -s 192.168.57.101:5555 install -r -t app-debug.apk 
+        - Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]
+            + 已经安装过签名不一样的同名应用，且数据没有移除 
     * adb uninstall com.haha.market： 删除指定应用
     * adb start-server：开启adb进程
     * adb kill-server：杀死adb进程
@@ -28,6 +38,10 @@
     * netstat -ano：查看端口占用情况
     * exit 退出当前shell
     * adb push 文件路径 手机文件路径： 拷贝文件
+    * adb -s <serial number> cmd 向设备发送adb命令
+        - 例如安装adb -s LE67A06210293531 install a.apk
+        - 拷贝  adb -s 192.168.57.101:5555 push /Users/liupuyan/Desktop/app-appdebug-debug.apk /data/local/tmp/
+    * adb常用命令http://blog.csdn.net/u013243573/article/details/52503455
     
 * 在Mac上配置Android studio的adb
     * 对于Android studio而言，默认adb路径~/Library/Android/sdk/platform-tools
@@ -233,7 +247,7 @@ android {
 ```
 
 ### 测试apk是否使用了我们创建的keystore
-* 第一步： keytool -list -v -keystore  xxx.keystore 
+* 第一步： keytool -list -v -keystore  xxx.keystore （keytool -list -v -keystore  文件名）
 通过工具查看sha1的值.，例如 5C:93:68:2C:E3:2B:00:F1:D6:11:0F:46:08:93:32:1D:FD:6E:60:CC
 * 第二步：在APP内部通过代码的方式获取sha1 两者一比较即可
 ```
@@ -1220,3 +1234,207 @@ lv.setAdapter(new SimpleAdapter(this, data, R.layout.item_array,
 * StateListDrawable
 * TransitionDrawable
 
+## Android多版本、多环境、多渠道打包
+
+### gralde安装
+* [下载地址](https://gradle.org/releases/)
+* 解压目录到/usr/local/下
+* 配置环境变量`open ~/.bash_profile`
+
+```
+GRADLE_HOME=/usr/local/gradle-4.3.1;
+export GRADLE_HOME
+export PATH=$PATH:$GRADLE_HOME/bin
+```
+
+* 命令行测试是否安装成功
+```
+gradle -version
+```
+
+### 版本编译
+- 命令行下，将路径切换项目根目录下，执行`gradle clean`，看到BUILD SUCCESSFUL代表成功
+- 执行`gradle assembleRelease`或`gradle assemble`，编译完成的APK文件在项目app目录下build/outputs/apk/路径下
+- `gradle tasks`获取编译任务
+
+### 版本号自增
+- 获取当前分支的commit数量
+```
+def cmd = 'git rev-list HEAD --count'
+def gitVersion = cmd.execute().text.trim().toInteger()
+```
+
+- 优化，为了尽可能减少gradle脚本的郧县，提高开发速度，将自动版本计算放到release编译中
+```
+def gitVersionCode() {  
+    def cmd = 'git rev-list HEAD --first-parent --count'
+    cmd.execute().text.trim().toInteger()
+}
+
+android {  
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.race604.example"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        debug {
+            // 为了不和 release 版本冲突
+            applicationIdSuffix ".debug"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        if (variant.buildType.name.equals('release')) {
+            variant.mergedFlavor.versionCode = gitVersionCode()
+        }
+    }
+}
+```
+### 多版本
+
+    基于buildTypes
+    （1）debug:调试版本,无混淆
+    （2）release:发布版本,有混淆、压缩
+
+```
+buildTypes {
+        // 调试版本 无混淆
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.config
+        }
+        // 发布版本 有混淆
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+```
+
+### 多环境
+
+    基于productFlavors
+    （1）appdebug:开发环境，开发和自测时使用
+    （2）apptest:测试环境，克隆一份生产环境的配置，在这里测试通过后，再发布到生产环境。
+    （3）apprelease:生产环境，正式提供服务的
+
+```
+flavorDimensions("qqm")
+
+    productFlavors {
+        // 开发环境
+        appdebug {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "1")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/appdebug\"")
+            buildConfigField("boolean", "LOG_DEBUG", "true")
+            applicationId 'com.queqianme.app.debug'
+            manifestPlaceholders = [
+                    app_name: "缺钱么开发版",
+                    app_icon: "@mipmap/app_debug_icon"
+            ]
+        }
+        // 测试环境
+        apptest {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "2")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/apptest\"")
+            buildConfigField("boolean", "LOG_DEBUG", "true")
+            applicationId 'com.queqianme.app.test'
+            manifestPlaceholders = [
+                    app_name: "缺钱么测试版",
+                    app_icon: "@mipmap/app_test_icon"
+            ]
+
+        }
+        // 生产环境
+        apprelease {
+            dimension "qqm"
+            buildConfigField("int", "ENV_TYPE", "3")
+            buildConfigField("String", "API_HOST", "\"http://api.test.com/apprelease\"")
+            buildConfigField("boolean", "LOG_DEBUG", "false")
+            applicationId 'com.queqianme.app'
+            manifestPlaceholders = [
+                    app_name: "缺钱么",
+                    app_icon: "@mipmap/app_release_icon"
+            ]
+        }
+    }
+```
+
+### 多渠道
+
+#### [美团Walle打包](https://github.com/Meituan-Dianping/walle)
+* 项目根目录下build.gradle添加依赖
+```
+buildscript {
+    
+    dependencies {
+        // Gradle插件的版本
+        classpath 'com.android.tools.build:gradle:3.0.0'
+        // 添加Walle Gradle插件的依赖 使用Walle库请确保你的Android Gradle 插件版本在2.2.0以上
+        classpath 'com.meituan.android.walle:plugin:1.1.5'
+    }
+}
+```
+
+* app模块build.gradle添加
+```
+apply plugin: 'walle'
+dependencies {
+    // 用于读取渠道号的AAR
+    compile 'com.meituan.android.walle:library:1.1.5'
+}
+
+```
+
+* 配置插件(app模块build.gradle)
+```
+walle {
+    // 指定渠道包的输出路径 默认值为new File("${project.buildDir}/outputs/apk")
+    apkOutputFolder = new File("${project.buildDir}/outputs/channels")
+    // 定制渠道包的APK文件名称 默认值为'${appName}-${buildType}-${channel}.apk'
+    /*
+    * 可使用如下变量
+         projectName - 项目名字
+         appName - App模块名字
+         packageName - applicationId (App包名packageName)
+         buildType - buildType (release/debug等)
+         channel - channel名称 (对应渠道打包中的渠道名字)
+         versionName - versionName (显示用的版本号)
+         versionCode - versionCode (内部版本号)
+         buildTime - buildTime (编译构建日期时间)
+         fileSHA1 - fileSHA1 (最终APK文件的SHA1哈希值)
+         flavorName - 编译构建 productFlavors 名
+    * */
+    apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}--v${versionName}-${versionCode}-${buildTime}.apk'
+    // 包含渠道配置信息的文件路径
+    channelFile = new File("${project.getProjectDir()}/../channel")
+}
+```
+
+* 获取渠道信息
+```
+String channel = WalleChannelReader.getChannel(this.getApplicationContext());
+```
+
+* 生成渠道
+ 生成渠道包的方式是和assemble${variantName}Channels指令结合
+    * 通过 ./gradlew tasks 获取渠道指令
+    * 项目根目录下运行 ./gradlew clean assembleAppdebugDebugChannels
+    * 生成单个渠道包 ./gradlew clean assembleAppdebugDebugChannels -PchannelList=meituan
+    * 生成多个渠道包 ./gradlew clean assembleAppdebugDebugChannels -PchannelList=meituan,dianping
+    
+#### 360加固宝
+* 360加固助手打包

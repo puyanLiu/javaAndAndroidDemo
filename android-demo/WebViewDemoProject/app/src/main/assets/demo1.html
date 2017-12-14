@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Js调用Android</title>
+    </head>
+    <script type="text/javascript">
+
+        function showToast(str){
+            Android.showToast(str);
+        }
+
+    </script>
+    <body>
+        <input type="button" value="Toast提示" onclick="Android.showToast('哈哈哈哈~');"/>
+        <input type="button" value="列表对话框" onclick="Android.showDialog();"/>
+        <input type="button" value="Toast提示" onclick="javascript: showToast('test');"/>
+    </body>
+</html>

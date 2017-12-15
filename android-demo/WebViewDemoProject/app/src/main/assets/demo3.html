@@ -26,8 +26,7 @@
                 td2.innerHTML = jsonobjs[i].name;
                 //为现实的内容添加超链接,超链接会调用Java代码中的
                 //call方法并且把内容作为参数传递过去
-                td3.innerHTML = "<a href = 'javascript:sharp.call(\""+jsonobjs[i].phone + "\")'>"
-                +jsonobjs[i].phone + "</a>";;
+                td3.innerHTML = "<a href = 'javascript:sharp.call(\""+jsonobjs[i].phone + "\")'>" + jsonobjs[i].phone + "</a>";;
             }
         }
     </script>
@@ -35,13 +34,13 @@
 
 <!-- onload指定该页面被加载时调用的方法,这里调用的是Java代码中的contactlist方法-->
 <body style="margin:0px; background-color:#FFFFFF; color:#000000;" onload = "javascript:sharp.contactlist()">
-<!--定义一个表格-->
-<table border = "0" width = "100%" id = "PersonTable" cellspacing = "0">
-    <tr>
-        <td width = "15%">用户id</td>
-        <td align = "center">姓名</td>
-        <td width = "15%">号码</td>
-    </tr>
-</table>
+    <!--定义一个表格-->
+    <table border = "0" width = "100%" id = "PersonTable" cellspacing = "0">
+        <tr>
+            <td width = "15%">用户id</td>
+            <td align = "center">姓名</td>
+            <td width = "15%">号码</td>
+        </tr>
+    </table>
 </body>
 </html>

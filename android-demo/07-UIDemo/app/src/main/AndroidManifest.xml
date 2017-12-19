@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.liupuyan.a07_uidemo">
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!--判断当前界面是否是桌面 ,先获取桌面应用的程序包名,然后判断当前显示活动包名是否包含在内
+    允许一个程序获取信息有关当前或最近运行的任务，一个缩略的任务状态，是否活动等等
+    -->
+    <!--<uses-permission android:name="android.permission.GET_TASKS" />-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +16,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LayoutInflatorActivity">
+        <activity android:name=".WindowDemoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".WindowService" />
     </application>
 
 </manifest>

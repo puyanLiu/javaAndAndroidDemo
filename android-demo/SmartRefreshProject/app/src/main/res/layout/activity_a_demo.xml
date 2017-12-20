@@ -7,7 +7,8 @@
     <com.queqianme.www.refresh_layout.SmartRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp">
         <com.queqianme.www.smartrefreshproject.demo.DemoHeader
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -16,5 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#f99"/>
+        <com.queqianme.www.refresh_layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </com.queqianme.www.refresh_layout.SmartRefreshLayout>
 </LinearLayout>

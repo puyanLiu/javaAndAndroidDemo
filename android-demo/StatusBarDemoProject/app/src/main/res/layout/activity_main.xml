@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.queqianme.www.statusbardemoproject.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统实现沉浸式状态栏"/>
+
+    <Button
+        android:id="@+id/btn_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态添加布局实现沉浸式状态栏"/>
+
+    <Button
+        android:id="@+id/btn_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用第三方依赖库实现沉浸式状态栏"/>
+
+    <Button
+        android:id="@+id/btn_status_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="例子"/>
+
+</LinearLayout>

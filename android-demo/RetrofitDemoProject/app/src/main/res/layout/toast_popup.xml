@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorff4343"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/margin10"
+              android:paddingLeft="@dimen/margin15"
+              android:paddingRight="@dimen/margin15"
+              android:paddingTop="@dimen/margin10">
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:text="提示信息"/>
+</LinearLayout>

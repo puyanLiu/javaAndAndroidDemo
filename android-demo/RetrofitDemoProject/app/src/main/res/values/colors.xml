@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8500</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorffa440">#ffa440</color>
+    <color name="colorffa44040">#99ffa440</color>
+    <color name="colorff8500">#ff8500</color>
+    <color name="colorff850040">#99ff8500</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorb3b3b3">#b3b3b3</color>
+    <color name="color09bdd9">#09bdd9</color>
+    <color name="colorff4343">#ff4343</color>
+    <color name="colorcccccc">#cccccc</color>
+    <!--文字主题色-->
+    <color name="color3c4455">#3c4455</color>
+    <color name="color3c445540">#993c4455</color>
+    <color name="color3c445580">#CC3c4455</color>
+    <color name="color3c445560">#663c4455</color>
+    <color name="colorHint">#ccc</color>
+    <color name="color8b8b8b">#8b8b8b</color>
+    <!--线条-->
+    <color name="colorc7c7c7">#C7C7C7</color>
+    <color name="color4cd762">#4cd762</color>
+    <color name="colorf5f5f9">#f5f5f9</color>
+    <color name="colore5e5e5">#e5e5e5</color>
+    <color name="color262626">#262626</color>
+</resources>
+<!--
+| 透明度      | 16进制表示
+
+|    100%     |      00
+
+|    95  %    |      0D
+
+|    90  %    |      1A
+
+|    85  %    |      26
+
+|    80  %    |      33
+
+|    75  %    |      40
+
+|    70  %    |      4D
+
+|    65  %    |      59
+
+|    60  %    |      66
+
+|    55  %    |      73
+
+|    50  %    |      80
+
+|    45  %    |      8C
+
+|    40  %    |      99
+
+|    35  %    |      A6
+
+|    30  %    |      B3
+
+|    25  %    |      BF
+
+|    20  %    |      CC
+
+|    15  %    |      D9
+
+|    10  %    |      E6
+
+|    5    %    |      F2
+
+|    0    %    |      FF
+-->

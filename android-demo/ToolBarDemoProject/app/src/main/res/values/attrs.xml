@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolbarLayout">
+        <attr name="left1_text" format="string"/>
+        <attr name="left1_background" format="color|reference"/>
+        <!--以下padding仅是对于设置左右padding-->
+        <attr name="left1_padding" format="dimension"/>
+        <attr name="left2_text" format="string"/>
+        <attr name="left2_background" format="color|reference"/>
+        <attr name="left2_padding" format="dimension"/>
+        <attr name="right1_text" format="string"/>
+        <attr name="right1_background" format="color|reference"/>
+        <attr name="right1_padding" format="dimension"/>
+        <attr name="right2_text" format="string"/>
+        <attr name="right2_background" format="color|reference"/>
+        <attr name="right2_padding" format="dimension"/>
+        <attr name="title" format="string"/>
+    </declare-styleable>
+</resources>

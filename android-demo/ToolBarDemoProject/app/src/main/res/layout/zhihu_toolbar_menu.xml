@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    fitsSystemWindows="true"
+    设置了该属性的作用在于，不会让系统导航栏和我们app的UI重叠，导致交互问题
+
+
+    android:fitsSystemWindows="true" 在theme主题中统一添加也可，或者直接在根目录添加也可
+
+    但是有个问题是，在布局文件中设置是对View生效，而在theme中设置则是对Window生效
+
+    因此 建议在布局文件中设置或者通过抽象Activity的基类BaseActivity处理
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/env_bg"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:theme="@style/Theme.ToolBar.ZhiHu">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/ic_zhihu_logo"/>
+    </RelativeLayout>
+</LinearLayout>

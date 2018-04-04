@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <camera.com.queqianme.www.grouprecyclerviewadapterproject.group.StickyHeaderLayout
+        android:id="@+id/sticky_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_title">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </camera.com.queqianme.www.grouprecyclerviewadapterproject.group.StickyHeaderLayout>
+
+    <camera.com.queqianme.www.grouprecyclerviewadapterproject.SideBar.IndexBar
+        android:id="@+id/ib_indexbar"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        app:pressBackground="@android:color/holo_green_dark"
+        app:textSize="16sp"/>
+
+    <!--<View-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/shape_dialog_black_bg" />-->
+    <TextView
+        android:id="@+id/txtSideBarHint"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_dialog_black_bg"
+        android:textSize="49sp"
+        android:text="A"
+        android:visibility="visible"/>
+</RelativeLayout>

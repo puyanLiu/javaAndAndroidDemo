@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.queqianme.www.toolbardemoproject.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <!--自定义控件-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题标题标题标题标题标题标题"/>
+    </android.support.v7.widget.Toolbar>
+
+    <include layout="@layout/toolbar_layout" />
+
+    <com.queqianme.www.toolbardemoproject.ToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left1_background="@drawable/selector_back_bg"
+        app:left2_text="关闭">
+
+    </com.queqianme.www.toolbardemoproject.ToolbarLayout>
+
+    <com.queqianme.www.toolbardemoproject.ToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left1_background="@android:color/darker_gray"
+        app:right1_text="哈哈">
+
+    </com.queqianme.www.toolbardemoproject.ToolbarLayout>
+
+    <com.queqianme.www.toolbardemoproject.ToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="关于标题标题标题标题标题标题标题标题哈哈">
+
+    </com.queqianme.www.toolbardemoproject.ToolbarLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈"
+        android:background="@android:color/holo_red_dark"/>
+    
+</LinearLayout>

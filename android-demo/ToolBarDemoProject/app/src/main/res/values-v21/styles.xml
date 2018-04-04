@@ -1,0 +1,21 @@
+<resources>
+
+    <!--适用于app中没有导航栏，且整体的背景是一张图片的界面-->
+    <!--Translucent System Bar-->
+    <style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--适用于app中导航栏颜色为纯色的界面-->
+    <style name="ColorTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--统一添加-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/holo_green_dark</item>
+    </style>
+
+</resources>

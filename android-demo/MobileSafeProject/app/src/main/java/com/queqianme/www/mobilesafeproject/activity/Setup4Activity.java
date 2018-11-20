@@ -30,6 +30,8 @@ public class Setup4Activity extends AppCompatActivity {
         SharedPreferencesUtils.putBoolean(this, "configed", true);
         startActivity(new Intent(this, LostAndFindActivity.class));
         finish();
+
+        overridePendingTransition(R.anim.anim_activity_in, R.anim.anim_activity_out);
     }
 
     /**
@@ -39,5 +41,7 @@ public class Setup4Activity extends AppCompatActivity {
     public void btn_previous(View v) {
         startActivity(new Intent(this, Setup3Activity.class));
         finish();
+
+        overridePendingTransition(R.anim.anim_activity_previous_in, R.anim.anim_activity_previous_out);
     }
 }

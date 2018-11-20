@@ -3,6 +3,8 @@ package com.queqianme.www.mobilesafeproject.activity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
@@ -49,6 +51,8 @@ public class HomeActivity extends Activity {
                 }
             }
         });
+        // 取消GridView按下出现背景色
+        gv_home.setSelector(new ColorDrawable(Color.TRANSPARENT));
     }
 
     /**

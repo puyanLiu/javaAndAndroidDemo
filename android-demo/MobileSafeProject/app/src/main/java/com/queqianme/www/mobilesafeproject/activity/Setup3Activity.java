@@ -28,6 +28,8 @@ public class Setup3Activity extends AppCompatActivity {
     public void btn_next(View v) {
         startActivity(new Intent(this, Setup4Activity.class));
         finish();
+
+        overridePendingTransition(R.anim.anim_activity_in, R.anim.anim_activity_out);
     }
 
     /**
@@ -37,5 +39,7 @@ public class Setup3Activity extends AppCompatActivity {
     public void btn_previous(View v) {
         startActivity(new Intent(this, Setup2Activity.class));
         finish();
+
+        overridePendingTransition(R.anim.anim_activity_previous_in, R.anim.anim_activity_previous_out);
     }
 }

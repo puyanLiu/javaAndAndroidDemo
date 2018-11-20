@@ -3,6 +3,9 @@ package com.queqianme.www.mobilesafeproject.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.GridView;
+import android.widget.TextView;
 
 import com.queqianme.mobilesafe.app.R;
 import com.queqianme.www.mobilesafeproject.utils.SharedPreferencesUtils;
@@ -13,6 +16,8 @@ import com.queqianme.www.mobilesafeproject.utils.SharedPreferencesUtils;
  * 手机防盗界面
  */
 public class LostAndFindActivity extends AppCompatActivity {
+
+    private TextView txt_reSetup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +32,18 @@ public class LostAndFindActivity extends AppCompatActivity {
             startActivity(new Intent(this, Setup1Activity.class));
             finish();
         }
+
+        bindsView();
+
+        txt_reSetup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LostAndFindActivity.this, Setup1Activity.class));
+            }
+        });
+    }
+
+    private void bindsView() {
+        txt_reSetup = (TextView) findViewById(R.id.txt_reSetup);
     }
 }

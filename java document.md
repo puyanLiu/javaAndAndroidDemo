@@ -14,6 +14,19 @@
 * Dalvik：应用每次运行的时候，字节码都需要通过即时编译器转换为机器码，这会拖慢应用的运行效率
 * ART：应用在第一次安装的时候，字节码就会预先编译成机器码，使其成为真正的本地应用，应用的启动和执行速度都会显著提升
 
+### root权限
+#### 获取root权限
+* 刷机大师 一键root
+* 对于最新版本，Google查询
+#### 查看是否有root权限
+* 查看data/data 
+    真机安装Root_Expoler.apk 可以看到根目录
+* 进入命令行查看
+    * 只连接一台手机adb shell，如果显示#，说明已经root；如果显示$，说明没有root，如果已经root还是显示$，运行su，请求root权限
+    * 连接多台手机，先通过adb devices查看手机名称，通过adb -s 手机名 shell查看
+#### adb shell 退出
+* >exit
+
 ### ADB
 * ADB(android debug bridge)安卓调试桥
 * ADB指令
@@ -365,6 +378,13 @@ android {
     ...
 }
 ```
+
+* android adb devices offline的解决办法
+在做Android开发时经常出现android adb devices offline，解决办法如下：
+重启adb服务
+adb kill-server
+adb start-server
+
 
 ## Android四大组件
 

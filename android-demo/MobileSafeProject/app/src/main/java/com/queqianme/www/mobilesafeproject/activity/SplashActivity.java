@@ -61,7 +61,7 @@ public class SplashActivity extends Activity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case CODE_UPDATE_DIALOG:
-                    shoUpdateDialog();
+                    showUpdateDialog();
                     break;
                 case CODE_ENTER_HOME:
                     enterHome();
@@ -71,6 +71,7 @@ public class SplashActivity extends Activity {
                     break;
                 case CODE_NETWORK_ERROR:
                     ToastUtils.showToast(getApplicationContext(), "网络请求错误");
+                    enterHome();
                     break;
                 case CODE_JSON_ERROR:
                     ToastUtils.showToast(getApplicationContext(), "数据解析错误");
@@ -87,7 +88,6 @@ public class SplashActivity extends Activity {
         bindsView();
 
         checkVersion();
-
         // 渐变动画
         AlphaAnimation anim = new AlphaAnimation(0.2f, 1);
         anim.setDuration(2000);
@@ -165,7 +165,7 @@ public class SplashActivity extends Activity {
     /**
      * 升级弹框
      */
-    private void shoUpdateDialog() {
+    private void showUpdateDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("发现新版本：" + mAppVersionModel.getVersionName());
         builder.setMessage(mAppVersionModel.getDetail());
